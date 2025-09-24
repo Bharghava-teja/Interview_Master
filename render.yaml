@@ -17,8 +17,7 @@ services:
           name: interview-mongodb
           property: connectionString
       - key: REDIS_URL
-        fromService:
-          type: pserv
+        fromDatabase:
           name: interview-redis
           property: connectionString
       - key: JWT_SECRET
