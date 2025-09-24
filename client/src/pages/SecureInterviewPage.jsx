@@ -31,6 +31,8 @@ const SecureInterviewPage = () => {
   const [showWaitingRoom, setShowWaitingRoom] = useState(false);
   const [isCallActive, setIsCallActive] = useState(false);
   const [securityViolations, setSecurityViolations] = useState([]);
+  const [sessionLink, setSessionLink] = useState('');
+  const [qrCode, setQrCode] = useState('');
   const [sessionSettings, setSessionSettings] = useState({
     maxParticipants: 10,
     requireApproval: true,
@@ -97,8 +99,8 @@ const SecureInterviewPage = () => {
 
   // Copy session link to clipboard
   const copySessionLink = async () => {
-    if (currentSession) {
-      const link = secureInterviewService.generateSessionLink(currentSession.id);
+    if (session) {
+      const link = SecureInterviewService.generateSessionLink(session.id);
       await navigator.clipboard.writeText(link);
       // Show toast notification (implement toast system)
       console.log('Link copied to clipboard');
