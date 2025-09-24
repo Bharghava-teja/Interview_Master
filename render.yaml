@@ -28,10 +28,7 @@ services:
       - key: SESSION_SECRET
         generateValue: true
       - key: CLIENT_URL
-        fromService:
-          type: web
-          name: interview-frontend
-          envVarKey: RENDER_EXTERNAL_URL
+        value: https://interview-frontend.onrender.com
       - key: LOG_LEVEL
         value: info
       - key: APP_VERSION
@@ -61,11 +58,7 @@ services:
         destination: /index.html
     envVars:
       - key: REACT_APP_API_URL
-        fromService:
-          type: web
-          name: interview-backend
-          envVarKey: RENDER_EXTERNAL_URL
-        value: /api/v1
+        value: https://interview-backend.onrender.com/api/v1
       - key: REACT_APP_ENVIRONMENT
         value: production
 
@@ -73,7 +66,7 @@ databases:
   # MongoDB Database
   - name: interview-mongodb
     plan: free
-    databaseName: interview-master
+    databaseName: interviewmaster
     user: admin
 
   # Redis Cache
