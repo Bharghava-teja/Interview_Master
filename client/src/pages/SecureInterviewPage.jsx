@@ -81,17 +81,17 @@ const SecureInterviewPage = () => {
 
   // Start session
   const startSession = () => {
-    if (currentSession) {
-      secureInterviewService.startSession(currentSession.id);
-      setCurrentSession(prev => ({ ...prev, status: 'active', startedAt: new Date().toISOString() }));
+    if (session) {
+      SecureInterviewService.startSession(session.id);
+      setSession(prev => ({ ...prev, status: 'active', startedAt: new Date().toISOString() }));
     }
   };
 
   // End session
   const endSession = () => {
-    if (currentSession) {
-      secureInterviewService.endSession(currentSession.id);
-      setCurrentSession(prev => ({ ...prev, status: 'ended', endedAt: new Date().toISOString() }));
+    if (session) {
+      SecureInterviewService.endSession(session.id);
+      setSession(prev => ({ ...prev, status: 'ended', endedAt: new Date().toISOString() }));
     }
   };
 
@@ -176,9 +176,9 @@ const SecureInterviewPage = () => {
 
   // Approve participant
   const approveParticipant = (participantId) => {
-    if (currentSession) {
+    if (session) {
       try {
-        secureInterviewService.approveParticipant(currentSession.id, participantId);
+        SecureInterviewService.approveParticipant(session.id, participantId);
         updateSessionData();
       } catch (error) {
         console.error('Failed to approve participant:', error);
@@ -188,9 +188,9 @@ const SecureInterviewPage = () => {
 
   // Reject participant
   const rejectParticipant = (participantId, reason = 'Not approved') => {
-    if (currentSession) {
+    if (session) {
       try {
-        secureInterviewService.rejectParticipant(currentSession.id, participantId, reason);
+        SecureInterviewService.rejectParticipant(session.id, participantId, reason);
         updateSessionData();
       } catch (error) {
         console.error('Failed to reject participant:', error);
@@ -200,9 +200,9 @@ const SecureInterviewPage = () => {
 
   // Update session data
   const updateSessionData = () => {
-    if (currentSession) {
-      const updatedSession = secureInterviewService.getSession(currentSession.id);
-      setCurrentSession(updatedSession);
+    if (session) {
+      const updatedSession = SecureInterviewService.getSession(session.id);
+      setSession(updatedSession);
     }
   };
 
@@ -210,7 +210,7 @@ const SecureInterviewPage = () => {
   const startStatsPolling = (sessionId) => {
     const interval = setInterval(() => {
       try {
-        const stats = secureInterviewService.getSessionStats(sessionId);
+        const stats = SecureInterviewService.getSessionStats(sessionId);
         setSessionStats(stats);
         updateSessionData();
       } catch (error) {
@@ -482,7 +482,7 @@ const SecureInterviewPage = () => {
                       className="flex-1 px-3 py-2 bg-gray-50 border border-gray-300 rounded-lg font-mono text-lg"
                     />
                     <button
-                      onClick={() => navigator.clipboard.writeText(currentSession.code)}
+                      onClick={() => navigator.clipboard.writeText(session.code)}
                       className="p-2 text-gray-500 hover:text-green-600 transition-colors"
                     >
                       <Copy className="h-4 w-4" />
