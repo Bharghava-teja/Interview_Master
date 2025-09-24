@@ -47,7 +47,8 @@ const corsConfig = (req, res, next) => {
   const allowedOrigins = [
     'http://localhost:3000',
     'http://localhost:3001',
-    'https://your-domain.com' // Add your production domain
+    'https://your-domain.com', // Add your production domain
+    process.env.CLIENT_URL || 'http://localhost:3000' // Dynamic client URL from environment
   ];
   
   const origin = req.headers.origin;
