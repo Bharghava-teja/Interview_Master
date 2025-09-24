@@ -1,0 +1,961 @@
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'error',
+  requestId: '46b0906b-e3e9-402a-aa3c-06c90dd349ac',
+  method: 'POST',
+  path: '/api/v1/auth/login',
+  error: {
+    message: 'Cannot call `users.findOne()` before initial connection is complete if `bufferCommands = false`. Make sure you `await mongoose.connect()` if you have `bufferCommands = false`.',
+    stack: 'MongooseError: Cannot call `users.findOne()` before initial connection is complete if `bufferCommands = false`. Make sure you `await mongoose.connect()` if you have `bufferCommands = false`.\n' +
+      '    at NativeCollection.<computed> [as findOne] (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\mongoose\\lib\\drivers\\node-mongodb-native\\collection.js:237:15)\n' +
+      '    at model.Query._findOne (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\mongoose\\lib\\query.js:2687:45)\n' +
+      '    at model.Query.exec (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\mongoose\\lib\\query.js:4604:80)\n' +
+      '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+      '    at async C:\\Users\\ASUS\\interview-master\\server\\controllers\\authController.js:200:16',
+    name: 'MongooseError',
+    statusCode: 500
+  },
+  user: null,
+  timestamp: '2025-09-15 22:20:40',
+  level: 'error',
+  message: 'Request error'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'error',
+  requestId: 'd3d29fd7-a8c8-45d0-9161-bc896f797af0',
+  method: 'POST',
+  path: '/api/v1/auth/login',
+  error: {
+    message: 'Cannot call `users.findOne()` before initial connection is complete if `bufferCommands = false`. Make sure you `await mongoose.connect()` if you have `bufferCommands = false`.',
+    stack: 'MongooseError: Cannot call `users.findOne()` before initial connection is complete if `bufferCommands = false`. Make sure you `await mongoose.connect()` if you have `bufferCommands = false`.\n' +
+      '    at NativeCollection.<computed> [as findOne] (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\mongoose\\lib\\drivers\\node-mongodb-native\\collection.js:237:15)\n' +
+      '    at model.Query._findOne (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\mongoose\\lib\\query.js:2687:45)\n' +
+      '    at model.Query.exec (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\mongoose\\lib\\query.js:4604:80)\n' +
+      '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+      '    at async C:\\Users\\ASUS\\interview-master\\server\\controllers\\authController.js:200:16',
+    name: 'MongooseError',
+    statusCode: 500
+  },
+  user: null,
+  timestamp: '2025-09-15 22:20:41',
+  level: 'error',
+  message: 'Request error'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'error',
+  requestId: 'da31a233-fa6a-49ff-b7b0-677a3686bff3',
+  method: 'POST',
+  path: '/api/v1/auth/login',
+  error: {
+    message: 'Cannot call `users.findOne()` before initial connection is complete if `bufferCommands = false`. Make sure you `await mongoose.connect()` if you have `bufferCommands = false`.',
+    stack: 'MongooseError: Cannot call `users.findOne()` before initial connection is complete if `bufferCommands = false`. Make sure you `await mongoose.connect()` if you have `bufferCommands = false`.\n' +
+      '    at NativeCollection.<computed> [as findOne] (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\mongoose\\lib\\drivers\\node-mongodb-native\\collection.js:237:15)\n' +
+      '    at model.Query._findOne (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\mongoose\\lib\\query.js:2687:45)\n' +
+      '    at model.Query.exec (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\mongoose\\lib\\query.js:4604:80)\n' +
+      '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+      '    at async C:\\Users\\ASUS\\interview-master\\server\\controllers\\authController.js:200:16',
+    name: 'MongooseError',
+    statusCode: 500
+  },
+  user: null,
+  timestamp: '2025-09-15 22:20:43',
+  level: 'error',
+  message: 'Request error'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'error',
+  requestId: 'be11dd3d-8a0d-46ed-819e-d3425a772ad5',
+  method: 'POST',
+  path: '/api/v1/auth/login',
+  error: {
+    message: 'Cannot call `users.findOne()` before initial connection is complete if `bufferCommands = false`. Make sure you `await mongoose.connect()` if you have `bufferCommands = false`.',
+    stack: 'MongooseError: Cannot call `users.findOne()` before initial connection is complete if `bufferCommands = false`. Make sure you `await mongoose.connect()` if you have `bufferCommands = false`.\n' +
+      '    at NativeCollection.<computed> [as findOne] (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\mongoose\\lib\\drivers\\node-mongodb-native\\collection.js:237:15)\n' +
+      '    at model.Query._findOne (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\mongoose\\lib\\query.js:2687:45)\n' +
+      '    at model.Query.exec (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\mongoose\\lib\\query.js:4604:80)\n' +
+      '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+      '    at async C:\\Users\\ASUS\\interview-master\\server\\controllers\\authController.js:200:16',
+    name: 'MongooseError',
+    statusCode: 500
+  },
+  user: null,
+  timestamp: '2025-09-15 22:20:47',
+  level: 'error',
+  message: 'Request error'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'error',
+  requestId: '931d8ece-0867-4149-8985-40f72f010f65',
+  method: 'POST',
+  path: '/api/v1/auth/login',
+  error: {
+    message: 'Cannot call `users.findOne()` before initial connection is complete if `bufferCommands = false`. Make sure you `await mongoose.connect()` if you have `bufferCommands = false`.',
+    stack: 'MongooseError: Cannot call `users.findOne()` before initial connection is complete if `bufferCommands = false`. Make sure you `await mongoose.connect()` if you have `bufferCommands = false`.\n' +
+      '    at NativeCollection.<computed> [as findOne] (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\mongoose\\lib\\drivers\\node-mongodb-native\\collection.js:237:15)\n' +
+      '    at model.Query._findOne (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\mongoose\\lib\\query.js:2687:45)\n' +
+      '    at model.Query.exec (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\mongoose\\lib\\query.js:4604:80)\n' +
+      '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+      '    at async C:\\Users\\ASUS\\interview-master\\server\\controllers\\authController.js:200:16',
+    name: 'MongooseError',
+    statusCode: 500
+  },
+  user: null,
+  timestamp: '2025-09-15 22:20:50',
+  level: 'error',
+  message: 'Request error'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'error',
+  requestId: 'a0c3e17f-54bc-4fb9-8974-079a1a8baf12',
+  method: 'GET',
+  path: '/@vite/client',
+  error: {
+    message: "Can't find /@vite/client on this server!",
+    stack: "Error: Can't find /@vite/client on this server!\n" +
+      '    at handleNotFound (C:\\Users\\ASUS\\interview-master\\server\\middleware\\errorHandler.js:145:17)\n' +
+      '    at Layer.handleRequest (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\lib\\layer.js:152:17)\n' +
+      '    at trimPrefix (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:342:13)\n' +
+      '    at C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:297:9\n' +
+      '    at processParams (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:582:12)\n' +
+      '    at next (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:291:5)\n' +
+      '    at rateLimitMonitoring (C:\\Users\\ASUS\\interview-master\\server\\middleware\\monitoring.js:235:3)\n' +
+      '    at Layer.handleRequest (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\lib\\layer.js:152:17)\n' +
+      '    at trimPrefix (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:342:13)\n' +
+      '    at C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:297:9',
+    name: 'Error',
+    statusCode: 404
+  },
+  user: null,
+  timestamp: '2025-09-15 22:27:53',
+  level: 'error',
+  message: 'Request error'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'error',
+  requestId: 'cfaf51b2-386f-4036-9231-bdb9c6589681',
+  method: 'GET',
+  path: '/@vite/client',
+  error: {
+    message: "Can't find /@vite/client on this server!",
+    stack: "Error: Can't find /@vite/client on this server!\n" +
+      '    at handleNotFound (C:\\Users\\ASUS\\interview-master\\server\\middleware\\errorHandler.js:145:17)\n' +
+      '    at Layer.handleRequest (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\lib\\layer.js:152:17)\n' +
+      '    at trimPrefix (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:342:13)\n' +
+      '    at C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:297:9\n' +
+      '    at processParams (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:582:12)\n' +
+      '    at next (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:291:5)\n' +
+      '    at rateLimitMonitoring (C:\\Users\\ASUS\\interview-master\\server\\middleware\\monitoring.js:235:3)\n' +
+      '    at Layer.handleRequest (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\lib\\layer.js:152:17)\n' +
+      '    at trimPrefix (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:342:13)\n' +
+      '    at C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:297:9',
+    name: 'Error',
+    statusCode: 404
+  },
+  user: null,
+  timestamp: '2025-09-15 22:29:26',
+  level: 'error',
+  message: 'Request error'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'error',
+  requestId: 'd07aa51e-a3b9-4da5-849a-d6bc9eb25168',
+  method: 'GET',
+  path: '/@vite/client',
+  error: {
+    message: "Can't find /@vite/client on this server!",
+    stack: "Error: Can't find /@vite/client on this server!\n" +
+      '    at handleNotFound (C:\\Users\\ASUS\\interview-master\\server\\middleware\\errorHandler.js:145:17)\n' +
+      '    at Layer.handleRequest (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\lib\\layer.js:152:17)\n' +
+      '    at trimPrefix (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:342:13)\n' +
+      '    at C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:297:9\n' +
+      '    at processParams (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:582:12)\n' +
+      '    at next (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:291:5)\n' +
+      '    at rateLimitMonitoring (C:\\Users\\ASUS\\interview-master\\server\\middleware\\monitoring.js:235:3)\n' +
+      '    at Layer.handleRequest (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\lib\\layer.js:152:17)\n' +
+      '    at trimPrefix (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:342:13)\n' +
+      '    at C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:297:9',
+    name: 'Error',
+    statusCode: 404
+  },
+  user: null,
+  timestamp: '2025-09-15 22:30:30',
+  level: 'error',
+  message: 'Request error'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'error',
+  requestId: '33e115e0-5548-46e9-adb7-3d1950109b10',
+  method: 'GET',
+  path: '/@vite/client',
+  error: {
+    message: "Can't find /@vite/client on this server!",
+    stack: "Error: Can't find /@vite/client on this server!\n" +
+      '    at handleNotFound (C:\\Users\\ASUS\\interview-master\\server\\middleware\\errorHandler.js:145:17)\n' +
+      '    at Layer.handleRequest (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\lib\\layer.js:152:17)\n' +
+      '    at trimPrefix (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:342:13)\n' +
+      '    at C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:297:9\n' +
+      '    at processParams (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:582:12)\n' +
+      '    at next (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:291:5)\n' +
+      '    at rateLimitMonitoring (C:\\Users\\ASUS\\interview-master\\server\\middleware\\monitoring.js:235:3)\n' +
+      '    at Layer.handleRequest (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\lib\\layer.js:152:17)\n' +
+      '    at trimPrefix (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:342:13)\n' +
+      '    at C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:297:9',
+    name: 'Error',
+    statusCode: 404
+  },
+  user: null,
+  timestamp: '2025-09-15 22:31:30',
+  level: 'error',
+  message: 'Request error'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'error',
+  requestId: 'a644a5db-e9b6-418f-935e-39a14868a050',
+  method: 'GET',
+  path: '/@vite/client',
+  error: {
+    message: "Can't find /@vite/client on this server!",
+    stack: "Error: Can't find /@vite/client on this server!\n" +
+      '    at handleNotFound (C:\\Users\\ASUS\\interview-master\\server\\middleware\\errorHandler.js:145:17)\n' +
+      '    at Layer.handleRequest (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\lib\\layer.js:152:17)\n' +
+      '    at trimPrefix (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:342:13)\n' +
+      '    at C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:297:9\n' +
+      '    at processParams (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:582:12)\n' +
+      '    at next (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:291:5)\n' +
+      '    at rateLimitMonitoring (C:\\Users\\ASUS\\interview-master\\server\\middleware\\monitoring.js:235:3)\n' +
+      '    at Layer.handleRequest (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\lib\\layer.js:152:17)\n' +
+      '    at trimPrefix (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:342:13)\n' +
+      '    at C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:297:9',
+    name: 'Error',
+    statusCode: 404
+  },
+  user: null,
+  timestamp: '2025-09-15 22:33:59',
+  level: 'error',
+  message: 'Request error'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'error',
+  requestId: 'ec55b8b5-0f1b-4a43-a314-d07a3c420960',
+  method: 'GET',
+  path: '/@vite/client',
+  error: {
+    message: "Can't find /@vite/client on this server!",
+    stack: "Error: Can't find /@vite/client on this server!\n" +
+      '    at handleNotFound (C:\\Users\\ASUS\\interview-master\\server\\middleware\\errorHandler.js:145:17)\n' +
+      '    at Layer.handleRequest (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\lib\\layer.js:152:17)\n' +
+      '    at trimPrefix (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:342:13)\n' +
+      '    at C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:297:9\n' +
+      '    at processParams (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:582:12)\n' +
+      '    at next (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:291:5)\n' +
+      '    at rateLimitMonitoring (C:\\Users\\ASUS\\interview-master\\server\\middleware\\monitoring.js:235:3)\n' +
+      '    at Layer.handleRequest (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\lib\\layer.js:152:17)\n' +
+      '    at trimPrefix (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:342:13)\n' +
+      '    at C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:297:9',
+    name: 'Error',
+    statusCode: 404
+  },
+  user: null,
+  timestamp: '2025-09-15 22:35:02',
+  level: 'error',
+  message: 'Request error'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'error',
+  requestId: '6cae82bf-5f18-4e33-a82b-fe7b7299a8b0',
+  method: 'GET',
+  path: '/@vite/client',
+  error: {
+    message: "Can't find /@vite/client on this server!",
+    stack: "Error: Can't find /@vite/client on this server!\n" +
+      '    at handleNotFound (C:\\Users\\ASUS\\interview-master\\server\\middleware\\errorHandler.js:145:17)\n' +
+      '    at Layer.handleRequest (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\lib\\layer.js:152:17)\n' +
+      '    at trimPrefix (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:342:13)\n' +
+      '    at C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:297:9\n' +
+      '    at processParams (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:582:12)\n' +
+      '    at next (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:291:5)\n' +
+      '    at rateLimitMonitoring (C:\\Users\\ASUS\\interview-master\\server\\middleware\\monitoring.js:235:3)\n' +
+      '    at Layer.handleRequest (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\lib\\layer.js:152:17)\n' +
+      '    at trimPrefix (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:342:13)\n' +
+      '    at C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:297:9',
+    name: 'Error',
+    statusCode: 404
+  },
+  user: null,
+  timestamp: '2025-09-15 22:36:13',
+  level: 'error',
+  message: 'Request error'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'error',
+  requestId: '4bae3546-05ab-4b02-8efa-dfd6af071589',
+  method: 'GET',
+  path: '/@vite/client',
+  error: {
+    message: "Can't find /@vite/client on this server!",
+    stack: "Error: Can't find /@vite/client on this server!\n" +
+      '    at handleNotFound (C:\\Users\\ASUS\\interview-master\\server\\middleware\\errorHandler.js:145:17)\n' +
+      '    at Layer.handleRequest (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\lib\\layer.js:152:17)\n' +
+      '    at trimPrefix (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:342:13)\n' +
+      '    at C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:297:9\n' +
+      '    at processParams (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:582:12)\n' +
+      '    at next (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:291:5)\n' +
+      '    at rateLimitMonitoring (C:\\Users\\ASUS\\interview-master\\server\\middleware\\monitoring.js:235:3)\n' +
+      '    at Layer.handleRequest (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\lib\\layer.js:152:17)\n' +
+      '    at trimPrefix (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:342:13)\n' +
+      '    at C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:297:9',
+    name: 'Error',
+    statusCode: 404
+  },
+  user: null,
+  timestamp: '2025-09-15 22:36:57',
+  level: 'error',
+  message: 'Request error'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'error',
+  requestId: '5df8e678-457e-4d84-a81c-ba501d76bc11',
+  method: 'GET',
+  path: '/@vite/client',
+  error: {
+    message: "Can't find /@vite/client on this server!",
+    stack: "Error: Can't find /@vite/client on this server!\n" +
+      '    at handleNotFound (C:\\Users\\ASUS\\interview-master\\server\\middleware\\errorHandler.js:145:17)\n' +
+      '    at Layer.handleRequest (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\lib\\layer.js:152:17)\n' +
+      '    at trimPrefix (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:342:13)\n' +
+      '    at C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:297:9\n' +
+      '    at processParams (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:582:12)\n' +
+      '    at next (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:291:5)\n' +
+      '    at rateLimitMonitoring (C:\\Users\\ASUS\\interview-master\\server\\middleware\\monitoring.js:235:3)\n' +
+      '    at Layer.handleRequest (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\lib\\layer.js:152:17)\n' +
+      '    at trimPrefix (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:342:13)\n' +
+      '    at C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:297:9',
+    name: 'Error',
+    statusCode: 404
+  },
+  user: null,
+  timestamp: '2025-09-15 22:49:04',
+  level: 'error',
+  message: 'Request error'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'error',
+  requestId: '981d0676-ef70-4eed-b971-acecaafe99f3',
+  method: 'GET',
+  path: '/@vite/client',
+  error: {
+    message: "Can't find /@vite/client on this server!",
+    stack: "Error: Can't find /@vite/client on this server!\n" +
+      '    at handleNotFound (C:\\Users\\ASUS\\interview-master\\server\\middleware\\errorHandler.js:145:17)\n' +
+      '    at Layer.handleRequest (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\lib\\layer.js:152:17)\n' +
+      '    at trimPrefix (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:342:13)\n' +
+      '    at C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:297:9\n' +
+      '    at processParams (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:582:12)\n' +
+      '    at next (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:291:5)\n' +
+      '    at rateLimitMonitoring (C:\\Users\\ASUS\\interview-master\\server\\middleware\\monitoring.js:235:3)\n' +
+      '    at Layer.handleRequest (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\lib\\layer.js:152:17)\n' +
+      '    at trimPrefix (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:342:13)\n' +
+      '    at C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:297:9',
+    name: 'Error',
+    statusCode: 404
+  },
+  user: null,
+  timestamp: '2025-09-15 22:53:24',
+  level: 'error',
+  message: 'Request error'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'error',
+  requestId: 'df4bd97c-7bfc-46fa-b95e-fcad30c19096',
+  method: 'GET',
+  path: '/@vite/client',
+  error: {
+    message: "Can't find /@vite/client on this server!",
+    stack: "Error: Can't find /@vite/client on this server!\n" +
+      '    at handleNotFound (C:\\Users\\ASUS\\interview-master\\server\\middleware\\errorHandler.js:145:17)\n' +
+      '    at Layer.handleRequest (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\lib\\layer.js:152:17)\n' +
+      '    at trimPrefix (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:342:13)\n' +
+      '    at C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:297:9\n' +
+      '    at processParams (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:582:12)\n' +
+      '    at next (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:291:5)\n' +
+      '    at rateLimitMonitoring (C:\\Users\\ASUS\\interview-master\\server\\middleware\\monitoring.js:235:3)\n' +
+      '    at Layer.handleRequest (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\lib\\layer.js:152:17)\n' +
+      '    at trimPrefix (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:342:13)\n' +
+      '    at C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:297:9',
+    name: 'Error',
+    statusCode: 404
+  },
+  user: null,
+  timestamp: '2025-09-15 22:55:50',
+  level: 'error',
+  message: 'Request error'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'error',
+  requestId: '890dd696-96e2-4b53-8a01-ba92857bd88b',
+  method: 'GET',
+  path: '/@vite/client',
+  error: {
+    message: "Can't find /@vite/client on this server!",
+    stack: "Error: Can't find /@vite/client on this server!\n" +
+      '    at handleNotFound (C:\\Users\\ASUS\\interview-master\\server\\middleware\\errorHandler.js:145:17)\n' +
+      '    at Layer.handleRequest (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\lib\\layer.js:152:17)\n' +
+      '    at trimPrefix (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:342:13)\n' +
+      '    at C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:297:9\n' +
+      '    at processParams (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:582:12)\n' +
+      '    at next (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:291:5)\n' +
+      '    at rateLimitMonitoring (C:\\Users\\ASUS\\interview-master\\server\\middleware\\monitoring.js:235:3)\n' +
+      '    at Layer.handleRequest (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\lib\\layer.js:152:17)\n' +
+      '    at trimPrefix (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:342:13)\n' +
+      '    at C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:297:9',
+    name: 'Error',
+    statusCode: 404
+  },
+  user: null,
+  timestamp: '2025-09-15 23:07:05',
+  level: 'error',
+  message: 'Request error'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'error',
+  requestId: 'b5f73826-58a2-483f-b407-cabe6499aa48',
+  method: 'GET',
+  path: '/@vite/client',
+  error: {
+    message: "Can't find /@vite/client on this server!",
+    stack: "Error: Can't find /@vite/client on this server!\n" +
+      '    at handleNotFound (C:\\Users\\ASUS\\interview-master\\server\\middleware\\errorHandler.js:145:17)\n' +
+      '    at Layer.handleRequest (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\lib\\layer.js:152:17)\n' +
+      '    at trimPrefix (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:342:13)\n' +
+      '    at C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:297:9\n' +
+      '    at processParams (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:582:12)\n' +
+      '    at next (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:291:5)\n' +
+      '    at rateLimitMonitoring (C:\\Users\\ASUS\\interview-master\\server\\middleware\\monitoring.js:235:3)\n' +
+      '    at Layer.handleRequest (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\lib\\layer.js:152:17)\n' +
+      '    at trimPrefix (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:342:13)\n' +
+      '    at C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:297:9',
+    name: 'Error',
+    statusCode: 404
+  },
+  user: null,
+  timestamp: '2025-09-15 23:10:04',
+  level: 'error',
+  message: 'Request error'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'error',
+  requestId: '07d10d25-9302-4eb4-bd65-a169129764f7',
+  method: 'GET',
+  path: '/@vite/client',
+  error: {
+    message: "Can't find /@vite/client on this server!",
+    stack: "Error: Can't find /@vite/client on this server!\n" +
+      '    at handleNotFound (C:\\Users\\ASUS\\interview-master\\server\\middleware\\errorHandler.js:145:17)\n' +
+      '    at Layer.handleRequest (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\lib\\layer.js:152:17)\n' +
+      '    at trimPrefix (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:342:13)\n' +
+      '    at C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:297:9\n' +
+      '    at processParams (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:582:12)\n' +
+      '    at next (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:291:5)\n' +
+      '    at rateLimitMonitoring (C:\\Users\\ASUS\\interview-master\\server\\middleware\\monitoring.js:235:3)\n' +
+      '    at Layer.handleRequest (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\lib\\layer.js:152:17)\n' +
+      '    at trimPrefix (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:342:13)\n' +
+      '    at C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:297:9',
+    name: 'Error',
+    statusCode: 404
+  },
+  user: null,
+  timestamp: '2025-09-15 23:13:45',
+  level: 'error',
+  message: 'Request error'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'error',
+  requestId: '7480951a-dae1-451f-8439-15547d9b6b06',
+  method: 'GET',
+  path: '/@vite/client',
+  error: {
+    message: "Can't find /@vite/client on this server!",
+    stack: "Error: Can't find /@vite/client on this server!\n" +
+      '    at handleNotFound (C:\\Users\\ASUS\\interview-master\\server\\middleware\\errorHandler.js:145:17)\n' +
+      '    at Layer.handleRequest (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\lib\\layer.js:152:17)\n' +
+      '    at trimPrefix (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:342:13)\n' +
+      '    at C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:297:9\n' +
+      '    at processParams (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:582:12)\n' +
+      '    at next (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:291:5)\n' +
+      '    at rateLimitMonitoring (C:\\Users\\ASUS\\interview-master\\server\\middleware\\monitoring.js:235:3)\n' +
+      '    at Layer.handleRequest (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\lib\\layer.js:152:17)\n' +
+      '    at trimPrefix (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:342:13)\n' +
+      '    at C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:297:9',
+    name: 'Error',
+    statusCode: 404
+  },
+  user: null,
+  timestamp: '2025-09-15 23:14:45',
+  level: 'error',
+  message: 'Request error'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'error',
+  requestId: '90a09b1f-b2a0-4e08-ab4f-4fc30cdcaf20',
+  method: 'GET',
+  path: '/@vite/client',
+  error: {
+    message: "Can't find /@vite/client on this server!",
+    stack: "Error: Can't find /@vite/client on this server!\n" +
+      '    at handleNotFound (C:\\Users\\ASUS\\interview-master\\server\\middleware\\errorHandler.js:145:17)\n' +
+      '    at Layer.handleRequest (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\lib\\layer.js:152:17)\n' +
+      '    at trimPrefix (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:342:13)\n' +
+      '    at C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:297:9\n' +
+      '    at processParams (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:582:12)\n' +
+      '    at next (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:291:5)\n' +
+      '    at rateLimitMonitoring (C:\\Users\\ASUS\\interview-master\\server\\middleware\\monitoring.js:235:3)\n' +
+      '    at Layer.handleRequest (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\lib\\layer.js:152:17)\n' +
+      '    at trimPrefix (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:342:13)\n' +
+      '    at C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:297:9',
+    name: 'Error',
+    statusCode: 404
+  },
+  user: null,
+  timestamp: '2025-09-15 23:15:05',
+  level: 'error',
+  message: 'Request error'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'error',
+  requestId: 'a03f1730-0dfe-49e8-8618-067084cb9055',
+  method: 'GET',
+  path: '/@vite/client',
+  error: {
+    message: "Can't find /@vite/client on this server!",
+    stack: "Error: Can't find /@vite/client on this server!\n" +
+      '    at handleNotFound (C:\\Users\\ASUS\\interview-master\\server\\middleware\\errorHandler.js:145:17)\n' +
+      '    at Layer.handleRequest (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\lib\\layer.js:152:17)\n' +
+      '    at trimPrefix (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:342:13)\n' +
+      '    at C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:297:9\n' +
+      '    at processParams (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:582:12)\n' +
+      '    at next (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:291:5)\n' +
+      '    at rateLimitMonitoring (C:\\Users\\ASUS\\interview-master\\server\\middleware\\monitoring.js:235:3)\n' +
+      '    at Layer.handleRequest (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\lib\\layer.js:152:17)\n' +
+      '    at trimPrefix (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:342:13)\n' +
+      '    at C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:297:9',
+    name: 'Error',
+    statusCode: 404
+  },
+  user: null,
+  timestamp: '2025-09-15 23:15:12',
+  level: 'error',
+  message: 'Request error'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'error',
+  requestId: 'db46a3da-f32a-4935-a9a0-739641ec0cfb',
+  method: 'GET',
+  path: '/@vite/client',
+  error: {
+    message: "Can't find /@vite/client on this server!",
+    stack: "Error: Can't find /@vite/client on this server!\n" +
+      '    at handleNotFound (C:\\Users\\ASUS\\interview-master\\server\\middleware\\errorHandler.js:145:17)\n' +
+      '    at Layer.handleRequest (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\lib\\layer.js:152:17)\n' +
+      '    at trimPrefix (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:342:13)\n' +
+      '    at C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:297:9\n' +
+      '    at processParams (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:582:12)\n' +
+      '    at next (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:291:5)\n' +
+      '    at rateLimitMonitoring (C:\\Users\\ASUS\\interview-master\\server\\middleware\\monitoring.js:235:3)\n' +
+      '    at Layer.handleRequest (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\lib\\layer.js:152:17)\n' +
+      '    at trimPrefix (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:342:13)\n' +
+      '    at C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:297:9',
+    name: 'Error',
+    statusCode: 404
+  },
+  user: null,
+  timestamp: '2025-09-15 23:15:37',
+  level: 'error',
+  message: 'Request error'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'error',
+  requestId: '8f5c0edd-a499-48c0-be1f-25f4ba9a20ae',
+  method: 'GET',
+  path: '/@vite/client',
+  error: {
+    message: "Can't find /@vite/client on this server!",
+    stack: "Error: Can't find /@vite/client on this server!\n" +
+      '    at handleNotFound (C:\\Users\\ASUS\\interview-master\\server\\middleware\\errorHandler.js:145:17)\n' +
+      '    at Layer.handleRequest (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\lib\\layer.js:152:17)\n' +
+      '    at trimPrefix (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:342:13)\n' +
+      '    at C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:297:9\n' +
+      '    at processParams (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:582:12)\n' +
+      '    at next (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:291:5)\n' +
+      '    at rateLimitMonitoring (C:\\Users\\ASUS\\interview-master\\server\\middleware\\monitoring.js:235:3)\n' +
+      '    at Layer.handleRequest (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\lib\\layer.js:152:17)\n' +
+      '    at trimPrefix (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:342:13)\n' +
+      '    at C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:297:9',
+    name: 'Error',
+    statusCode: 404
+  },
+  user: null,
+  timestamp: '2025-09-15 23:16:54',
+  level: 'error',
+  message: 'Request error'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'error',
+  requestId: '9eebab65-fe7e-490d-aeb2-6768f12057f1',
+  method: 'GET',
+  path: '/@vite/client',
+  error: {
+    message: "Can't find /@vite/client on this server!",
+    stack: "Error: Can't find /@vite/client on this server!\n" +
+      '    at handleNotFound (C:\\Users\\ASUS\\interview-master\\server\\middleware\\errorHandler.js:145:17)\n' +
+      '    at Layer.handleRequest (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\lib\\layer.js:152:17)\n' +
+      '    at trimPrefix (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:342:13)\n' +
+      '    at C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:297:9\n' +
+      '    at processParams (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:582:12)\n' +
+      '    at next (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:291:5)\n' +
+      '    at rateLimitMonitoring (C:\\Users\\ASUS\\interview-master\\server\\middleware\\monitoring.js:235:3)\n' +
+      '    at Layer.handleRequest (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\lib\\layer.js:152:17)\n' +
+      '    at trimPrefix (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:342:13)\n' +
+      '    at C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:297:9',
+    name: 'Error',
+    statusCode: 404
+  },
+  user: null,
+  timestamp: '2025-09-15 23:18:16',
+  level: 'error',
+  message: 'Request error'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'error',
+  requestId: 'eb778629-0235-4c29-b1ba-0bd56a33e870',
+  method: 'GET',
+  path: '/@vite/client',
+  error: {
+    message: "Can't find /@vite/client on this server!",
+    stack: "Error: Can't find /@vite/client on this server!\n" +
+      '    at handleNotFound (C:\\Users\\ASUS\\interview-master\\server\\middleware\\errorHandler.js:145:17)\n' +
+      '    at Layer.handleRequest (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\lib\\layer.js:152:17)\n' +
+      '    at trimPrefix (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:342:13)\n' +
+      '    at C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:297:9\n' +
+      '    at processParams (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:582:12)\n' +
+      '    at next (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:291:5)\n' +
+      '    at rateLimitMonitoring (C:\\Users\\ASUS\\interview-master\\server\\middleware\\monitoring.js:235:3)\n' +
+      '    at Layer.handleRequest (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\lib\\layer.js:152:17)\n' +
+      '    at trimPrefix (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:342:13)\n' +
+      '    at C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:297:9',
+    name: 'Error',
+    statusCode: 404
+  },
+  user: null,
+  timestamp: '2025-09-15 23:22:46',
+  level: 'error',
+  message: 'Request error'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'error',
+  requestId: '5d0fd531-ac20-451e-a934-b17b81d57c77',
+  method: 'GET',
+  path: '/@vite/client',
+  error: {
+    message: "Can't find /@vite/client on this server!",
+    stack: "Error: Can't find /@vite/client on this server!\n" +
+      '    at handleNotFound (C:\\Users\\ASUS\\interview-master\\server\\middleware\\errorHandler.js:145:17)\n' +
+      '    at Layer.handleRequest (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\lib\\layer.js:152:17)\n' +
+      '    at trimPrefix (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:342:13)\n' +
+      '    at C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:297:9\n' +
+      '    at processParams (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:582:12)\n' +
+      '    at next (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:291:5)\n' +
+      '    at rateLimitMonitoring (C:\\Users\\ASUS\\interview-master\\server\\middleware\\monitoring.js:235:3)\n' +
+      '    at Layer.handleRequest (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\lib\\layer.js:152:17)\n' +
+      '    at trimPrefix (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:342:13)\n' +
+      '    at C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:297:9',
+    name: 'Error',
+    statusCode: 404
+  },
+  user: null,
+  timestamp: '2025-09-15 23:24:01',
+  level: 'error',
+  message: 'Request error'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'error',
+  requestId: 'f7dfac7f-5fcb-4216-9e0d-88d0b1a57a38',
+  method: 'GET',
+  path: '/main.af1347a0b6a9401f8476.hot-update.json',
+  error: {
+    message: "Can't find /main.af1347a0b6a9401f8476.hot-update.json on this server!",
+    stack: "Error: Can't find /main.af1347a0b6a9401f8476.hot-update.json on this server!\n" +
+      '    at handleNotFound (C:\\Users\\ASUS\\interview-master\\server\\middleware\\errorHandler.js:145:17)\n' +
+      '    at Layer.handleRequest (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\lib\\layer.js:152:17)\n' +
+      '    at trimPrefix (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:342:13)\n' +
+      '    at C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:297:9\n' +
+      '    at processParams (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:582:12)\n' +
+      '    at next (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:291:5)\n' +
+      '    at rateLimitMonitoring (C:\\Users\\ASUS\\interview-master\\server\\middleware\\monitoring.js:235:3)\n' +
+      '    at Layer.handleRequest (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\lib\\layer.js:152:17)\n' +
+      '    at trimPrefix (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:342:13)\n' +
+      '    at C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:297:9',
+    name: 'Error',
+    statusCode: 404
+  },
+  user: null,
+  timestamp: '2025-09-15 23:37:01',
+  level: 'error',
+  message: 'Request error'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'error',
+  requestId: '69bebc52-ec50-4800-bfbe-16ac5a951e2d',
+  method: 'GET',
+  path: '/@vite/client',
+  error: {
+    message: "Can't find /@vite/client on this server!",
+    stack: "Error: Can't find /@vite/client on this server!\n" +
+      '    at handleNotFound (C:\\Users\\ASUS\\interview-master\\server\\middleware\\errorHandler.js:145:17)\n' +
+      '    at Layer.handleRequest (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\lib\\layer.js:152:17)\n' +
+      '    at trimPrefix (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:342:13)\n' +
+      '    at C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:297:9\n' +
+      '    at processParams (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:582:12)\n' +
+      '    at next (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:291:5)\n' +
+      '    at rateLimitMonitoring (C:\\Users\\ASUS\\interview-master\\server\\middleware\\monitoring.js:235:3)\n' +
+      '    at Layer.handleRequest (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\lib\\layer.js:152:17)\n' +
+      '    at trimPrefix (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:342:13)\n' +
+      '    at C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:297:9',
+    name: 'Error',
+    statusCode: 404
+  },
+  user: null,
+  timestamp: '2025-09-15 23:37:09',
+  level: 'error',
+  message: 'Request error'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'error',
+  requestId: 'adff2596-f6fb-4e8f-b346-e017c9943b7a',
+  method: 'GET',
+  path: '/@vite/client',
+  error: {
+    message: "Can't find /@vite/client on this server!",
+    stack: "Error: Can't find /@vite/client on this server!\n" +
+      '    at handleNotFound (C:\\Users\\ASUS\\interview-master\\server\\middleware\\errorHandler.js:145:17)\n' +
+      '    at Layer.handleRequest (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\lib\\layer.js:152:17)\n' +
+      '    at trimPrefix (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:342:13)\n' +
+      '    at C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:297:9\n' +
+      '    at processParams (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:582:12)\n' +
+      '    at next (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:291:5)\n' +
+      '    at rateLimitMonitoring (C:\\Users\\ASUS\\interview-master\\server\\middleware\\monitoring.js:235:3)\n' +
+      '    at Layer.handleRequest (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\lib\\layer.js:152:17)\n' +
+      '    at trimPrefix (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:342:13)\n' +
+      '    at C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:297:9',
+    name: 'Error',
+    statusCode: 404
+  },
+  user: null,
+  timestamp: '2025-09-15 23:39:57',
+  level: 'error',
+  message: 'Request error'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'error',
+  requestId: '06b482f2-feb5-4fb7-8acb-af094a9d4f1a',
+  method: 'GET',
+  path: '/@vite/client',
+  error: {
+    message: "Can't find /@vite/client on this server!",
+    stack: "Error: Can't find /@vite/client on this server!\n" +
+      '    at handleNotFound (C:\\Users\\ASUS\\interview-master\\server\\middleware\\errorHandler.js:145:17)\n' +
+      '    at Layer.handleRequest (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\lib\\layer.js:152:17)\n' +
+      '    at trimPrefix (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:342:13)\n' +
+      '    at C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:297:9\n' +
+      '    at processParams (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:582:12)\n' +
+      '    at next (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:291:5)\n' +
+      '    at rateLimitMonitoring (C:\\Users\\ASUS\\interview-master\\server\\middleware\\monitoring.js:235:3)\n' +
+      '    at Layer.handleRequest (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\lib\\layer.js:152:17)\n' +
+      '    at trimPrefix (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:342:13)\n' +
+      '    at C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:297:9',
+    name: 'Error',
+    statusCode: 404
+  },
+  user: null,
+  timestamp: '2025-09-15 23:45:12',
+  level: 'error',
+  message: 'Request error'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'error',
+  requestId: '632dcbd9-4563-4c12-a7d5-7023c18dfe1e',
+  method: 'GET',
+  path: '/@vite/client',
+  error: {
+    message: "Can't find /@vite/client on this server!",
+    stack: "Error: Can't find /@vite/client on this server!\n" +
+      '    at handleNotFound (C:\\Users\\ASUS\\interview-master\\server\\middleware\\errorHandler.js:145:17)\n' +
+      '    at Layer.handleRequest (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\lib\\layer.js:152:17)\n' +
+      '    at trimPrefix (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:342:13)\n' +
+      '    at C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:297:9\n' +
+      '    at processParams (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:582:12)\n' +
+      '    at next (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:291:5)\n' +
+      '    at rateLimitMonitoring (C:\\Users\\ASUS\\interview-master\\server\\middleware\\monitoring.js:235:3)\n' +
+      '    at Layer.handleRequest (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\lib\\layer.js:152:17)\n' +
+      '    at trimPrefix (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:342:13)\n' +
+      '    at C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:297:9',
+    name: 'Error',
+    statusCode: 404
+  },
+  user: null,
+  timestamp: '2025-09-15 23:52:27',
+  level: 'error',
+  message: 'Request error'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'error',
+  requestId: 'aa5aee70-a4ea-4bae-8433-fa6d4b66e900',
+  method: 'GET',
+  path: '/@vite/client',
+  error: {
+    message: "Can't find /@vite/client on this server!",
+    stack: "Error: Can't find /@vite/client on this server!\n" +
+      '    at handleNotFound (C:\\Users\\ASUS\\interview-master\\server\\middleware\\errorHandler.js:145:17)\n' +
+      '    at Layer.handleRequest (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\lib\\layer.js:152:17)\n' +
+      '    at trimPrefix (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:342:13)\n' +
+      '    at C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:297:9\n' +
+      '    at processParams (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:582:12)\n' +
+      '    at next (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:291:5)\n' +
+      '    at rateLimitMonitoring (C:\\Users\\ASUS\\interview-master\\server\\middleware\\monitoring.js:235:3)\n' +
+      '    at Layer.handleRequest (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\lib\\layer.js:152:17)\n' +
+      '    at trimPrefix (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:342:13)\n' +
+      '    at C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:297:9',
+    name: 'Error',
+    statusCode: 404
+  },
+  user: null,
+  timestamp: '2025-09-15 23:56:55',
+  level: 'error',
+  message: 'Request error'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'error',
+  requestId: '3c482a43-f650-487f-ab13-1a30c0fe8a20',
+  method: 'GET',
+  path: '/api/v1/users/profile',
+  error: {
+    message: 'Invalid token',
+    stack: 'Error: Invalid token\n' +
+      '    at SecurityManager.verifyJWT (C:\\Users\\ASUS\\interview-master\\server\\utils\\security.js:102:15)\n' +
+      '    at authenticate (C:\\Users\\ASUS\\interview-master\\server\\middleware\\auth.js:61:39)\n' +
+      '    at Layer.handleRequest (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\lib\\layer.js:152:17)\n' +
+      '    at trimPrefix (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:342:13)\n' +
+      '    at C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:297:9\n' +
+      '    at processParams (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:582:12)\n' +
+      '    at next (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:291:5)\n' +
+      '    at rateLimitMonitoring (C:\\Users\\ASUS\\interview-master\\server\\middleware\\monitoring.js:235:3)\n' +
+      '    at Layer.handleRequest (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\lib\\layer.js:152:17)\n' +
+      '    at trimPrefix (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:342:13)',
+    name: 'Error',
+    statusCode: 401
+  },
+  user: null,
+  timestamp: '2025-09-15 23:58:44',
+  level: 'error',
+  message: 'Request error'
+}

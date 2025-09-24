@@ -1,0 +1,1645 @@
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1757784430573-w9ngr8ykz',
+    timestamp: 2025-09-13T17:27:10.573Z,
+    service: 'database',
+    status: 'unhealthy',
+    message: 'Service database is unhealthy',
+    details: {
+      connected: false,
+      readyState: 0,
+      host: undefined,
+      port: undefined,
+      name: undefined
+    },
+    error: undefined
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-13 22:57:10'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1757784430576-623oifbbf',
+    timestamp: 2025-09-13T17:27:10.576Z,
+    service: 'redis',
+    status: 'unhealthy',
+    message: 'Service redis is unhealthy',
+    details: {},
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-13 22:57:10'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'error',
+  requestId: 'e0de4d7e-459d-428b-87ae-54ca70381428',
+  method: 'POST',
+  path: '/api/v1/auth/login',
+  error: {
+    message: 'Cannot call `users.findOne()` before initial connection is complete if `bufferCommands = false`. Make sure you `await mongoose.connect()` if you have `bufferCommands = false`.',
+    stack: 'MongooseError: Cannot call `users.findOne()` before initial connection is complete if `bufferCommands = false`. Make sure you `await mongoose.connect()` if you have `bufferCommands = false`.\n' +
+      '    at NativeCollection.<computed> [as findOne] (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\mongoose\\lib\\drivers\\node-mongodb-native\\collection.js:237:15)\n' +
+      '    at model.Query._findOne (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\mongoose\\lib\\query.js:2687:45)\n' +
+      '    at model.Query.exec (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\mongoose\\lib\\query.js:4604:80)\n' +
+      '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+      '    at async C:\\Users\\ASUS\\interview-master\\server\\controllers\\authController.js:200:16',
+    name: 'MongooseError',
+    statusCode: 500
+  },
+  user: null,
+  timestamp: '2025-09-13 22:57:19',
+  level: 'error',
+  message: 'Request error'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'error',
+  requestId: '3c02db56-e297-46a9-9951-c5b914518ec7',
+  method: 'POST',
+  path: '/api/v1/auth/login',
+  error: {
+    message: 'Cannot call `users.findOne()` before initial connection is complete if `bufferCommands = false`. Make sure you `await mongoose.connect()` if you have `bufferCommands = false`.',
+    stack: 'MongooseError: Cannot call `users.findOne()` before initial connection is complete if `bufferCommands = false`. Make sure you `await mongoose.connect()` if you have `bufferCommands = false`.\n' +
+      '    at NativeCollection.<computed> [as findOne] (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\mongoose\\lib\\drivers\\node-mongodb-native\\collection.js:237:15)\n' +
+      '    at model.Query._findOne (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\mongoose\\lib\\query.js:2687:45)\n' +
+      '    at model.Query.exec (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\mongoose\\lib\\query.js:4604:80)\n' +
+      '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+      '    at async C:\\Users\\ASUS\\interview-master\\server\\controllers\\authController.js:200:16',
+    name: 'MongooseError',
+    statusCode: 500
+  },
+  user: null,
+  timestamp: '2025-09-13 22:57:21',
+  level: 'error',
+  message: 'Request error'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1757784469094-src3p4ke1',
+    timestamp: 2025-09-13T17:27:49.094Z,
+    service: 'database',
+    status: 'unhealthy',
+    message: 'Service database is unhealthy',
+    details: {
+      connected: false,
+      readyState: 0,
+      host: undefined,
+      port: undefined,
+      name: undefined
+    },
+    error: undefined
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-13 22:57:49'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1757784469095-tb1yarlv8',
+    timestamp: 2025-09-13T17:27:49.095Z,
+    service: 'redis',
+    status: 'unhealthy',
+    message: 'Service redis is unhealthy',
+    details: {},
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-13 22:57:49'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'error',
+  requestId: 'fceab9d9-5ea2-4492-989f-00071ef90660',
+  method: 'POST',
+  path: '/api/v1/auth/login',
+  error: {
+    message: 'Cannot call `users.findOne()` before initial connection is complete if `bufferCommands = false`. Make sure you `await mongoose.connect()` if you have `bufferCommands = false`.',
+    stack: 'MongooseError: Cannot call `users.findOne()` before initial connection is complete if `bufferCommands = false`. Make sure you `await mongoose.connect()` if you have `bufferCommands = false`.\n' +
+      '    at NativeCollection.<computed> [as findOne] (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\mongoose\\lib\\drivers\\node-mongodb-native\\collection.js:237:15)\n' +
+      '    at model.Query._findOne (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\mongoose\\lib\\query.js:2687:45)\n' +
+      '    at model.Query.exec (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\mongoose\\lib\\query.js:4604:80)\n' +
+      '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+      '    at async C:\\Users\\ASUS\\interview-master\\server\\controllers\\authController.js:200:16',
+    name: 'MongooseError',
+    statusCode: 500
+  },
+  user: null,
+  timestamp: '2025-09-13 22:58:12',
+  level: 'error',
+  message: 'Request error'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'error',
+  requestId: '04521c45-077a-403d-a19c-7e6dbd5ba7d7',
+  method: 'POST',
+  path: '/api/v1/auth/login',
+  error: {
+    message: 'Cannot call `users.findOne()` before initial connection is complete if `bufferCommands = false`. Make sure you `await mongoose.connect()` if you have `bufferCommands = false`.',
+    stack: 'MongooseError: Cannot call `users.findOne()` before initial connection is complete if `bufferCommands = false`. Make sure you `await mongoose.connect()` if you have `bufferCommands = false`.\n' +
+      '    at NativeCollection.<computed> [as findOne] (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\mongoose\\lib\\drivers\\node-mongodb-native\\collection.js:237:15)\n' +
+      '    at model.Query._findOne (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\mongoose\\lib\\query.js:2687:45)\n' +
+      '    at model.Query.exec (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\mongoose\\lib\\query.js:4604:80)\n' +
+      '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+      '    at async C:\\Users\\ASUS\\interview-master\\server\\controllers\\authController.js:200:16',
+    name: 'MongooseError',
+    statusCode: 500
+  },
+  user: null,
+  timestamp: '2025-09-13 22:58:27',
+  level: 'error',
+  message: 'Request error'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'performance',
+  method: 'POST',
+  path: '/api/v1/auth/login',
+  responseTime: '1006ms',
+  statusCode: 500,
+  userAgent: 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Mobile Safari/537.36 Edg/140.0.0.0',
+  ip: '::1',
+  level: 'warn',
+  message: 'Slow request detected',
+  timestamp: '2025-09-13 22:58:27'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1757784529093-o0hixqz4o',
+    timestamp: 2025-09-13T17:28:49.093Z,
+    service: 'database',
+    status: 'unhealthy',
+    message: 'Service database is unhealthy',
+    details: {
+      connected: false,
+      readyState: 0,
+      host: undefined,
+      port: undefined,
+      name: undefined
+    },
+    error: undefined
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-13 22:58:49'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1757784529094-ysnmecr5s',
+    timestamp: 2025-09-13T17:28:49.094Z,
+    service: 'redis',
+    status: 'unhealthy',
+    message: 'Service redis is unhealthy',
+    details: {},
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-13 22:58:49'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'error',
+  requestId: 'c21753b4-9316-4319-a50c-6abf1a77e0de',
+  method: 'GET',
+  path: '/@vite/client',
+  error: {
+    message: "Can't find /@vite/client on this server!",
+    stack: "Error: Can't find /@vite/client on this server!\n" +
+      '    at handleNotFound (C:\\Users\\ASUS\\interview-master\\server\\middleware\\errorHandler.js:145:17)\n' +
+      '    at Layer.handleRequest (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\lib\\layer.js:152:17)\n' +
+      '    at trimPrefix (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:342:13)\n' +
+      '    at C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:297:9\n' +
+      '    at processParams (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:582:12)\n' +
+      '    at next (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:291:5)\n' +
+      '    at rateLimitMonitoring (C:\\Users\\ASUS\\interview-master\\server\\middleware\\monitoring.js:235:3)\n' +
+      '    at Layer.handleRequest (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\lib\\layer.js:152:17)\n' +
+      '    at trimPrefix (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:342:13)\n' +
+      '    at C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:297:9',
+    name: 'Error',
+    statusCode: 404
+  },
+  user: null,
+  timestamp: '2025-09-13 22:59:37',
+  level: 'error',
+  message: 'Request error'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1757784628416-y8n6x4zpi',
+    timestamp: 2025-09-13T17:30:28.416Z,
+    service: 'redis',
+    status: 'unhealthy',
+    message: 'Service redis is unhealthy',
+    details: {},
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-13 23:00:28'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'error',
+  requestId: '021c6a8d-50c9-4988-8411-ba4ad14bda72',
+  method: 'GET',
+  path: '/@vite/client',
+  error: {
+    message: "Can't find /@vite/client on this server!",
+    stack: "Error: Can't find /@vite/client on this server!\n" +
+      '    at handleNotFound (C:\\Users\\ASUS\\interview-master\\server\\middleware\\errorHandler.js:145:17)\n' +
+      '    at Layer.handleRequest (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\lib\\layer.js:152:17)\n' +
+      '    at trimPrefix (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:342:13)\n' +
+      '    at C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:297:9\n' +
+      '    at processParams (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:582:12)\n' +
+      '    at next (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:291:5)\n' +
+      '    at rateLimitMonitoring (C:\\Users\\ASUS\\interview-master\\server\\middleware\\monitoring.js:235:3)\n' +
+      '    at Layer.handleRequest (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\lib\\layer.js:152:17)\n' +
+      '    at trimPrefix (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:342:13)\n' +
+      '    at C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:297:9',
+    name: 'Error',
+    statusCode: 404
+  },
+  user: null,
+  timestamp: '2025-09-13 23:00:45',
+  level: 'error',
+  message: 'Request error'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1757784688417-4dcuh9t3s',
+    timestamp: 2025-09-13T17:31:28.417Z,
+    service: 'redis',
+    status: 'unhealthy',
+    message: 'Service redis is unhealthy',
+    details: {},
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-13 23:01:28'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1757784748424-ctplhsqkk',
+    timestamp: 2025-09-13T17:32:28.424Z,
+    service: 'redis',
+    status: 'unhealthy',
+    message: 'Service redis is unhealthy',
+    details: {},
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-13 23:02:28'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1757784808429-p1hff0rgr',
+    timestamp: 2025-09-13T17:33:28.429Z,
+    service: 'redis',
+    status: 'unhealthy',
+    message: 'Service redis is unhealthy',
+    details: {},
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-13 23:03:28'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1757784868432-x5ft9v6pf',
+    timestamp: 2025-09-13T17:34:28.432Z,
+    service: 'redis',
+    status: 'unhealthy',
+    message: 'Service redis is unhealthy',
+    details: {},
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-13 23:04:28'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1757785016219-zgmd8vap0',
+    timestamp: 2025-09-13T17:36:56.219Z,
+    service: 'database',
+    status: 'unhealthy',
+    message: 'Service database is unhealthy',
+    details: {
+      connected: false,
+      readyState: 0,
+      host: undefined,
+      port: undefined,
+      name: undefined
+    },
+    error: undefined
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-13 23:06:56'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1757785016222-ml0xiypye',
+    timestamp: 2025-09-13T17:36:56.222Z,
+    service: 'redis',
+    status: 'unhealthy',
+    message: 'Service redis is unhealthy',
+    details: {},
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-13 23:06:56'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1757785021989-cwt1hod4s',
+    timestamp: 2025-09-13T17:37:01.989Z,
+    service: 'database',
+    status: 'unhealthy',
+    message: 'Service database is unhealthy',
+    details: {
+      connected: false,
+      readyState: 0,
+      host: undefined,
+      port: undefined,
+      name: undefined
+    },
+    error: undefined
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-13 23:07:01'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1757785021991-l3u5d2zlu',
+    timestamp: 2025-09-13T17:37:01.991Z,
+    service: 'redis',
+    status: 'unhealthy',
+    message: 'Service redis is unhealthy',
+    details: {},
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-13 23:07:01'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1757785021991-yd0l865z0',
+    timestamp: 2025-09-13T17:37:01.991Z,
+    service: 'memory',
+    status: 'warning',
+    message: 'Service memory is warning',
+    details: {
+      heapUsed: '89.79 MB',
+      heapTotal: '95.04 MB',
+      rss: '139.55 MB',
+      external: '37.85 MB',
+      systemMemoryUsage: '76.08%',
+      freeMemory: '3.66 GB',
+      totalMemory: '15.29 GB'
+    },
+    error: undefined
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-13 23:07:01'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'error',
+  requestId: '5bcb1410-eafb-49cc-a4b7-24b52a5ee637',
+  method: 'POST',
+  path: '/api/v1/auth/login',
+  error: {
+    message: 'Cannot call `users.findOne()` before initial connection is complete if `bufferCommands = false`. Make sure you `await mongoose.connect()` if you have `bufferCommands = false`.',
+    stack: 'MongooseError: Cannot call `users.findOne()` before initial connection is complete if `bufferCommands = false`. Make sure you `await mongoose.connect()` if you have `bufferCommands = false`.\n' +
+      '    at NativeCollection.<computed> [as findOne] (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\mongoose\\lib\\drivers\\node-mongodb-native\\collection.js:237:15)\n' +
+      '    at model.Query._findOne (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\mongoose\\lib\\query.js:2687:45)\n' +
+      '    at model.Query.exec (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\mongoose\\lib\\query.js:4604:80)\n' +
+      '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+      '    at async C:\\Users\\ASUS\\interview-master\\server\\controllers\\authController.js:200:16',
+    name: 'MongooseError',
+    statusCode: 500
+  },
+  user: null,
+  timestamp: '2025-09-13 23:07:02',
+  level: 'error',
+  message: 'Request error'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'error',
+  requestId: '74eb12be-a7b2-4021-a979-dcb0168f2296',
+  method: 'POST',
+  path: '/api/v1/auth/login',
+  error: {
+    message: 'Cannot call `users.findOne()` before initial connection is complete if `bufferCommands = false`. Make sure you `await mongoose.connect()` if you have `bufferCommands = false`.',
+    stack: 'MongooseError: Cannot call `users.findOne()` before initial connection is complete if `bufferCommands = false`. Make sure you `await mongoose.connect()` if you have `bufferCommands = false`.\n' +
+      '    at NativeCollection.<computed> [as findOne] (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\mongoose\\lib\\drivers\\node-mongodb-native\\collection.js:237:15)\n' +
+      '    at model.Query._findOne (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\mongoose\\lib\\query.js:2687:45)\n' +
+      '    at model.Query.exec (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\mongoose\\lib\\query.js:4604:80)\n' +
+      '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+      '    at async C:\\Users\\ASUS\\interview-master\\server\\controllers\\authController.js:200:16',
+    name: 'MongooseError',
+    statusCode: 500
+  },
+  user: null,
+  timestamp: '2025-09-13 23:07:03',
+  level: 'error',
+  message: 'Request error'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'error',
+  requestId: '20a62682-bdc5-40bf-9e76-2876cbe69195',
+  method: 'POST',
+  path: '/api/v1/auth/login',
+  error: {
+    message: 'Cannot call `users.findOne()` before initial connection is complete if `bufferCommands = false`. Make sure you `await mongoose.connect()` if you have `bufferCommands = false`.',
+    stack: 'MongooseError: Cannot call `users.findOne()` before initial connection is complete if `bufferCommands = false`. Make sure you `await mongoose.connect()` if you have `bufferCommands = false`.\n' +
+      '    at NativeCollection.<computed> [as findOne] (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\mongoose\\lib\\drivers\\node-mongodb-native\\collection.js:237:15)\n' +
+      '    at model.Query._findOne (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\mongoose\\lib\\query.js:2687:45)\n' +
+      '    at model.Query.exec (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\mongoose\\lib\\query.js:4604:80)\n' +
+      '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+      '    at async C:\\Users\\ASUS\\interview-master\\server\\controllers\\authController.js:200:16',
+    name: 'MongooseError',
+    statusCode: 500
+  },
+  user: null,
+  timestamp: '2025-09-13 23:07:05',
+  level: 'error',
+  message: 'Request error'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'error',
+  requestId: '774eb1c0-da04-4e3d-b61f-65ae36d9037f',
+  method: 'POST',
+  path: '/api/v1/auth/login',
+  error: {
+    message: 'Cannot call `users.findOne()` before initial connection is complete if `bufferCommands = false`. Make sure you `await mongoose.connect()` if you have `bufferCommands = false`.',
+    stack: 'MongooseError: Cannot call `users.findOne()` before initial connection is complete if `bufferCommands = false`. Make sure you `await mongoose.connect()` if you have `bufferCommands = false`.\n' +
+      '    at NativeCollection.<computed> [as findOne] (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\mongoose\\lib\\drivers\\node-mongodb-native\\collection.js:237:15)\n' +
+      '    at model.Query._findOne (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\mongoose\\lib\\query.js:2687:45)\n' +
+      '    at model.Query.exec (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\mongoose\\lib\\query.js:4604:80)\n' +
+      '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+      '    at async C:\\Users\\ASUS\\interview-master\\server\\controllers\\authController.js:200:16',
+    name: 'MongooseError',
+    statusCode: 500
+  },
+  user: null,
+  timestamp: '2025-09-13 23:07:09',
+  level: 'error',
+  message: 'Request error'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'performance',
+  method: 'POST',
+  path: '/api/v1/auth/login',
+  responseTime: '1011ms',
+  statusCode: 500,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36 Edg/140.0.0.0',
+  ip: '::1',
+  level: 'warn',
+  message: 'Slow request detected',
+  timestamp: '2025-09-13 23:07:09'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'error',
+  requestId: '3e93d627-a666-484d-a96f-58e299fc58f3',
+  method: 'POST',
+  path: '/api/v1/auth/login',
+  error: {
+    message: 'Cannot call `users.findOne()` before initial connection is complete if `bufferCommands = false`. Make sure you `await mongoose.connect()` if you have `bufferCommands = false`.',
+    stack: 'MongooseError: Cannot call `users.findOne()` before initial connection is complete if `bufferCommands = false`. Make sure you `await mongoose.connect()` if you have `bufferCommands = false`.\n' +
+      '    at NativeCollection.<computed> [as findOne] (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\mongoose\\lib\\drivers\\node-mongodb-native\\collection.js:237:15)\n' +
+      '    at model.Query._findOne (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\mongoose\\lib\\query.js:2687:45)\n' +
+      '    at model.Query.exec (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\mongoose\\lib\\query.js:4604:80)\n' +
+      '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+      '    at async C:\\Users\\ASUS\\interview-master\\server\\controllers\\authController.js:200:16',
+    name: 'MongooseError',
+    statusCode: 500
+  },
+  user: null,
+  timestamp: '2025-09-13 23:07:12',
+  level: 'error',
+  message: 'Request error'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'performance',
+  method: 'POST',
+  path: '/api/v1/auth/login',
+  responseTime: '1015ms',
+  statusCode: 500,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36 Edg/140.0.0.0',
+  ip: '::1',
+  level: 'warn',
+  message: 'Slow request detected',
+  timestamp: '2025-09-13 23:07:12'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'security',
+  requestId: '266dccb5-91db-44d5-b454-a84e02e26f47',
+  method: 'POST',
+  path: '/login',
+  ip: '::1',
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36 Edg/140.0.0.0',
+  timestamp: '2025-09-13 23:07:14',
+  level: 'warn',
+  message: 'Rate limit exceeded'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'security',
+  event: 'rate_limit_exceeded',
+  details: {
+    requestId: '266dccb5-91db-44d5-b454-a84e02e26f47',
+    method: 'POST',
+    path: '/login',
+    ip: '::1',
+    userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36 Edg/140.0.0.0'
+  },
+  timestamp: '2025-09-13 23:07:14',
+  level: 'warn',
+  message: 'Security event'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'performance',
+  method: 'POST',
+  path: '/login',
+  responseTime: '1013ms',
+  statusCode: 429,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36 Edg/140.0.0.0',
+  ip: '::1',
+  level: 'warn',
+  message: 'Slow request detected',
+  timestamp: '2025-09-13 23:07:14'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1757785079465-illygj1cn',
+    timestamp: 2025-09-13T17:37:59.465Z,
+    service: 'redis',
+    status: 'unhealthy',
+    message: 'Service redis is unhealthy',
+    details: {},
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-13 23:07:59'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1757785131206-lh3wlnsfo',
+    timestamp: 2025-09-13T17:38:51.206Z,
+    service: 'redis',
+    status: 'unhealthy',
+    message: 'Service redis is unhealthy',
+    details: {},
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-13 23:08:51'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1757785191208-oq817hvgn',
+    timestamp: 2025-09-13T17:39:51.208Z,
+    service: 'redis',
+    status: 'unhealthy',
+    message: 'Service redis is unhealthy',
+    details: {},
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-13 23:09:51'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1757785251221-fy7r778nz',
+    timestamp: 2025-09-13T17:40:51.221Z,
+    service: 'redis',
+    status: 'unhealthy',
+    message: 'Service redis is unhealthy',
+    details: {},
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-13 23:10:51'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1757785311224-ztqpqhoiw',
+    timestamp: 2025-09-13T17:41:51.224Z,
+    service: 'redis',
+    status: 'unhealthy',
+    message: 'Service redis is unhealthy',
+    details: {},
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-13 23:11:51'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1757785371228-98btgn3xa',
+    timestamp: 2025-09-13T17:42:51.228Z,
+    service: 'redis',
+    status: 'unhealthy',
+    message: 'Service redis is unhealthy',
+    details: {},
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-13 23:12:51'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1757785431236-uix3a05jk',
+    timestamp: 2025-09-13T17:43:51.236Z,
+    service: 'redis',
+    status: 'unhealthy',
+    message: 'Service redis is unhealthy',
+    details: {},
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-13 23:13:51'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1757785491239-7ysm9u7ub',
+    timestamp: 2025-09-13T17:44:51.239Z,
+    service: 'redis',
+    status: 'unhealthy',
+    message: 'Service redis is unhealthy',
+    details: {},
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-13 23:14:51'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1757785551247-3m41ponvf',
+    timestamp: 2025-09-13T17:45:51.247Z,
+    service: 'redis',
+    status: 'unhealthy',
+    message: 'Service redis is unhealthy',
+    details: {},
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-13 23:15:51'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1757785611256-4uostq99t',
+    timestamp: 2025-09-13T17:46:51.256Z,
+    service: 'redis',
+    status: 'unhealthy',
+    message: 'Service redis is unhealthy',
+    details: {},
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-13 23:16:51'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1757785671265-kl37qv43s',
+    timestamp: 2025-09-13T17:47:51.265Z,
+    service: 'redis',
+    status: 'unhealthy',
+    message: 'Service redis is unhealthy',
+    details: {},
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-13 23:17:51'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1757785731272-vn4qs50w1',
+    timestamp: 2025-09-13T17:48:51.272Z,
+    service: 'redis',
+    status: 'unhealthy',
+    message: 'Service redis is unhealthy',
+    details: {},
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-13 23:18:51'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1757785791280-e0we74mpy',
+    timestamp: 2025-09-13T17:49:51.280Z,
+    service: 'redis',
+    status: 'unhealthy',
+    message: 'Service redis is unhealthy',
+    details: {},
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-13 23:19:51'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1757785851281-3u66jccb7',
+    timestamp: 2025-09-13T17:50:51.281Z,
+    service: 'redis',
+    status: 'unhealthy',
+    message: 'Service redis is unhealthy',
+    details: {},
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-13 23:20:51'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1757785911285-068g7nfxo',
+    timestamp: 2025-09-13T17:51:51.285Z,
+    service: 'redis',
+    status: 'unhealthy',
+    message: 'Service redis is unhealthy',
+    details: {},
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-13 23:21:51'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1757785971289-ixfnvc0n7',
+    timestamp: 2025-09-13T17:52:51.289Z,
+    service: 'redis',
+    status: 'unhealthy',
+    message: 'Service redis is unhealthy',
+    details: {},
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-13 23:22:51'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1757786031301-ph49gdpyw',
+    timestamp: 2025-09-13T17:53:51.301Z,
+    service: 'redis',
+    status: 'unhealthy',
+    message: 'Service redis is unhealthy',
+    details: {},
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-13 23:23:51'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1757786091302-qysz9um7r',
+    timestamp: 2025-09-13T17:54:51.302Z,
+    service: 'redis',
+    status: 'unhealthy',
+    message: 'Service redis is unhealthy',
+    details: {},
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-13 23:24:51'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1757786151309-cxoydac9u',
+    timestamp: 2025-09-13T17:55:51.309Z,
+    service: 'redis',
+    status: 'unhealthy',
+    message: 'Service redis is unhealthy',
+    details: {},
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-13 23:25:51'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1757786211320-r2ve90pi6',
+    timestamp: 2025-09-13T17:56:51.320Z,
+    service: 'redis',
+    status: 'unhealthy',
+    message: 'Service redis is unhealthy',
+    details: {},
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-13 23:26:51'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1757786271331-yc01ghv9c',
+    timestamp: 2025-09-13T17:57:51.331Z,
+    service: 'redis',
+    status: 'unhealthy',
+    message: 'Service redis is unhealthy',
+    details: {},
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-13 23:27:51'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1757786331334-zymap67fp',
+    timestamp: 2025-09-13T17:58:51.334Z,
+    service: 'redis',
+    status: 'unhealthy',
+    message: 'Service redis is unhealthy',
+    details: {},
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-13 23:28:51'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1757786391349-dmrcuyevo',
+    timestamp: 2025-09-13T17:59:51.349Z,
+    service: 'redis',
+    status: 'unhealthy',
+    message: 'Service redis is unhealthy',
+    details: {},
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-13 23:29:51'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1757786451362-86ods4jp9',
+    timestamp: 2025-09-13T18:00:51.362Z,
+    service: 'redis',
+    status: 'unhealthy',
+    message: 'Service redis is unhealthy',
+    details: {},
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-13 23:30:51'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1757786511371-vdiag9chq',
+    timestamp: 2025-09-13T18:01:51.371Z,
+    service: 'redis',
+    status: 'unhealthy',
+    message: 'Service redis is unhealthy',
+    details: {},
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-13 23:31:51'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1757786571375-2hwo13hjq',
+    timestamp: 2025-09-13T18:02:51.375Z,
+    service: 'redis',
+    status: 'unhealthy',
+    message: 'Service redis is unhealthy',
+    details: {},
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-13 23:32:51'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1757786631376-5mjubuyi3',
+    timestamp: 2025-09-13T18:03:51.376Z,
+    service: 'redis',
+    status: 'unhealthy',
+    message: 'Service redis is unhealthy',
+    details: {},
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-13 23:33:51'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1757786691383-0gnojueq2',
+    timestamp: 2025-09-13T18:04:51.383Z,
+    service: 'redis',
+    status: 'unhealthy',
+    message: 'Service redis is unhealthy',
+    details: {},
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-13 23:34:51'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1757786751390-x8ko9vngd',
+    timestamp: 2025-09-13T18:05:51.390Z,
+    service: 'redis',
+    status: 'unhealthy',
+    message: 'Service redis is unhealthy',
+    details: {},
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-13 23:35:51'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1757786811393-g9jlxdbgx',
+    timestamp: 2025-09-13T18:06:51.393Z,
+    service: 'redis',
+    status: 'unhealthy',
+    message: 'Service redis is unhealthy',
+    details: {},
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-13 23:36:51'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1757786871407-mhjvtfnj3',
+    timestamp: 2025-09-13T18:07:51.407Z,
+    service: 'redis',
+    status: 'unhealthy',
+    message: 'Service redis is unhealthy',
+    details: {},
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-13 23:37:51'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1757786931411-z02s9bu8s',
+    timestamp: 2025-09-13T18:08:51.412Z,
+    service: 'redis',
+    status: 'unhealthy',
+    message: 'Service redis is unhealthy',
+    details: {},
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-13 23:38:51'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1757786991411-e5x4kfrua',
+    timestamp: 2025-09-13T18:09:51.411Z,
+    service: 'redis',
+    status: 'unhealthy',
+    message: 'Service redis is unhealthy',
+    details: {},
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-13 23:39:51'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1757787051411-99pyzedcm',
+    timestamp: 2025-09-13T18:10:51.411Z,
+    service: 'redis',
+    status: 'unhealthy',
+    message: 'Service redis is unhealthy',
+    details: {},
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-13 23:40:51'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1757787111423-7cn2uhd4y',
+    timestamp: 2025-09-13T18:11:51.423Z,
+    service: 'redis',
+    status: 'unhealthy',
+    message: 'Service redis is unhealthy',
+    details: {},
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-13 23:41:51'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1757787171424-iak2fblt9',
+    timestamp: 2025-09-13T18:12:51.424Z,
+    service: 'redis',
+    status: 'unhealthy',
+    message: 'Service redis is unhealthy',
+    details: {},
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-13 23:42:51'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1757787231432-actccr9q5',
+    timestamp: 2025-09-13T18:13:51.432Z,
+    service: 'redis',
+    status: 'unhealthy',
+    message: 'Service redis is unhealthy',
+    details: {},
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-13 23:43:51'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1757787291447-6u31ayvm6',
+    timestamp: 2025-09-13T18:14:51.447Z,
+    service: 'redis',
+    status: 'unhealthy',
+    message: 'Service redis is unhealthy',
+    details: {},
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-13 23:44:51'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1757787351448-j58oo6rcp',
+    timestamp: 2025-09-13T18:15:51.448Z,
+    service: 'redis',
+    status: 'unhealthy',
+    message: 'Service redis is unhealthy',
+    details: {},
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-13 23:45:51'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1757787411463-pvy394z6p',
+    timestamp: 2025-09-13T18:16:51.463Z,
+    service: 'redis',
+    status: 'unhealthy',
+    message: 'Service redis is unhealthy',
+    details: {},
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-13 23:46:51'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1757787471464-drtwflu4g',
+    timestamp: 2025-09-13T18:17:51.464Z,
+    service: 'redis',
+    status: 'unhealthy',
+    message: 'Service redis is unhealthy',
+    details: {},
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-13 23:47:51'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1757787531467-kptt20yht',
+    timestamp: 2025-09-13T18:18:51.467Z,
+    service: 'redis',
+    status: 'unhealthy',
+    message: 'Service redis is unhealthy',
+    details: {},
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-13 23:48:51'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1757787591473-p0m9pn772',
+    timestamp: 2025-09-13T18:19:51.473Z,
+    service: 'redis',
+    status: 'unhealthy',
+    message: 'Service redis is unhealthy',
+    details: {},
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-13 23:49:51'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1757787651486-xona4c3to',
+    timestamp: 2025-09-13T18:20:51.486Z,
+    service: 'redis',
+    status: 'unhealthy',
+    message: 'Service redis is unhealthy',
+    details: {},
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-13 23:50:51'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1757787711488-8f7ivzknz',
+    timestamp: 2025-09-13T18:21:51.488Z,
+    service: 'redis',
+    status: 'unhealthy',
+    message: 'Service redis is unhealthy',
+    details: {},
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-13 23:51:51'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1757787771499-27z7h72vl',
+    timestamp: 2025-09-13T18:22:51.499Z,
+    service: 'redis',
+    status: 'unhealthy',
+    message: 'Service redis is unhealthy',
+    details: {},
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-13 23:52:51'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1757787831503-vug6yrky3',
+    timestamp: 2025-09-13T18:23:51.503Z,
+    service: 'redis',
+    status: 'unhealthy',
+    message: 'Service redis is unhealthy',
+    details: {},
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-13 23:53:51'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1757787891510-kjo6p5ycb',
+    timestamp: 2025-09-13T18:24:51.510Z,
+    service: 'redis',
+    status: 'unhealthy',
+    message: 'Service redis is unhealthy',
+    details: {},
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-13 23:54:51'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1757787951522-tlmgdnbiv',
+    timestamp: 2025-09-13T18:25:51.522Z,
+    service: 'redis',
+    status: 'unhealthy',
+    message: 'Service redis is unhealthy',
+    details: {},
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-13 23:55:51'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1757788011534-jg0v03kyy',
+    timestamp: 2025-09-13T18:26:51.534Z,
+    service: 'redis',
+    status: 'unhealthy',
+    message: 'Service redis is unhealthy',
+    details: {},
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-13 23:56:51'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1757788071539-75o3ixvx9',
+    timestamp: 2025-09-13T18:27:51.539Z,
+    service: 'redis',
+    status: 'unhealthy',
+    message: 'Service redis is unhealthy',
+    details: {},
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-13 23:57:51'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1757788131551-eqihmnzkw',
+    timestamp: 2025-09-13T18:28:51.551Z,
+    service: 'redis',
+    status: 'unhealthy',
+    message: 'Service redis is unhealthy',
+    details: {},
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-13 23:58:51'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1757788191557-y1gzxf974',
+    timestamp: 2025-09-13T18:29:51.557Z,
+    service: 'redis',
+    status: 'unhealthy',
+    message: 'Service redis is unhealthy',
+    details: {},
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-13 23:59:51'
+}

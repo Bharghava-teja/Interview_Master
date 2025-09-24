@@ -1,0 +1,75 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 30
+    },
+    "auditLog": "C:\\Users\\ASUS\\interview-master\\server\\logs\\.45889cbfdfd67e0e9a261e5f59fbfd4286f31e0f-audit.json",
+    "files": [
+        {
+            "date": 1756901347925,
+            "name": "C:\\Users\\ASUS\\interview-master\\server\\logs\\exceptions-2025-09-03.log",
+            "hash": "385814a093b06d95c3f469735c66972efc3c00a5084301d8b133440153334ffc"
+        },
+        {
+            "date": 1757338677274,
+            "name": "C:\\Users\\ASUS\\interview-master\\server\\logs\\exceptions-2025-09-08.log",
+            "hash": "579ad17a2bfbf410077c3423442f8e7e31a367e24c47ba1a145b45be5156017b"
+        },
+        {
+            "date": 1757357823657,
+            "name": "C:\\Users\\ASUS\\interview-master\\server\\logs\\exceptions-2025-09-09.log",
+            "hash": "dc540371dbfdf92362f975f84b91c78599ed38e756aecb9f5e23e4dc5b2161ad"
+        },
+        {
+            "date": 1757514412434,
+            "name": "C:\\Users\\ASUS\\interview-master\\server\\logs\\exceptions-2025-09-10.log",
+            "hash": "d42df49a34bbaadb1deb963440659e1dadc134c1b9c4e976a8769f50d17eea4f"
+        },
+        {
+            "date": 1757614699131,
+            "name": "C:\\Users\\ASUS\\interview-master\\server\\logs\\exceptions-2025-09-11.log",
+            "hash": "4279e9e7cf7968e9f14f15494c44ae9a9612ac11c1f0554b43359befbbf33bcd"
+        },
+        {
+            "date": 1757617985887,
+            "name": "C:\\Users\\ASUS\\interview-master\\server\\logs\\exceptions-2025-09-12.log",
+            "hash": "17360ad63f432abeb64621816a8a1d4083ab48929f088dc3afaa592441470319"
+        },
+        {
+            "date": 1757784409074,
+            "name": "C:\\Users\\ASUS\\interview-master\\server\\logs\\exceptions-2025-09-13.log",
+            "hash": "75c549c3f0728a09b88bc3096b7a459aa021c8c8a739c4f8c9b5e548a9deda23"
+        },
+        {
+            "date": 1757794434553,
+            "name": "C:\\Users\\ASUS\\interview-master\\server\\logs\\exceptions-2025-09-14.log",
+            "hash": "1fbd3f5006712c360bb3db4d0f5baddd78f148371e93e5eb08ee110f803fd120"
+        },
+        {
+            "date": 1757954970169,
+            "name": "C:\\Users\\ASUS\\interview-master\\server\\logs\\exceptions-2025-09-15.log",
+            "hash": "a0da4c2519f471448d42e50a061efbb4a322bf2c547d046d4c4d46eb781069e7"
+        },
+        {
+            "date": 1758021241597,
+            "name": "C:\\Users\\ASUS\\interview-master\\server\\logs\\exceptions-2025-09-16.log",
+            "hash": "5bd5091e7132a14eb78f5a6c8a97dad1cd89de764d7f9960452145a67c155a98"
+        },
+        {
+            "date": 1758090113696,
+            "name": "C:\\Users\\ASUS\\interview-master\\server\\logs\\exceptions-2025-09-17.log",
+            "hash": "878e0f5ce30e983595d24731e5c3bf3a96dada144dcf3632dd49c0c48fc1981e"
+        },
+        {
+            "date": 1758274898232,
+            "name": "C:\\Users\\ASUS\\interview-master\\server\\logs\\exceptions-2025-09-19.log",
+            "hash": "363891316af732b5ec5040f77031c2aa879af723d0c6cf16e77551f6a4060bfb"
+        },
+        {
+            "date": 1758715695045,
+            "name": "C:\\Users\\ASUS\\interview-master\\server\\logs\\exceptions-2025-09-24.log",
+            "hash": "df74a1d029ac1ade7d32e62cd294a7da9cd616705e976af0e63aadc54421d77d"
+        }
+    ],
+    "hashType": "sha256"
+}

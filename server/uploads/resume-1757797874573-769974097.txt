@@ -1,0 +1,66 @@
+John Smith
+Senior Software Engineer
+Email: john.smith@email.com
+Phone: (555) 123-4567
+LinkedIn: linkedin.com/in/johnsmith
+
+PROFESSIONAL SUMMARY
+Experienced Senior Software Engineer with 8+ years of expertise in full-stack development, cloud architecture, and team leadership. Proven track record of delivering scalable solutions using modern technologies including React, Node.js, Python, AWS, and Docker. Led cross-functional teams of 5+ developers and increased system performance by 40%.
+
+TECHNICAL SKILLS
+• Programming Languages: JavaScript, Python, TypeScript, Java, Go
+• Frontend: React, Vue.js, Angular, HTML5, CSS3, SASS
+• Backend: Node.js, Express, Django, Spring Boot, FastAPI
+• Cloud & DevOps: AWS (EC2, S3, Lambda, RDS), Docker, Kubernetes, Jenkins
+• Databases: PostgreSQL, MongoDB, Redis, MySQL
+• Tools: Git, JIRA, Confluence, Slack, VS Code
+
+PROFESSIONAL EXPERIENCE
+
+Senior Software Engineer | TechCorp Inc. | 2020 - Present
+• Led development of microservices architecture serving 1M+ daily users
+• Implemented CI/CD pipelines reducing deployment time by 60%
+• Mentored 3 junior developers and conducted code reviews
+• Optimized database queries resulting in 35% performance improvement
+• Collaborated with product managers to define technical requirements
+
+Software Engineer | StartupXYZ | 2018 - 2020
+• Developed responsive web applications using React and Node.js
+• Built RESTful APIs handling 10,000+ requests per minute
+• Integrated third-party payment systems (Stripe, PayPal)
+• Participated in agile development processes and sprint planning
+• Reduced bug reports by 45% through comprehensive testing
+
+Junior Developer | WebSolutions | 2016 - 2018
+• Created dynamic websites using JavaScript, HTML, and CSS
+• Maintained legacy codebases and implemented new features
+• Worked closely with designers to implement pixel-perfect UIs
+• Learned best practices in software development and version control
+
+EDUCATION
+Bachelor of Science in Computer Science
+University of Technology | 2012 - 2016
+GPA: 3.8/4.0
+Relevant Coursework: Data Structures, Algorithms, Database Systems, Software Engineering
+
+CERTIFICATIONS
+• AWS Certified Solutions Architect - Associate (2021)
+• Certified Kubernetes Administrator (2020)
+• Google Cloud Professional Developer (2019)
+
+PROJECTS
+E-commerce Platform (2021)
+• Built scalable e-commerce solution using React, Node.js, and AWS
+• Implemented real-time inventory management and payment processing
+• Achieved 99.9% uptime and handled Black Friday traffic spikes
+
+Task Management App (2020)
+• Developed full-stack application with real-time collaboration features
+• Used WebSocket for live updates and Redux for state management
+• Deployed on AWS with auto-scaling capabilities
+
+ACHIEVEMENTS
+• Increased team productivity by 30% through process improvements
+• Reduced system downtime from 2% to 0.1% through monitoring implementation
+• Won "Innovation Award" for developing automated testing framework
+• Published 3 technical articles on Medium with 10,000+ views

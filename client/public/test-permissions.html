@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Permission Test</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+        }
+        button {
+            padding: 10px 20px;
+            margin: 10px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        .status {
+            margin: 10px 0;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        .success { background-color: #d4edda; color: #155724; }
+        .error { background-color: #f8d7da; color: #721c24; }
+        .info { background-color: #d1ecf1; color: #0c5460; }
+    </style>
+</head>
+<body>
+    <h1>Permission Test Page</h1>
+    <p>This page tests camera, microphone, and fullscreen permissions individually.</p>
+    
+    <div>
+        <button onclick="testCamera()">Test Camera Permission</button>
+        <div id="camera-status" class="status info">Camera: Not tested</div>
+    </div>
+    
+    <div>
+        <button onclick="testMicrophone()">Test Microphone Permission</button>
+        <div id="mic-status" class="status info">Microphone: Not tested</div>
+    </div>
+    
+    <div>
+        <button onclick="testFullscreen()">Test Fullscreen Permission</button>
+        <div id="fullscreen-status" class="status info">Fullscreen: Not tested</div>
+    </div>
+    
+    <div>
+        <button onclick="testAll()">Test All Permissions</button>
+        <div id="all-status" class="status info">All permissions: Not tested</div>
+    </div>
+
+    <script>
+        async function testCamera() {
+            const statusEl = document.getElementById('camera-status');
+            statusEl.textContent = 'Testing camera...';
+            statusEl.className = 'status info';
+            
+            try {
+                const stream = await navigator.mediaDevices.getUserMedia({ video: true });
+                console.log('Camera stream obtained:', stream);
+                stream.getTracks().forEach(track => track.stop());
+                statusEl.textContent = 'Camera: SUCCESS - Permission granted';
+                statusEl.className = 'status success';
+                return true;
+            } catch (error) {
+                console.error('Camera permission denied:', error);
+                statusEl.textContent = `Camera: ERROR - ${error.message}`;
+                statusEl.className = 'status error';
+                return false;
+            }
+        }
+        
+        async function testMicrophone() {
+            const statusEl = document.getElementById('mic-status');
+            statusEl.textContent = 'Testing microphone...';
+            statusEl.className = 'status info';
+            
+            try {
+                const stream = await navigator.mediaDevices.getUserMedia({ audio: true });
+                console.log('Microphone stream obtained:', stream);
+                stream.getTracks().forEach(track => track.stop());
+                statusEl.textContent = 'Microphone: SUCCESS - Permission granted';
+                statusEl.className = 'status success';
+                return true;
+            } catch (error) {
+                console.error('Microphone permission denied:', error);
+                statusEl.textContent = `Microphone: ERROR - ${error.message}`;
+                statusEl.className = 'status error';
+                return false;
+            }
+        }
+        
+        async function testFullscreen() {
+            const statusEl = document.getElementById('fullscreen-status');
+            statusEl.textContent = 'Testing fullscreen...';
+            statusEl.className = 'status info';
+            
+            try {
+                const element = document.documentElement;
+                
+                if (element.requestFullscreen) {
+                    await element.requestFullscreen();
+                } else if (element.webkitRequestFullscreen) {
+                    await element.webkitRequestFullscreen();
+                } else if (element.mozRequestFullScreen) {
+                    await element.mozRequestFullScreen();
+                } else if (element.msRequestFullscreen) {
+                    await element.msRequestFullscreen();
+                } else {
+                    throw new Error('Fullscreen not supported');
+                }
+                
+                statusEl.textContent = 'Fullscreen: SUCCESS - Fullscreen activated';
+                statusEl.className = 'status success';
+                return true;
+            } catch (error) {
+                console.error('Fullscreen request failed:', error);
+                statusEl.textContent = `Fullscreen: ERROR - ${error.message}`;
+                statusEl.className = 'status error';
+                return false;
+            }
+        }
+        
+        async function testAll() {
+            const statusEl = document.getElementById('all-status');
+            statusEl.textContent = 'Testing all permissions...';
+            statusEl.className = 'status info';
+            
+            const cameraResult = await testCamera();
+            const micResult = await testMicrophone();
+            const fullscreenResult = await testFullscreen();
+            
+            if (cameraResult && micResult && fullscreenResult) {
+                statusEl.textContent = 'All permissions: SUCCESS - All permissions granted';
+                statusEl.className = 'status success';
+            } else {
+                const failed = [];
+                if (!cameraResult) failed.push('Camera');
+                if (!micResult) failed.push('Microphone');
+                if (!fullscreenResult) failed.push('Fullscreen');
+                
+                statusEl.textContent = `All permissions: PARTIAL - Failed: ${failed.join(', ')}`;
+                statusEl.className = 'status error';
+            }
+        }
+    </script>
+</body>
+</html>

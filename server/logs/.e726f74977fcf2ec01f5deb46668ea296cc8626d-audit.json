@@ -1,0 +1,75 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 30
+    },
+    "auditLog": "C:\\Users\\ASUS\\interview-master\\server\\logs\\.e726f74977fcf2ec01f5deb46668ea296cc8626d-audit.json",
+    "files": [
+        {
+            "date": 1756901347927,
+            "name": "C:\\Users\\ASUS\\interview-master\\server\\logs\\rejections-2025-09-03.log",
+            "hash": "2b83c07010bb8896552483cca22dc1a4786d00a50ea2d91984be1410791b8228"
+        },
+        {
+            "date": 1757338677276,
+            "name": "C:\\Users\\ASUS\\interview-master\\server\\logs\\rejections-2025-09-08.log",
+            "hash": "f23af833723501f34db50231f3f12ad7e40a4c97a347bc430b562760a8bb5672"
+        },
+        {
+            "date": 1757357702411,
+            "name": "C:\\Users\\ASUS\\interview-master\\server\\logs\\rejections-2025-09-09.log",
+            "hash": "5548d245ca87c66705dda40781e2ec7394704fcf125060a0e036a5595e461442"
+        },
+        {
+            "date": 1757514412436,
+            "name": "C:\\Users\\ASUS\\interview-master\\server\\logs\\rejections-2025-09-10.log",
+            "hash": "345cc582af80fbbcf15fd956e2d1326de408d77c663b96a050de61507b3a879c"
+        },
+        {
+            "date": 1757614699143,
+            "name": "C:\\Users\\ASUS\\interview-master\\server\\logs\\rejections-2025-09-11.log",
+            "hash": "078ad42d67d8c3147b77f2f1ee0cb82194fc4d4b16039bc0d5f627e10952193f"
+        },
+        {
+            "date": 1757617985891,
+            "name": "C:\\Users\\ASUS\\interview-master\\server\\logs\\rejections-2025-09-12.log",
+            "hash": "dd72457972741c6ef445aeda8697759fe0a5bc59f2eb82f4bdcc3c3b298b9772"
+        },
+        {
+            "date": 1757784409075,
+            "name": "C:\\Users\\ASUS\\interview-master\\server\\logs\\rejections-2025-09-13.log",
+            "hash": "abe613ed8b51f44cdeed94e8ac75bb1b03149358a0eafe567367bdc40685e8c8"
+        },
+        {
+            "date": 1757794434556,
+            "name": "C:\\Users\\ASUS\\interview-master\\server\\logs\\rejections-2025-09-14.log",
+            "hash": "059a78811502a5d66e7e5ce649422c074c5f411f0a7507560feee9f3f3a8c625"
+        },
+        {
+            "date": 1757954970170,
+            "name": "C:\\Users\\ASUS\\interview-master\\server\\logs\\rejections-2025-09-15.log",
+            "hash": "df228fdf5e0d19a144df993d7426a832c6a977af0bfc538f39d5972d225b70d3"
+        },
+        {
+            "date": 1758021241599,
+            "name": "C:\\Users\\ASUS\\interview-master\\server\\logs\\rejections-2025-09-16.log",
+            "hash": "f448f71a8a208d67446457858349c883fead691794048e717003b26f91bb1c63"
+        },
+        {
+            "date": 1758090113699,
+            "name": "C:\\Users\\ASUS\\interview-master\\server\\logs\\rejections-2025-09-17.log",
+            "hash": "899719bfa3e82251afd8573db77776ffba7ac0e8913a493069d1177defe1c929"
+        },
+        {
+            "date": 1758274898236,
+            "name": "C:\\Users\\ASUS\\interview-master\\server\\logs\\rejections-2025-09-19.log",
+            "hash": "d8797a6c1893808b73f591c7f9c021881f6416b78483f786166f51cfc05cf0cd"
+        },
+        {
+            "date": 1758715695049,
+            "name": "C:\\Users\\ASUS\\interview-master\\server\\logs\\rejections-2025-09-24.log",
+            "hash": "cf4a8987b7f4575cf13c4770e796aeb3d7b5543f3d067b64152d0d21118ed5f0"
+        }
+    ],
+    "hashType": "sha256"
+}

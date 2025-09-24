@@ -1,0 +1,3464 @@
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1756901405633-dk5wncqdu',
+    timestamp: 2025-09-03T12:10:05.633Z,
+    service: 'database',
+    status: 'unhealthy',
+    message: 'Service database is unhealthy',
+    details: {
+      connected: false,
+      readyState: 0,
+      host: undefined,
+      port: undefined,
+      name: undefined
+    },
+    error: undefined
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-03 17:40:05'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1756901405634-d4tbjb9my',
+    timestamp: 2025-09-03T12:10:05.634Z,
+    service: 'redis',
+    status: 'unhealthy',
+    message: 'Service redis is unhealthy',
+    details: {},
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-03 17:40:05'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1756901456841-acyp29hkl',
+    timestamp: 2025-09-03T12:10:56.841Z,
+    service: 'database',
+    status: 'unhealthy',
+    message: 'Service database is unhealthy',
+    details: {
+      connected: false,
+      readyState: 0,
+      host: undefined,
+      port: undefined,
+      name: undefined
+    },
+    error: undefined
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-03 17:40:56'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1756901456842-7f8afy9td',
+    timestamp: 2025-09-03T12:10:56.842Z,
+    service: 'redis',
+    status: 'unhealthy',
+    message: 'Service redis is unhealthy',
+    details: {},
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-03 17:40:56'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1756901456842-ji4kpnotn',
+    timestamp: 2025-09-03T12:10:56.842Z,
+    service: 'memory',
+    status: 'warning',
+    message: 'Service memory is warning',
+    details: {
+      heapUsed: '54.28 MB',
+      heapTotal: '59.32 MB',
+      rss: '99.89 MB',
+      external: '37.8 MB',
+      systemMemoryUsage: '75.35%',
+      freeMemory: '3.77 GB',
+      totalMemory: '15.29 GB'
+    },
+    error: undefined
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-03 17:40:56'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1756901516850-5m9we2tcq',
+    timestamp: 2025-09-03T12:11:56.850Z,
+    service: 'database',
+    status: 'unhealthy',
+    message: 'Service database is unhealthy',
+    details: {
+      connected: false,
+      readyState: 0,
+      host: undefined,
+      port: undefined,
+      name: undefined
+    },
+    error: undefined
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-03 17:41:56'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1756901516851-o8q233l8s',
+    timestamp: 2025-09-03T12:11:56.851Z,
+    service: 'redis',
+    status: 'unhealthy',
+    message: 'Service redis is unhealthy',
+    details: {},
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-03 17:41:56'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1756901576862-4qu4g727t',
+    timestamp: 2025-09-03T12:12:56.862Z,
+    service: 'database',
+    status: 'unhealthy',
+    message: 'Service database is unhealthy',
+    details: {
+      connected: false,
+      readyState: 0,
+      host: undefined,
+      port: undefined,
+      name: undefined
+    },
+    error: undefined
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-03 17:42:56'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1756901576863-0aj73xee8',
+    timestamp: 2025-09-03T12:12:56.863Z,
+    service: 'redis',
+    status: 'unhealthy',
+    message: 'Service redis is unhealthy',
+    details: {},
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-03 17:42:56'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1756901636861-we3wadj29',
+    timestamp: 2025-09-03T12:13:56.861Z,
+    service: 'database',
+    status: 'unhealthy',
+    message: 'Service database is unhealthy',
+    details: {
+      connected: false,
+      readyState: 0,
+      host: undefined,
+      port: undefined,
+      name: undefined
+    },
+    error: undefined
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-03 17:43:56'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1756901636861-6mon919hp',
+    timestamp: 2025-09-03T12:13:56.861Z,
+    service: 'redis',
+    status: 'unhealthy',
+    message: 'Service redis is unhealthy',
+    details: {},
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-03 17:43:56'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'error',
+  requestId: 'f5a270c3-ec94-44f2-ae61-e84c9e14fdcb',
+  method: 'POST',
+  path: '/api/auth/login',
+  error: {
+    message: "Can't find /api/auth/login on this server!",
+    stack: "Error: Can't find /api/auth/login on this server!\n" +
+      '    at handleNotFound (C:\\Users\\ASUS\\interview-master\\server\\middleware\\errorHandler.js:145:17)\n' +
+      '    at Layer.handleRequest (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\lib\\layer.js:152:17)\n' +
+      '    at trimPrefix (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:342:13)\n' +
+      '    at C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:297:9\n' +
+      '    at processParams (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:582:12)\n' +
+      '    at next (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:291:5)\n' +
+      '    at rateLimitMonitoring (C:\\Users\\ASUS\\interview-master\\server\\middleware\\monitoring.js:235:3)\n' +
+      '    at Layer.handleRequest (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\lib\\layer.js:152:17)\n' +
+      '    at trimPrefix (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:342:13)\n' +
+      '    at C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:297:9',
+    name: 'Error',
+    statusCode: 404
+  },
+  user: null,
+  timestamp: '2025-09-03 17:45:21',
+  level: 'error',
+  message: 'Request error'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1756901763528-04bkakiww',
+    timestamp: 2025-09-03T12:16:03.528Z,
+    service: 'database',
+    status: 'unhealthy',
+    message: 'Service database is unhealthy',
+    details: {
+      connected: false,
+      readyState: 0,
+      host: undefined,
+      port: undefined,
+      name: undefined
+    },
+    error: undefined
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-03 17:46:03'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1756901763530-hu0pkgo7h',
+    timestamp: 2025-09-03T12:16:03.530Z,
+    service: 'redis',
+    status: 'unhealthy',
+    message: 'Service redis is unhealthy',
+    details: {},
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-03 17:46:03'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1756901763531-hqtweafo0',
+    timestamp: 2025-09-03T12:16:03.531Z,
+    service: 'memory',
+    status: 'warning',
+    message: 'Service memory is warning',
+    details: {
+      heapUsed: '55.55 MB',
+      heapTotal: '59.32 MB',
+      rss: '100.23 MB',
+      external: '37.82 MB',
+      systemMemoryUsage: '75.53%',
+      freeMemory: '3.74 GB',
+      totalMemory: '15.29 GB'
+    },
+    error: undefined
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-03 17:46:03'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'error',
+  requestId: 'a0fa5156-6c26-48b3-82ad-87c535a780f8',
+  method: 'POST',
+  path: '/api/auth/login',
+  error: {
+    message: "Can't find /api/auth/login on this server!",
+    stack: "Error: Can't find /api/auth/login on this server!\n" +
+      '    at handleNotFound (C:\\Users\\ASUS\\interview-master\\server\\middleware\\errorHandler.js:145:17)\n' +
+      '    at Layer.handleRequest (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\lib\\layer.js:152:17)\n' +
+      '    at trimPrefix (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:342:13)\n' +
+      '    at C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:297:9\n' +
+      '    at processParams (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:582:12)\n' +
+      '    at next (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:291:5)\n' +
+      '    at rateLimitMonitoring (C:\\Users\\ASUS\\interview-master\\server\\middleware\\monitoring.js:235:3)\n' +
+      '    at Layer.handleRequest (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\lib\\layer.js:152:17)\n' +
+      '    at trimPrefix (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:342:13)\n' +
+      '    at C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:297:9',
+    name: 'Error',
+    statusCode: 404
+  },
+  user: null,
+  timestamp: '2025-09-03 17:46:26',
+  level: 'error',
+  message: 'Request error'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'error',
+  requestId: 'bf22d95c-f1d3-4368-929a-b52922a10eda',
+  method: 'POST',
+  path: '/api/v1/auth/login',
+  error: {
+    message: 'Operation `users.findOne()` buffering timed out after 10000ms',
+    stack: 'MongooseError: Operation `users.findOne()` buffering timed out after 10000ms\n' +
+      '    at Timeout.<anonymous> (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\mongoose\\lib\\drivers\\node-mongodb-native\\collection.js:187:23)\n' +
+      '    at listOnTimeout (node:internal/timers:569:17)\n' +
+      '    at process.processTimers (node:internal/timers:512:7)',
+    name: 'MongooseError',
+    statusCode: 500
+  },
+  user: null,
+  timestamp: '2025-09-03 17:46:55',
+  level: 'error',
+  message: 'Request error'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'performance',
+  method: 'POST',
+  path: '/api/v1/auth/login',
+  responseTime: '10015ms',
+  statusCode: 500,
+  userAgent: 'Mozilla/5.0 (Windows NT; Windows NT 10.0; en-US) WindowsPowerShell/5.1.26100.4768',
+  ip: '::1',
+  level: 'warn',
+  message: 'Slow request detected',
+  timestamp: '2025-09-03 17:46:55'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1756901823539-xiduas4wu',
+    timestamp: 2025-09-03T12:17:03.539Z,
+    service: 'database',
+    status: 'unhealthy',
+    message: 'Service database is unhealthy',
+    details: {
+      connected: false,
+      readyState: 0,
+      host: undefined,
+      port: undefined,
+      name: undefined
+    },
+    error: undefined
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-03 17:47:03'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1756901823539-tnopbt4yo',
+    timestamp: 2025-09-03T12:17:03.539Z,
+    service: 'redis',
+    status: 'unhealthy',
+    message: 'Service redis is unhealthy',
+    details: {},
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-03 17:47:03'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1756901823540-z8hx5jr1e',
+    timestamp: 2025-09-03T12:17:03.540Z,
+    service: 'memory',
+    status: 'warning',
+    message: 'Service memory is warning',
+    details: {
+      heapUsed: '56.17 MB',
+      heapTotal: '60.32 MB',
+      rss: '101.26 MB',
+      external: '37.84 MB',
+      systemMemoryUsage: '75.17%',
+      freeMemory: '3.8 GB',
+      totalMemory: '15.29 GB'
+    },
+    error: undefined
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-03 17:47:03'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1756901829399-kt1npoo4g',
+    timestamp: 2025-09-03T12:17:09.399Z,
+    service: 'database',
+    status: 'unhealthy',
+    message: 'Service database is unhealthy',
+    details: {
+      connected: false,
+      readyState: 0,
+      host: undefined,
+      port: undefined,
+      name: undefined
+    },
+    error: undefined
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-03 17:47:09'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1756901829400-oskwast1e',
+    timestamp: 2025-09-03T12:17:09.400Z,
+    service: 'redis',
+    status: 'unhealthy',
+    message: 'Service redis is unhealthy',
+    details: {},
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-03 17:47:09'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1756901829401-7xs45m12k',
+    timestamp: 2025-09-03T12:17:09.401Z,
+    service: 'memory',
+    status: 'warning',
+    message: 'Service memory is warning',
+    details: {
+      heapUsed: '53.88 MB',
+      heapTotal: '58.82 MB',
+      rss: '98.64 MB',
+      external: '37.81 MB',
+      systemMemoryUsage: '75.21%',
+      freeMemory: '3.79 GB',
+      totalMemory: '15.29 GB'
+    },
+    error: undefined
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-03 17:47:09'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1756901883542-esexp3chr',
+    timestamp: 2025-09-03T12:18:03.542Z,
+    service: 'database',
+    status: 'unhealthy',
+    message: 'Service database is unhealthy',
+    details: {
+      connected: false,
+      readyState: 0,
+      host: undefined,
+      port: undefined,
+      name: undefined
+    },
+    error: undefined
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-03 17:48:03'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1756901883542-f0899h2us',
+    timestamp: 2025-09-03T12:18:03.542Z,
+    service: 'redis',
+    status: 'unhealthy',
+    message: 'Service redis is unhealthy',
+    details: {},
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-03 17:48:03'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1756901883543-on0jwrxlm',
+    timestamp: 2025-09-03T12:18:03.543Z,
+    service: 'memory',
+    status: 'warning',
+    message: 'Service memory is warning',
+    details: {
+      heapUsed: '55.79 MB',
+      heapTotal: '60.57 MB',
+      rss: '100.85 MB',
+      external: '37.85 MB',
+      systemMemoryUsage: '75.52%',
+      freeMemory: '3.74 GB',
+      totalMemory: '15.29 GB'
+    },
+    error: undefined
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-03 17:48:03'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1756901889399-nrjk744cm',
+    timestamp: 2025-09-03T12:18:09.399Z,
+    service: 'database',
+    status: 'unhealthy',
+    message: 'Service database is unhealthy',
+    details: {
+      connected: false,
+      readyState: 0,
+      host: undefined,
+      port: undefined,
+      name: undefined
+    },
+    error: undefined
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-03 17:48:09'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1756901889400-ijnoy7957',
+    timestamp: 2025-09-03T12:18:09.400Z,
+    service: 'redis',
+    status: 'unhealthy',
+    message: 'Service redis is unhealthy',
+    details: {},
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-03 17:48:09'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1756901889401-37s3vz8qh',
+    timestamp: 2025-09-03T12:18:09.401Z,
+    service: 'memory',
+    status: 'warning',
+    message: 'Service memory is warning',
+    details: {
+      heapUsed: '54.23 MB',
+      heapTotal: '58.82 MB',
+      rss: '99.02 MB',
+      external: '37.81 MB',
+      systemMemoryUsage: '75.69%',
+      freeMemory: '3.72 GB',
+      totalMemory: '15.29 GB'
+    },
+    error: undefined
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-03 17:48:09'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1756901943555-pqzhkmbzb',
+    timestamp: 2025-09-03T12:19:03.555Z,
+    service: 'database',
+    status: 'unhealthy',
+    message: 'Service database is unhealthy',
+    details: {
+      connected: false,
+      readyState: 0,
+      host: undefined,
+      port: undefined,
+      name: undefined
+    },
+    error: undefined
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-03 17:49:03'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1756901943556-1xdp7tjy3',
+    timestamp: 2025-09-03T12:19:03.556Z,
+    service: 'redis',
+    status: 'unhealthy',
+    message: 'Service redis is unhealthy',
+    details: {},
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-03 17:49:03'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1756901943558-wchg168h4',
+    timestamp: 2025-09-03T12:19:03.558Z,
+    service: 'memory',
+    status: 'warning',
+    message: 'Service memory is warning',
+    details: {
+      heapUsed: '56.6 MB',
+      heapTotal: '60.82 MB',
+      rss: '101.4 MB',
+      external: '37.84 MB',
+      systemMemoryUsage: '79.95%',
+      freeMemory: '3.07 GB',
+      totalMemory: '15.29 GB'
+    },
+    error: undefined
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-03 17:49:03'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'error',
+  requestId: '6934c551-ed5b-4502-a532-9ead24c0e8e1',
+  method: 'POST',
+  path: '/api/v1/auth/login',
+  error: {
+    message: 'Operation `users.findOne()` buffering timed out after 10000ms',
+    stack: 'MongooseError: Operation `users.findOne()` buffering timed out after 10000ms\n' +
+      '    at Timeout.<anonymous> (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\mongoose\\lib\\drivers\\node-mongodb-native\\collection.js:187:23)\n' +
+      '    at listOnTimeout (node:internal/timers:569:17)\n' +
+      '    at process.processTimers (node:internal/timers:512:7)',
+    name: 'MongooseError',
+    statusCode: 500
+  },
+  user: null,
+  timestamp: '2025-09-03 17:49:04',
+  level: 'error',
+  message: 'Request error'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'performance',
+  method: 'POST',
+  path: '/api/v1/auth/login',
+  responseTime: '10006ms',
+  statusCode: 500,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0',
+  ip: '::1',
+  level: 'warn',
+  message: 'Slow request detected',
+  timestamp: '2025-09-03 17:49:04'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1756901949414-9brqkndeq',
+    timestamp: 2025-09-03T12:19:09.414Z,
+    service: 'database',
+    status: 'unhealthy',
+    message: 'Service database is unhealthy',
+    details: {
+      connected: false,
+      readyState: 0,
+      host: undefined,
+      port: undefined,
+      name: undefined
+    },
+    error: undefined
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-03 17:49:09'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1756901949414-rvs05yaiw',
+    timestamp: 2025-09-03T12:19:09.414Z,
+    service: 'redis',
+    status: 'unhealthy',
+    message: 'Service redis is unhealthy',
+    details: {},
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-03 17:49:09'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1756901949415-5ydavwhf0',
+    timestamp: 2025-09-03T12:19:09.415Z,
+    service: 'memory',
+    status: 'warning',
+    message: 'Service memory is warning',
+    details: {
+      heapUsed: '54.59 MB',
+      heapTotal: '58.82 MB',
+      rss: '99.37 MB',
+      external: '37.82 MB',
+      systemMemoryUsage: '79.71%',
+      freeMemory: '3.1 GB',
+      totalMemory: '15.29 GB'
+    },
+    error: undefined
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-03 17:49:09'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'error',
+  requestId: 'c14d0faa-060a-4f55-8fdf-cf170c4dd0a8',
+  method: 'POST',
+  path: '/api/v1/auth/login',
+  error: {
+    message: 'Operation `users.findOne()` buffering timed out after 10000ms',
+    stack: 'MongooseError: Operation `users.findOne()` buffering timed out after 10000ms\n' +
+      '    at Timeout.<anonymous> (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\mongoose\\lib\\drivers\\node-mongodb-native\\collection.js:187:23)\n' +
+      '    at listOnTimeout (node:internal/timers:569:17)\n' +
+      '    at process.processTimers (node:internal/timers:512:7)',
+    name: 'MongooseError',
+    statusCode: 500
+  },
+  user: null,
+  timestamp: '2025-09-03 17:49:29',
+  level: 'error',
+  message: 'Request error'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'performance',
+  method: 'POST',
+  path: '/api/v1/auth/login',
+  responseTime: '10012ms',
+  statusCode: 500,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0',
+  ip: '::1',
+  level: 'warn',
+  message: 'Slow request detected',
+  timestamp: '2025-09-03 17:49:29'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'error',
+  requestId: '859d69ae-5852-4f73-9bf4-3f77d033732c',
+  method: 'POST',
+  path: '/api/v1/auth/login',
+  error: {
+    message: 'Operation `users.findOne()` buffering timed out after 10000ms',
+    stack: 'MongooseError: Operation `users.findOne()` buffering timed out after 10000ms\n' +
+      '    at Timeout.<anonymous> (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\mongoose\\lib\\drivers\\node-mongodb-native\\collection.js:187:23)\n' +
+      '    at listOnTimeout (node:internal/timers:569:17)\n' +
+      '    at process.processTimers (node:internal/timers:512:7)',
+    name: 'MongooseError',
+    statusCode: 500
+  },
+  user: null,
+  timestamp: '2025-09-03 17:50:12',
+  level: 'error',
+  message: 'Request error'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'performance',
+  method: 'POST',
+  path: '/api/v1/auth/login',
+  responseTime: '10021ms',
+  statusCode: 500,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0',
+  ip: '::1',
+  level: 'warn',
+  message: 'Slow request detected',
+  timestamp: '2025-09-03 17:50:12'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1756902556083-cmlsmxym7',
+    timestamp: 2025-09-03T12:29:16.083Z,
+    service: 'redis',
+    status: 'unhealthy',
+    message: 'Service redis is unhealthy',
+    details: {},
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-03 17:59:16'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1756902556085-cui06lfxj',
+    timestamp: 2025-09-03T12:29:16.085Z,
+    service: 'memory',
+    status: 'warning',
+    message: 'Service memory is warning',
+    details: {
+      heapUsed: '57.17 MB',
+      heapTotal: '61.57 MB',
+      rss: '103.26 MB',
+      external: '37.97 MB',
+      systemMemoryUsage: '78.85%',
+      freeMemory: '3.23 GB',
+      totalMemory: '15.29 GB'
+    },
+    error: undefined
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-03 17:59:16'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1756902616096-kyuep2e7c',
+    timestamp: 2025-09-03T12:30:16.096Z,
+    service: 'redis',
+    status: 'unhealthy',
+    message: 'Service redis is unhealthy',
+    details: {},
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-03 18:00:16'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1756902616097-6481vx5tq',
+    timestamp: 2025-09-03T12:30:16.097Z,
+    service: 'memory',
+    status: 'warning',
+    message: 'Service memory is warning',
+    details: {
+      heapUsed: '57.22 MB',
+      heapTotal: '61.82 MB',
+      rss: '102.79 MB',
+      external: '37.99 MB',
+      systemMemoryUsage: '75.78%',
+      freeMemory: '3.7 GB',
+      totalMemory: '15.29 GB'
+    },
+    error: undefined
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-03 18:00:16'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1756902676098-mcxm0piqu',
+    timestamp: 2025-09-03T12:31:16.098Z,
+    service: 'redis',
+    status: 'unhealthy',
+    message: 'Service redis is unhealthy',
+    details: {},
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-03 18:01:16'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'error',
+  requestId: 'db83e1ea-c3a9-4c9f-9511-4899e56226a0',
+  method: 'POST',
+  path: '/api/v1/auth/login',
+  error: {
+    message: 'Invalid credentials',
+    stack: 'Error: Invalid credentials\n' +
+      '    at C:\\Users\\ASUS\\interview-master\\server\\controllers\\authController.js:205:11\n' +
+      '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)',
+    name: 'Error',
+    statusCode: 401
+  },
+  user: null,
+  timestamp: '2025-09-03 18:01:34',
+  level: 'error',
+  message: 'Request error'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'security',
+  event: 'unauthorized_access',
+  details: {
+    requestId: 'db83e1ea-c3a9-4c9f-9511-4899e56226a0',
+    method: 'POST',
+    path: '/api/v1/auth/login',
+    ip: '::1',
+    userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0',
+    error: 'Invalid credentials'
+  },
+  timestamp: '2025-09-03 18:01:34',
+  level: 'warn',
+  message: 'Security event'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'error',
+  requestId: '285bb8c3-ec99-437a-805c-41b5ded1389d',
+  method: 'POST',
+  path: '/api/v1/auth/login',
+  error: {
+    message: 'Invalid credentials',
+    stack: 'Error: Invalid credentials\n' +
+      '    at C:\\Users\\ASUS\\interview-master\\server\\controllers\\authController.js:205:11\n' +
+      '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)',
+    name: 'Error',
+    statusCode: 401
+  },
+  user: null,
+  timestamp: '2025-09-03 18:01:39',
+  level: 'error',
+  message: 'Request error'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'security',
+  event: 'unauthorized_access',
+  details: {
+    requestId: '285bb8c3-ec99-437a-805c-41b5ded1389d',
+    method: 'POST',
+    path: '/api/v1/auth/login',
+    ip: '::1',
+    userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0',
+    error: 'Invalid credentials'
+  },
+  timestamp: '2025-09-03 18:01:39',
+  level: 'warn',
+  message: 'Security event'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'error',
+  requestId: '1e6d556a-1832-4ab7-86d3-7be146d1faec',
+  method: 'POST',
+  path: '/api/v1/auth/signup',
+  error: {
+    message: 'Validation failed',
+    stack: 'Error: Validation failed\n' +
+      '    at C:\\Users\\ASUS\\interview-master\\server\\controllers\\authController.js:93:11\n' +
+      '    at C:\\Users\\ASUS\\interview-master\\server\\middleware\\errorHandler.js:29:21\n' +
+      '    at Layer.handleRequest (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\lib\\layer.js:152:17)\n' +
+      '    at next (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\lib\\route.js:157:13)\n' +
+      '    at C:\\Users\\ASUS\\interview-master\\server\\node_modules\\express-rate-limit\\dist\\index.cjs:807:7\n' +
+      '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+      '    at async C:\\Users\\ASUS\\interview-master\\server\\node_modules\\express-rate-limit\\dist\\index.cjs:691:5',
+    name: 'Error',
+    statusCode: 400
+  },
+  user: null,
+  timestamp: '2025-09-03 18:02:19',
+  level: 'error',
+  message: 'Request error'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1756902749952-2n2ybazu5',
+    timestamp: 2025-09-03T12:32:29.952Z,
+    service: 'redis',
+    status: 'unhealthy',
+    message: 'Service redis is unhealthy',
+    details: {},
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-03 18:02:29'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1756902749954-mmgjt1zvx',
+    timestamp: 2025-09-03T12:32:29.954Z,
+    service: 'memory',
+    status: 'warning',
+    message: 'Service memory is warning',
+    details: {
+      heapUsed: '57.18 MB',
+      heapTotal: '62.07 MB',
+      rss: '102.57 MB',
+      external: '37.96 MB',
+      systemMemoryUsage: '77.21%',
+      freeMemory: '3.49 GB',
+      totalMemory: '15.29 GB'
+    },
+    error: undefined
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-03 18:02:29'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'performance',
+  method: 'POST',
+  path: '/signup',
+  responseTime: '1264ms',
+  statusCode: 201,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0',
+  ip: '::1',
+  level: 'warn',
+  message: 'Slow request detected',
+  timestamp: '2025-09-03 18:02:34'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'performance',
+  method: 'POST',
+  path: '/login',
+  responseTime: '1260ms',
+  statusCode: 200,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0',
+  ip: '::1',
+  level: 'warn',
+  message: 'Slow request detected',
+  timestamp: '2025-09-03 18:02:42'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'performance',
+  method: 'POST',
+  path: '/login',
+  responseTime: '1240ms',
+  statusCode: 200,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0',
+  ip: '::1',
+  level: 'warn',
+  message: 'Slow request detected',
+  timestamp: '2025-09-03 18:02:46'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1756902809953-k95k1oll4',
+    timestamp: 2025-09-03T12:33:29.954Z,
+    service: 'redis',
+    status: 'unhealthy',
+    message: 'Service redis is unhealthy',
+    details: {},
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-03 18:03:29'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1756902809954-6l4bakbyi',
+    timestamp: 2025-09-03T12:33:29.954Z,
+    service: 'memory',
+    status: 'warning',
+    message: 'Service memory is warning',
+    details: {
+      heapUsed: '58.27 MB',
+      heapTotal: '63.32 MB',
+      rss: '103.82 MB',
+      external: '38.15 MB',
+      systemMemoryUsage: '77.36%',
+      freeMemory: '3.46 GB',
+      totalMemory: '15.29 GB'
+    },
+    error: undefined
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-03 18:03:29'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1756902869958-k4nrame60',
+    timestamp: 2025-09-03T12:34:29.958Z,
+    service: 'redis',
+    status: 'unhealthy',
+    message: 'Service redis is unhealthy',
+    details: {},
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-03 18:04:29'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1756902869959-azyrs5bzq',
+    timestamp: 2025-09-03T12:34:29.959Z,
+    service: 'memory',
+    status: 'warning',
+    message: 'Service memory is warning',
+    details: {
+      heapUsed: '59.23 MB',
+      heapTotal: '63.57 MB',
+      rss: '104.64 MB',
+      external: '38.14 MB',
+      systemMemoryUsage: '76.63%',
+      freeMemory: '3.57 GB',
+      totalMemory: '15.29 GB'
+    },
+    error: undefined
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-03 18:04:29'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1756902929973-5e51ylrd4',
+    timestamp: 2025-09-03T12:35:29.973Z,
+    service: 'redis',
+    status: 'unhealthy',
+    message: 'Service redis is unhealthy',
+    details: {},
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-03 18:05:29'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1756902929973-dp6cwax03',
+    timestamp: 2025-09-03T12:35:29.973Z,
+    service: 'memory',
+    status: 'warning',
+    message: 'Service memory is warning',
+    details: {
+      heapUsed: '59.23 MB',
+      heapTotal: '63.57 MB',
+      rss: '104.68 MB',
+      external: '38.11 MB',
+      systemMemoryUsage: '76.53%',
+      freeMemory: '3.59 GB',
+      totalMemory: '15.29 GB'
+    },
+    error: undefined
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-03 18:05:29'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1756902989977-4t7m2ew8z',
+    timestamp: 2025-09-03T12:36:29.977Z,
+    service: 'redis',
+    status: 'unhealthy',
+    message: 'Service redis is unhealthy',
+    details: {},
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-03 18:06:29'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1756902989978-gu1ai1jop',
+    timestamp: 2025-09-03T12:36:29.978Z,
+    service: 'memory',
+    status: 'warning',
+    message: 'Service memory is warning',
+    details: {
+      heapUsed: '59.24 MB',
+      heapTotal: '63.57 MB',
+      rss: '104.72 MB',
+      external: '38.08 MB',
+      systemMemoryUsage: '78.80%',
+      freeMemory: '3.24 GB',
+      totalMemory: '15.29 GB'
+    },
+    error: undefined
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-03 18:06:29'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'error',
+  requestId: '414ddf59-65dd-4369-b885-30eba6868d85',
+  method: 'GET',
+  path: '/api/v1/user/profile',
+  error: {
+    message: "Can't find /api/v1/user/profile on this server!",
+    stack: "Error: Can't find /api/v1/user/profile on this server!\n" +
+      '    at handleNotFound (C:\\Users\\ASUS\\interview-master\\server\\middleware\\errorHandler.js:145:17)\n' +
+      '    at Layer.handleRequest (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\lib\\layer.js:152:17)\n' +
+      '    at trimPrefix (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:342:13)\n' +
+      '    at C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:297:9\n' +
+      '    at processParams (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:582:12)\n' +
+      '    at next (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:291:5)\n' +
+      '    at rateLimitMonitoring (C:\\Users\\ASUS\\interview-master\\server\\middleware\\monitoring.js:235:3)\n' +
+      '    at Layer.handleRequest (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\lib\\layer.js:152:17)\n' +
+      '    at trimPrefix (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:342:13)\n' +
+      '    at C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:297:9',
+    name: 'Error',
+    statusCode: 404
+  },
+  user: null,
+  timestamp: '2025-09-03 18:10:02',
+  level: 'error',
+  message: 'Request error'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'error',
+  requestId: 'b33a987e-3f32-4432-a8e3-7d7ad9b277da',
+  method: 'GET',
+  path: '/api/v1/user/profile',
+  error: {
+    message: "Can't find /api/v1/user/profile on this server!",
+    stack: "Error: Can't find /api/v1/user/profile on this server!\n" +
+      '    at handleNotFound (C:\\Users\\ASUS\\interview-master\\server\\middleware\\errorHandler.js:145:17)\n' +
+      '    at Layer.handleRequest (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\lib\\layer.js:152:17)\n' +
+      '    at trimPrefix (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:342:13)\n' +
+      '    at C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:297:9\n' +
+      '    at processParams (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:582:12)\n' +
+      '    at next (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:291:5)\n' +
+      '    at rateLimitMonitoring (C:\\Users\\ASUS\\interview-master\\server\\middleware\\monitoring.js:235:3)\n' +
+      '    at Layer.handleRequest (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\lib\\layer.js:152:17)\n' +
+      '    at trimPrefix (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:342:13)\n' +
+      '    at C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:297:9',
+    name: 'Error',
+    statusCode: 404
+  },
+  user: null,
+  timestamp: '2025-09-03 18:10:02',
+  level: 'error',
+  message: 'Request error'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1756903226957-dha3rdpoh',
+    timestamp: 2025-09-03T12:40:26.957Z,
+    service: 'redis',
+    status: 'unhealthy',
+    message: 'Service redis is unhealthy',
+    details: {},
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-03 18:10:26'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1756903226959-ijthxi3wz',
+    timestamp: 2025-09-03T12:40:26.959Z,
+    service: 'memory',
+    status: 'warning',
+    message: 'Service memory is warning',
+    details: {
+      heapUsed: '57.81 MB',
+      heapTotal: '62.82 MB',
+      rss: '103.03 MB',
+      external: '37.97 MB',
+      systemMemoryUsage: '81.84%',
+      freeMemory: '2.78 GB',
+      totalMemory: '15.29 GB'
+    },
+    error: undefined
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-03 18:10:26'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'error',
+  requestId: 'e7c40433-9039-4d75-935e-f636492e26a3',
+  method: 'GET',
+  path: '/api/v1/user/profile',
+  error: {
+    message: "Can't find /api/v1/user/profile on this server!",
+    stack: "Error: Can't find /api/v1/user/profile on this server!\n" +
+      '    at handleNotFound (C:\\Users\\ASUS\\interview-master\\server\\middleware\\errorHandler.js:145:17)\n' +
+      '    at Layer.handleRequest (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\lib\\layer.js:152:17)\n' +
+      '    at trimPrefix (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:342:13)\n' +
+      '    at C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:297:9\n' +
+      '    at processParams (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:582:12)\n' +
+      '    at next (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:291:5)\n' +
+      '    at rateLimitMonitoring (C:\\Users\\ASUS\\interview-master\\server\\middleware\\monitoring.js:235:3)\n' +
+      '    at Layer.handleRequest (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\lib\\layer.js:152:17)\n' +
+      '    at trimPrefix (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:342:13)\n' +
+      '    at C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:297:9',
+    name: 'Error',
+    statusCode: 404
+  },
+  user: null,
+  timestamp: '2025-09-03 18:11:38',
+  level: 'error',
+  message: 'Request error'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'error',
+  requestId: '62c0c606-8411-44d4-8897-ff6d58407c8d',
+  method: 'GET',
+  path: '/api/v1/user/profile',
+  error: {
+    message: "Can't find /api/v1/user/profile on this server!",
+    stack: "Error: Can't find /api/v1/user/profile on this server!\n" +
+      '    at handleNotFound (C:\\Users\\ASUS\\interview-master\\server\\middleware\\errorHandler.js:145:17)\n' +
+      '    at Layer.handleRequest (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\lib\\layer.js:152:17)\n' +
+      '    at trimPrefix (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:342:13)\n' +
+      '    at C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:297:9\n' +
+      '    at processParams (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:582:12)\n' +
+      '    at next (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:291:5)\n' +
+      '    at rateLimitMonitoring (C:\\Users\\ASUS\\interview-master\\server\\middleware\\monitoring.js:235:3)\n' +
+      '    at Layer.handleRequest (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\lib\\layer.js:152:17)\n' +
+      '    at trimPrefix (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:342:13)\n' +
+      '    at C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:297:9',
+    name: 'Error',
+    statusCode: 404
+  },
+  user: null,
+  timestamp: '2025-09-03 18:11:38',
+  level: 'error',
+  message: 'Request error'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1756903351281-f9bielwm3',
+    timestamp: 2025-09-03T12:42:31.281Z,
+    service: 'redis',
+    status: 'unhealthy',
+    message: 'Service redis is unhealthy',
+    details: {},
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-03 18:12:31'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1756903351282-6rvqi8tby',
+    timestamp: 2025-09-03T12:42:31.282Z,
+    service: 'memory',
+    status: 'warning',
+    message: 'Service memory is warning',
+    details: {
+      heapUsed: '58.03 MB',
+      heapTotal: '62.82 MB',
+      rss: '103.86 MB',
+      external: '37.97 MB',
+      systemMemoryUsage: '78.07%',
+      freeMemory: '3.35 GB',
+      totalMemory: '15.29 GB'
+    },
+    error: undefined
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-03 18:12:31'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'performance',
+  method: 'POST',
+  path: '/login',
+  responseTime: '1247ms',
+  statusCode: 200,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0',
+  ip: '::1',
+  level: 'warn',
+  message: 'Slow request detected',
+  timestamp: '2025-09-03 18:12:47'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1756903411294-8zwlzb2bj',
+    timestamp: 2025-09-03T12:43:31.294Z,
+    service: 'redis',
+    status: 'unhealthy',
+    message: 'Service redis is unhealthy',
+    details: {},
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-03 18:13:31'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1756903411295-23xm7co7j',
+    timestamp: 2025-09-03T12:43:31.295Z,
+    service: 'memory',
+    status: 'warning',
+    message: 'Service memory is warning',
+    details: {
+      heapUsed: '58.86 MB',
+      heapTotal: '63.32 MB',
+      rss: '104.52 MB',
+      external: '38.17 MB',
+      systemMemoryUsage: '76.62%',
+      freeMemory: '3.58 GB',
+      totalMemory: '15.29 GB'
+    },
+    error: undefined
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-03 18:13:31'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'error',
+  requestId: 'cbc01173-f7cc-4993-8d21-a7545871e26c',
+  method: 'GET',
+  path: '/api/v1/user/profile',
+  error: {
+    message: "Can't find /api/v1/user/profile on this server!",
+    stack: "Error: Can't find /api/v1/user/profile on this server!\n" +
+      '    at handleNotFound (C:\\Users\\ASUS\\interview-master\\server\\middleware\\errorHandler.js:145:17)\n' +
+      '    at Layer.handleRequest (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\lib\\layer.js:152:17)\n' +
+      '    at trimPrefix (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:342:13)\n' +
+      '    at C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:297:9\n' +
+      '    at processParams (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:582:12)\n' +
+      '    at next (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:291:5)\n' +
+      '    at rateLimitMonitoring (C:\\Users\\ASUS\\interview-master\\server\\middleware\\monitoring.js:235:3)\n' +
+      '    at Layer.handleRequest (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\lib\\layer.js:152:17)\n' +
+      '    at trimPrefix (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:342:13)\n' +
+      '    at C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:297:9',
+    name: 'Error',
+    statusCode: 404
+  },
+  user: null,
+  timestamp: '2025-09-03 18:14:37',
+  level: 'error',
+  message: 'Request error'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'error',
+  requestId: '2a232863-4378-4da2-8878-d0fa67c158b3',
+  method: 'GET',
+  path: '/api/v1/user/profile',
+  error: {
+    message: "Can't find /api/v1/user/profile on this server!",
+    stack: "Error: Can't find /api/v1/user/profile on this server!\n" +
+      '    at handleNotFound (C:\\Users\\ASUS\\interview-master\\server\\middleware\\errorHandler.js:145:17)\n' +
+      '    at Layer.handleRequest (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\lib\\layer.js:152:17)\n' +
+      '    at trimPrefix (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:342:13)\n' +
+      '    at C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:297:9\n' +
+      '    at processParams (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:582:12)\n' +
+      '    at next (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:291:5)\n' +
+      '    at rateLimitMonitoring (C:\\Users\\ASUS\\interview-master\\server\\middleware\\monitoring.js:235:3)\n' +
+      '    at Layer.handleRequest (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\lib\\layer.js:152:17)\n' +
+      '    at trimPrefix (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:342:13)\n' +
+      '    at C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:297:9',
+    name: 'Error',
+    statusCode: 404
+  },
+  user: null,
+  timestamp: '2025-09-03 18:14:37',
+  level: 'error',
+  message: 'Request error'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'error',
+  requestId: 'd337bb44-ad75-4aee-9dcc-d0c0e6d45f50',
+  method: 'GET',
+  path: '/api/v1/user/profile',
+  error: {
+    message: "Can't find /api/v1/user/profile on this server!",
+    stack: "Error: Can't find /api/v1/user/profile on this server!\n" +
+      '    at handleNotFound (C:\\Users\\ASUS\\interview-master\\server\\middleware\\errorHandler.js:145:17)\n' +
+      '    at Layer.handleRequest (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\lib\\layer.js:152:17)\n' +
+      '    at trimPrefix (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:342:13)\n' +
+      '    at C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:297:9\n' +
+      '    at processParams (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:582:12)\n' +
+      '    at next (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:291:5)\n' +
+      '    at rateLimitMonitoring (C:\\Users\\ASUS\\interview-master\\server\\middleware\\monitoring.js:235:3)\n' +
+      '    at Layer.handleRequest (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\lib\\layer.js:152:17)\n' +
+      '    at trimPrefix (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:342:13)\n' +
+      '    at C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:297:9',
+    name: 'Error',
+    statusCode: 404
+  },
+  user: null,
+  timestamp: '2025-09-03 18:14:51',
+  level: 'error',
+  message: 'Request error'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'error',
+  requestId: '41298e60-31d8-49a8-ba2c-dd62340c893c',
+  method: 'GET',
+  path: '/api/v1/user/profile',
+  error: {
+    message: "Can't find /api/v1/user/profile on this server!",
+    stack: "Error: Can't find /api/v1/user/profile on this server!\n" +
+      '    at handleNotFound (C:\\Users\\ASUS\\interview-master\\server\\middleware\\errorHandler.js:145:17)\n' +
+      '    at Layer.handleRequest (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\lib\\layer.js:152:17)\n' +
+      '    at trimPrefix (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:342:13)\n' +
+      '    at C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:297:9\n' +
+      '    at processParams (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:582:12)\n' +
+      '    at next (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:291:5)\n' +
+      '    at rateLimitMonitoring (C:\\Users\\ASUS\\interview-master\\server\\middleware\\monitoring.js:235:3)\n' +
+      '    at Layer.handleRequest (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\lib\\layer.js:152:17)\n' +
+      '    at trimPrefix (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:342:13)\n' +
+      '    at C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:297:9',
+    name: 'Error',
+    statusCode: 404
+  },
+  user: null,
+  timestamp: '2025-09-03 18:14:51',
+  level: 'error',
+  message: 'Request error'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1756903512299-mmicyq60a',
+    timestamp: 2025-09-03T12:45:12.299Z,
+    service: 'redis',
+    status: 'unhealthy',
+    message: 'Service redis is unhealthy',
+    details: {},
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-03 18:15:12'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1756903512300-kd5ai3029',
+    timestamp: 2025-09-03T12:45:12.300Z,
+    service: 'memory',
+    status: 'warning',
+    message: 'Service memory is warning',
+    details: {
+      heapUsed: '57.03 MB',
+      heapTotal: '62.32 MB',
+      rss: '102.27 MB',
+      external: '38.11 MB',
+      systemMemoryUsage: '80.68%',
+      freeMemory: '2.96 GB',
+      totalMemory: '15.29 GB'
+    },
+    error: undefined
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-03 18:15:12'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'error',
+  requestId: '218d7d8c-7e16-4173-ad32-8ea072f55d36',
+  method: 'POST',
+  path: '/api/v1/auth/login',
+  error: {
+    message: 'Invalid credentials',
+    stack: 'Error: Invalid credentials\n' +
+      '    at C:\\Users\\ASUS\\interview-master\\server\\controllers\\authController.js:205:11\n' +
+      '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)',
+    name: 'Error',
+    statusCode: 401
+  },
+  user: null,
+  timestamp: '2025-09-03 18:15:36',
+  level: 'error',
+  message: 'Request error'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'security',
+  event: 'unauthorized_access',
+  details: {
+    requestId: '218d7d8c-7e16-4173-ad32-8ea072f55d36',
+    method: 'POST',
+    path: '/api/v1/auth/login',
+    ip: '::1',
+    userAgent: 'Mozilla/5.0 (Windows NT; Windows NT 10.0; en-US) WindowsPowerShell/5.1.26100.4768',
+    error: 'Invalid credentials'
+  },
+  timestamp: '2025-09-03 18:15:36',
+  level: 'warn',
+  message: 'Security event'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1756903572303-rw63ob6vw',
+    timestamp: 2025-09-03T12:46:12.303Z,
+    service: 'redis',
+    status: 'unhealthy',
+    message: 'Service redis is unhealthy',
+    details: {},
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-03 18:16:12'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1756903572304-7tzudohsu',
+    timestamp: 2025-09-03T12:46:12.304Z,
+    service: 'memory',
+    status: 'warning',
+    message: 'Service memory is warning',
+    details: {
+      heapUsed: '59.12 MB',
+      heapTotal: '63.32 MB',
+      rss: '105.23 MB',
+      external: '38.16 MB',
+      systemMemoryUsage: '82.02%',
+      freeMemory: '2.75 GB',
+      totalMemory: '15.29 GB'
+    },
+    error: undefined
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-03 18:16:12'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1756903632317-pxgzxuju1',
+    timestamp: 2025-09-03T12:47:12.317Z,
+    service: 'redis',
+    status: 'unhealthy',
+    message: 'Service redis is unhealthy',
+    details: {},
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-03 18:17:12'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1756903632318-ep46lryq4',
+    timestamp: 2025-09-03T12:47:12.318Z,
+    service: 'memory',
+    status: 'warning',
+    message: 'Service memory is warning',
+    details: {
+      heapUsed: '59.23 MB',
+      heapTotal: '63.32 MB',
+      rss: '104.86 MB',
+      external: '38.23 MB',
+      systemMemoryUsage: '82.84%',
+      freeMemory: '2.62 GB',
+      totalMemory: '15.29 GB'
+    },
+    error: undefined
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-03 18:17:12'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'performance',
+  method: 'POST',
+  path: '/login',
+  responseTime: '1277ms',
+  statusCode: 200,
+  userAgent: 'Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Mobile Safari/537.36 Edg/139.0.0.0',
+  ip: '::1',
+  level: 'warn',
+  message: 'Slow request detected',
+  timestamp: '2025-09-03 18:17:56'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1756903692321-r2nxvqiyh',
+    timestamp: 2025-09-03T12:48:12.321Z,
+    service: 'redis',
+    status: 'unhealthy',
+    message: 'Service redis is unhealthy',
+    details: {},
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-03 18:18:12'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1756903692322-xacbxmta0',
+    timestamp: 2025-09-03T12:48:12.322Z,
+    service: 'memory',
+    status: 'warning',
+    message: 'Service memory is warning',
+    details: {
+      heapUsed: '59.24 MB',
+      heapTotal: '63.82 MB',
+      rss: '105.29 MB',
+      external: '38.2 MB',
+      systemMemoryUsage: '81.19%',
+      freeMemory: '2.88 GB',
+      totalMemory: '15.29 GB'
+    },
+    error: undefined
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-03 18:18:12'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1756903752334-u92uxn2p9',
+    timestamp: 2025-09-03T12:49:12.334Z,
+    service: 'redis',
+    status: 'unhealthy',
+    message: 'Service redis is unhealthy',
+    details: {},
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-03 18:19:12'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1756903752336-du6r32fu3',
+    timestamp: 2025-09-03T12:49:12.336Z,
+    service: 'memory',
+    status: 'warning',
+    message: 'Service memory is warning',
+    details: {
+      heapUsed: '59.31 MB',
+      heapTotal: '63.82 MB',
+      rss: '104.87 MB',
+      external: '38.18 MB',
+      systemMemoryUsage: '84.92%',
+      freeMemory: '2.31 GB',
+      totalMemory: '15.29 GB'
+    },
+    error: undefined
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-03 18:19:12'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'performance',
+  method: 'POST',
+  path: '/login',
+  responseTime: '1257ms',
+  statusCode: 200,
+  userAgent: 'Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Mobile Safari/537.36 Edg/139.0.0.0',
+  ip: '::1',
+  level: 'warn',
+  message: 'Slow request detected',
+  timestamp: '2025-09-03 18:19:21'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'error',
+  requestId: '5fcf864b-6f77-496c-99d0-50e90b40b810',
+  method: 'GET',
+  path: '/api/v1/coding',
+  error: {
+    message: "Can't find /api/v1/coding on this server!",
+    stack: "Error: Can't find /api/v1/coding on this server!\n" +
+      '    at handleNotFound (C:\\Users\\ASUS\\interview-master\\server\\middleware\\errorHandler.js:145:17)\n' +
+      '    at Layer.handleRequest (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\lib\\layer.js:152:17)\n' +
+      '    at trimPrefix (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:342:13)\n' +
+      '    at C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:297:9\n' +
+      '    at processParams (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:582:12)\n' +
+      '    at next (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:291:5)\n' +
+      '    at rateLimitMonitoring (C:\\Users\\ASUS\\interview-master\\server\\middleware\\monitoring.js:235:3)\n' +
+      '    at Layer.handleRequest (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\lib\\layer.js:152:17)\n' +
+      '    at trimPrefix (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:342:13)\n' +
+      '    at C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:297:9',
+    name: 'Error',
+    statusCode: 404
+  },
+  user: null,
+  timestamp: '2025-09-03 18:19:59',
+  level: 'error',
+  message: 'Request error'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'error',
+  requestId: 'e9311c25-587c-46d4-b4d6-d5d7bb5a1b38',
+  method: 'GET',
+  path: '/api/v1/coding',
+  error: {
+    message: "Can't find /api/v1/coding on this server!",
+    stack: "Error: Can't find /api/v1/coding on this server!\n" +
+      '    at handleNotFound (C:\\Users\\ASUS\\interview-master\\server\\middleware\\errorHandler.js:145:17)\n' +
+      '    at Layer.handleRequest (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\lib\\layer.js:152:17)\n' +
+      '    at trimPrefix (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:342:13)\n' +
+      '    at C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:297:9\n' +
+      '    at processParams (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:582:12)\n' +
+      '    at next (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:291:5)\n' +
+      '    at rateLimitMonitoring (C:\\Users\\ASUS\\interview-master\\server\\middleware\\monitoring.js:235:3)\n' +
+      '    at Layer.handleRequest (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\lib\\layer.js:152:17)\n' +
+      '    at trimPrefix (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:342:13)\n' +
+      '    at C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:297:9',
+    name: 'Error',
+    statusCode: 404
+  },
+  user: null,
+  timestamp: '2025-09-03 18:19:59',
+  level: 'error',
+  message: 'Request error'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1756903812337-7ylmr1y8v',
+    timestamp: 2025-09-03T12:50:12.337Z,
+    service: 'redis',
+    status: 'unhealthy',
+    message: 'Service redis is unhealthy',
+    details: {},
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-03 18:20:12'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1756903812338-l0m1ysefh',
+    timestamp: 2025-09-03T12:50:12.338Z,
+    service: 'memory',
+    status: 'warning',
+    message: 'Service memory is warning',
+    details: {
+      heapUsed: '59.39 MB',
+      heapTotal: '64.07 MB',
+      rss: '105.41 MB',
+      external: '38.28 MB',
+      systemMemoryUsage: '80.89%',
+      freeMemory: '2.92 GB',
+      totalMemory: '15.29 GB'
+    },
+    error: undefined
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-03 18:20:12'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'performance',
+  method: 'POST',
+  path: '/login',
+  responseTime: '1253ms',
+  statusCode: 200,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0',
+  ip: '::1',
+  level: 'warn',
+  message: 'Slow request detected',
+  timestamp: '2025-09-03 18:20:46'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1756903872348-2aicik620',
+    timestamp: 2025-09-03T12:51:12.348Z,
+    service: 'redis',
+    status: 'unhealthy',
+    message: 'Service redis is unhealthy',
+    details: {},
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-03 18:21:12'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1756903872349-c5mhcentp',
+    timestamp: 2025-09-03T12:51:12.349Z,
+    service: 'memory',
+    status: 'warning',
+    message: 'Service memory is warning',
+    details: {
+      heapUsed: '60.11 MB',
+      heapTotal: '64.82 MB',
+      rss: '105.34 MB',
+      external: '38.34 MB',
+      systemMemoryUsage: '80.39%',
+      freeMemory: '3 GB',
+      totalMemory: '15.29 GB'
+    },
+    error: undefined
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-03 18:21:12'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1756903932352-mmwwk9yt7',
+    timestamp: 2025-09-03T12:52:12.352Z,
+    service: 'redis',
+    status: 'unhealthy',
+    message: 'Service redis is unhealthy',
+    details: {},
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-03 18:22:12'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1756903932352-9yut35eqa',
+    timestamp: 2025-09-03T12:52:12.352Z,
+    service: 'memory',
+    status: 'warning',
+    message: 'Service memory is warning',
+    details: {
+      heapUsed: '60.68 MB',
+      heapTotal: '64.82 MB',
+      rss: '106.03 MB',
+      external: '38.5 MB',
+      systemMemoryUsage: '79.19%',
+      freeMemory: '3.18 GB',
+      totalMemory: '15.29 GB'
+    },
+    error: undefined
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-03 18:22:12'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'error',
+  requestId: 'ed2c9e9a-155c-4d94-8829-32274c2b40fb',
+  method: 'GET',
+  path: '/api/v1/health',
+  error: {
+    message: "Can't find /api/v1/health on this server!",
+    stack: "Error: Can't find /api/v1/health on this server!\n" +
+      '    at handleNotFound (C:\\Users\\ASUS\\interview-master\\server\\middleware\\errorHandler.js:145:17)\n' +
+      '    at Layer.handleRequest (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\lib\\layer.js:152:17)\n' +
+      '    at trimPrefix (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:342:13)\n' +
+      '    at C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:297:9\n' +
+      '    at processParams (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:582:12)\n' +
+      '    at next (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:291:5)\n' +
+      '    at rateLimitMonitoring (C:\\Users\\ASUS\\interview-master\\server\\middleware\\monitoring.js:235:3)\n' +
+      '    at Layer.handleRequest (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\lib\\layer.js:152:17)\n' +
+      '    at trimPrefix (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:342:13)\n' +
+      '    at C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:297:9',
+    name: 'Error',
+    statusCode: 404
+  },
+  user: null,
+  timestamp: '2025-09-03 19:33:02',
+  level: 'error',
+  message: 'Request error'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1756908189671-c0u53mdun',
+    timestamp: 2025-09-03T14:03:09.671Z,
+    service: 'redis',
+    status: 'unhealthy',
+    message: 'Service redis is unhealthy',
+    details: {},
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-03 19:33:09'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1756908189673-s1waelqr4',
+    timestamp: 2025-09-03T14:03:09.673Z,
+    service: 'memory',
+    status: 'warning',
+    message: 'Service memory is warning',
+    details: {
+      heapUsed: '58.13 MB',
+      heapTotal: '62.57 MB',
+      rss: '103.5 MB',
+      external: '37.94 MB',
+      systemMemoryUsage: '76.91%',
+      freeMemory: '3.53 GB',
+      totalMemory: '15.29 GB'
+    },
+    error: undefined
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-03 19:33:09'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'error',
+  requestId: 'c9a1dc96-b1bd-4e83-b11f-a508bcf89531',
+  method: 'GET',
+  path: '/api/v1/resumes',
+  error: {
+    message: "Can't find /api/v1/resumes on this server!",
+    stack: "Error: Can't find /api/v1/resumes on this server!\n" +
+      '    at handleNotFound (C:\\Users\\ASUS\\interview-master\\server\\middleware\\errorHandler.js:145:17)\n' +
+      '    at Layer.handleRequest (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\lib\\layer.js:152:17)\n' +
+      '    at trimPrefix (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:342:13)\n' +
+      '    at C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:297:9\n' +
+      '    at processParams (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:582:12)\n' +
+      '    at next (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:291:5)\n' +
+      '    at rateLimitMonitoring (C:\\Users\\ASUS\\interview-master\\server\\middleware\\monitoring.js:235:3)\n' +
+      '    at Layer.handleRequest (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\lib\\layer.js:152:17)\n' +
+      '    at trimPrefix (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:342:13)\n' +
+      '    at C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:297:9',
+    name: 'Error',
+    statusCode: 404
+  },
+  user: null,
+  timestamp: '2025-09-03 19:33:18',
+  level: 'error',
+  message: 'Request error'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1756908249684-rpmv15uvd',
+    timestamp: 2025-09-03T14:04:09.684Z,
+    service: 'redis',
+    status: 'unhealthy',
+    message: 'Service redis is unhealthy',
+    details: {},
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-03 19:34:09'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1756908249685-u29o9lnk3',
+    timestamp: 2025-09-03T14:04:09.685Z,
+    service: 'memory',
+    status: 'warning',
+    message: 'Service memory is warning',
+    details: {
+      heapUsed: '58.67 MB',
+      heapTotal: '63.32 MB',
+      rss: '103.88 MB',
+      external: '38.05 MB',
+      systemMemoryUsage: '75.47%',
+      freeMemory: '3.75 GB',
+      totalMemory: '15.29 GB'
+    },
+    error: undefined
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-03 19:34:09'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'error',
+  requestId: '4285758e-b1cd-421a-8f39-f1435a0d7088',
+  method: 'GET',
+  path: '/api/v1/resume',
+  error: {
+    message: 'Invalid token',
+    stack: 'Error: Invalid token\n' +
+      '    at SecurityManager.verifyJWT (C:\\Users\\ASUS\\interview-master\\server\\utils\\security.js:102:15)\n' +
+      '    at authenticate (C:\\Users\\ASUS\\interview-master\\server\\middleware\\auth.js:61:39)\n' +
+      '    at Layer.handleRequest (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\lib\\layer.js:152:17)\n' +
+      '    at trimPrefix (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:342:13)\n' +
+      '    at C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:297:9\n' +
+      '    at processParams (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:582:12)\n' +
+      '    at next (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:291:5)\n' +
+      '    at rateLimitMonitoring (C:\\Users\\ASUS\\interview-master\\server\\middleware\\monitoring.js:235:3)\n' +
+      '    at Layer.handleRequest (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\lib\\layer.js:152:17)\n' +
+      '    at trimPrefix (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:342:13)',
+    name: 'Error',
+    statusCode: 401
+  },
+  user: null,
+  timestamp: '2025-09-03 19:34:18',
+  level: 'error',
+  message: 'Request error'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'security',
+  event: 'unauthorized_access',
+  details: {
+    requestId: '4285758e-b1cd-421a-8f39-f1435a0d7088',
+    method: 'GET',
+    path: '/api/v1/resume',
+    ip: '::1',
+    userAgent: 'Mozilla/5.0 (Windows NT; Windows NT 10.0; en-US) WindowsPowerShell/5.1.26100.4768',
+    error: 'Invalid token'
+  },
+  timestamp: '2025-09-03 19:34:18',
+  level: 'warn',
+  message: 'Security event'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'error',
+  requestId: '9920b1c8-d0b6-43d7-9a87-d829a7c940c6',
+  method: 'GET',
+  path: '/api/v1/resume',
+  error: {
+    message: 'Access token required',
+    stack: 'Error: Access token required\n' +
+      '    at authenticate (C:\\Users\\ASUS\\interview-master\\server\\middleware\\auth.js:57:21)\n' +
+      '    at Layer.handleRequest (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\lib\\layer.js:152:17)\n' +
+      '    at trimPrefix (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:342:13)\n' +
+      '    at C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:297:9\n' +
+      '    at processParams (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:582:12)\n' +
+      '    at next (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:291:5)\n' +
+      '    at rateLimitMonitoring (C:\\Users\\ASUS\\interview-master\\server\\middleware\\monitoring.js:235:3)\n' +
+      '    at Layer.handleRequest (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\lib\\layer.js:152:17)\n' +
+      '    at trimPrefix (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:342:13)\n' +
+      '    at C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:297:9',
+    name: 'Error',
+    statusCode: 401
+  },
+  user: null,
+  timestamp: '2025-09-03 19:34:26',
+  level: 'error',
+  message: 'Request error'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'security',
+  event: 'unauthorized_access',
+  details: {
+    requestId: '9920b1c8-d0b6-43d7-9a87-d829a7c940c6',
+    method: 'GET',
+    path: '/api/v1/resume',
+    ip: '::1',
+    userAgent: 'Mozilla/5.0 (Windows NT; Windows NT 10.0; en-US) WindowsPowerShell/5.1.26100.4768',
+    error: 'Access token required'
+  },
+  timestamp: '2025-09-03 19:34:26',
+  level: 'warn',
+  message: 'Security event'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1756908366746-nc7xqn7q2',
+    timestamp: 2025-09-03T14:06:06.746Z,
+    service: 'redis',
+    status: 'unhealthy',
+    message: 'Service redis is unhealthy',
+    details: {},
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-03 19:36:06'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1756908366748-nvtj99b4g',
+    timestamp: 2025-09-03T14:06:06.748Z,
+    service: 'memory',
+    status: 'warning',
+    message: 'Service memory is warning',
+    details: {
+      heapUsed: '59.17 MB',
+      heapTotal: '63.32 MB',
+      rss: '104.34 MB',
+      external: '38.04 MB',
+      systemMemoryUsage: '77.87%',
+      freeMemory: '3.38 GB',
+      totalMemory: '15.29 GB'
+    },
+    error: undefined
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-03 19:36:06'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1756908426746-l85ubh12b',
+    timestamp: 2025-09-03T14:07:06.746Z,
+    service: 'redis',
+    status: 'unhealthy',
+    message: 'Service redis is unhealthy',
+    details: {},
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-03 19:37:06'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1756908426747-2ig0ucch1',
+    timestamp: 2025-09-03T14:07:06.747Z,
+    service: 'memory',
+    status: 'warning',
+    message: 'Service memory is warning',
+    details: {
+      heapUsed: '59.5 MB',
+      heapTotal: '63.82 MB',
+      rss: '104.62 MB',
+      external: '38.08 MB',
+      systemMemoryUsage: '77.54%',
+      freeMemory: '3.44 GB',
+      totalMemory: '15.29 GB'
+    },
+    error: undefined
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-03 19:37:06'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1756908486762-cxne0xltn',
+    timestamp: 2025-09-03T14:08:06.762Z,
+    service: 'redis',
+    status: 'unhealthy',
+    message: 'Service redis is unhealthy',
+    details: {},
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-03 19:38:06'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1756908486762-577kc4qf1',
+    timestamp: 2025-09-03T14:08:06.762Z,
+    service: 'memory',
+    status: 'warning',
+    message: 'Service memory is warning',
+    details: {
+      heapUsed: '59.38 MB',
+      heapTotal: '63.82 MB',
+      rss: '104.75 MB',
+      external: '38.08 MB',
+      systemMemoryUsage: '77.46%',
+      freeMemory: '3.45 GB',
+      totalMemory: '15.29 GB'
+    },
+    error: undefined
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-03 19:38:06'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1756908546764-8uasip099',
+    timestamp: 2025-09-03T14:09:06.764Z,
+    service: 'redis',
+    status: 'unhealthy',
+    message: 'Service redis is unhealthy',
+    details: {},
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-03 19:39:06'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1756908546765-zkzsuh7eu',
+    timestamp: 2025-09-03T14:09:06.765Z,
+    service: 'memory',
+    status: 'warning',
+    message: 'Service memory is warning',
+    details: {
+      heapUsed: '59.19 MB',
+      heapTotal: '63.82 MB',
+      rss: '104.28 MB',
+      external: '38.05 MB',
+      systemMemoryUsage: '77.09%',
+      freeMemory: '3.5 GB',
+      totalMemory: '15.29 GB'
+    },
+    error: undefined
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-03 19:39:06'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1756908606766-zy6oe7sn3',
+    timestamp: 2025-09-03T14:10:06.766Z,
+    service: 'redis',
+    status: 'unhealthy',
+    message: 'Service redis is unhealthy',
+    details: {},
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-03 19:40:06'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1756908606768-9xvhyw4fy',
+    timestamp: 2025-09-03T14:10:06.768Z,
+    service: 'memory',
+    status: 'warning',
+    message: 'Service memory is warning',
+    details: {
+      heapUsed: '59.49 MB',
+      heapTotal: '63.82 MB',
+      rss: '104.71 MB',
+      external: '38.01 MB',
+      systemMemoryUsage: '77.27%',
+      freeMemory: '3.48 GB',
+      totalMemory: '15.29 GB'
+    },
+    error: undefined
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-03 19:40:06'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1756908666767-gzlqr0g3x',
+    timestamp: 2025-09-03T14:11:06.767Z,
+    service: 'redis',
+    status: 'unhealthy',
+    message: 'Service redis is unhealthy',
+    details: {},
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-03 19:41:06'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1756908666767-sw6nnodw4',
+    timestamp: 2025-09-03T14:11:06.767Z,
+    service: 'memory',
+    status: 'warning',
+    message: 'Service memory is warning',
+    details: {
+      heapUsed: '59.44 MB',
+      heapTotal: '64.07 MB',
+      rss: '104.52 MB',
+      external: '38 MB',
+      systemMemoryUsage: '75.01%',
+      freeMemory: '3.82 GB',
+      totalMemory: '15.29 GB'
+    },
+    error: undefined
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-03 19:41:06'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1756908726778-r5dt5s10u',
+    timestamp: 2025-09-03T14:12:06.778Z,
+    service: 'redis',
+    status: 'unhealthy',
+    message: 'Service redis is unhealthy',
+    details: {},
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-03 19:42:06'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1756908786783-24lzl4ec1',
+    timestamp: 2025-09-03T14:13:06.783Z,
+    service: 'redis',
+    status: 'unhealthy',
+    message: 'Service redis is unhealthy',
+    details: {},
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-03 19:43:06'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1756908786784-wijffyby2',
+    timestamp: 2025-09-03T14:13:06.784Z,
+    service: 'memory',
+    status: 'warning',
+    message: 'Service memory is warning',
+    details: {
+      heapUsed: '59.78 MB',
+      heapTotal: '64.07 MB',
+      rss: '104.9 MB',
+      external: '38.07 MB',
+      systemMemoryUsage: '75.05%',
+      freeMemory: '3.82 GB',
+      totalMemory: '15.29 GB'
+    },
+    error: undefined
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-03 19:43:06'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1756908846791-qokik4pqd',
+    timestamp: 2025-09-03T14:14:06.791Z,
+    service: 'redis',
+    status: 'unhealthy',
+    message: 'Service redis is unhealthy',
+    details: {},
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-03 19:44:06'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'error',
+  requestId: 'f43b9733-1ffc-4110-9127-79d2d7062ada',
+  method: 'GET',
+  path: '/api/v1/coding',
+  error: {
+    message: "Can't find /api/v1/coding on this server!",
+    stack: "Error: Can't find /api/v1/coding on this server!\n" +
+      '    at handleNotFound (C:\\Users\\ASUS\\interview-master\\server\\middleware\\errorHandler.js:145:17)\n' +
+      '    at Layer.handleRequest (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\lib\\layer.js:152:17)\n' +
+      '    at trimPrefix (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:342:13)\n' +
+      '    at C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:297:9\n' +
+      '    at processParams (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:582:12)\n' +
+      '    at next (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:291:5)\n' +
+      '    at rateLimitMonitoring (C:\\Users\\ASUS\\interview-master\\server\\middleware\\monitoring.js:235:3)\n' +
+      '    at Layer.handleRequest (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\lib\\layer.js:152:17)\n' +
+      '    at trimPrefix (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:342:13)\n' +
+      '    at C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:297:9',
+    name: 'Error',
+    statusCode: 404
+  },
+  user: null,
+  timestamp: '2025-09-03 19:44:26',
+  level: 'error',
+  message: 'Request error'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'error',
+  requestId: 'e942ca5f-ecb6-4e53-99b6-91d47fb06e59',
+  method: 'GET',
+  path: '/api/v1/coding',
+  error: {
+    message: "Can't find /api/v1/coding on this server!",
+    stack: "Error: Can't find /api/v1/coding on this server!\n" +
+      '    at handleNotFound (C:\\Users\\ASUS\\interview-master\\server\\middleware\\errorHandler.js:145:17)\n' +
+      '    at Layer.handleRequest (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\lib\\layer.js:152:17)\n' +
+      '    at trimPrefix (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:342:13)\n' +
+      '    at C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:297:9\n' +
+      '    at processParams (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:582:12)\n' +
+      '    at next (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:291:5)\n' +
+      '    at rateLimitMonitoring (C:\\Users\\ASUS\\interview-master\\server\\middleware\\monitoring.js:235:3)\n' +
+      '    at Layer.handleRequest (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\lib\\layer.js:152:17)\n' +
+      '    at trimPrefix (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:342:13)\n' +
+      '    at C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:297:9',
+    name: 'Error',
+    statusCode: 404
+  },
+  user: null,
+  timestamp: '2025-09-03 19:44:26',
+  level: 'error',
+  message: 'Request error'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1756908906797-tvddfqca5',
+    timestamp: 2025-09-03T14:15:06.797Z,
+    service: 'redis',
+    status: 'unhealthy',
+    message: 'Service redis is unhealthy',
+    details: {},
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-03 19:45:06'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'error',
+  requestId: '56bccf6d-bcdf-4910-a2c4-00c34c3687a0',
+  method: 'GET',
+  path: '/api/v1/user/profile',
+  error: {
+    message: "Can't find /api/v1/user/profile on this server!",
+    stack: "Error: Can't find /api/v1/user/profile on this server!\n" +
+      '    at handleNotFound (C:\\Users\\ASUS\\interview-master\\server\\middleware\\errorHandler.js:145:17)\n' +
+      '    at Layer.handleRequest (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\lib\\layer.js:152:17)\n' +
+      '    at trimPrefix (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:342:13)\n' +
+      '    at C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:297:9\n' +
+      '    at processParams (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:582:12)\n' +
+      '    at next (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:291:5)\n' +
+      '    at rateLimitMonitoring (C:\\Users\\ASUS\\interview-master\\server\\middleware\\monitoring.js:235:3)\n' +
+      '    at Layer.handleRequest (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\lib\\layer.js:152:17)\n' +
+      '    at trimPrefix (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:342:13)\n' +
+      '    at C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:297:9',
+    name: 'Error',
+    statusCode: 404
+  },
+  user: null,
+  timestamp: '2025-09-03 19:45:56',
+  level: 'error',
+  message: 'Request error'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'error',
+  requestId: '340628e5-c78f-4fe5-a031-4c08f0b2a2aa',
+  method: 'GET',
+  path: '/api/v1/user/profile',
+  error: {
+    message: "Can't find /api/v1/user/profile on this server!",
+    stack: "Error: Can't find /api/v1/user/profile on this server!\n" +
+      '    at handleNotFound (C:\\Users\\ASUS\\interview-master\\server\\middleware\\errorHandler.js:145:17)\n' +
+      '    at Layer.handleRequest (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\lib\\layer.js:152:17)\n' +
+      '    at trimPrefix (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:342:13)\n' +
+      '    at C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:297:9\n' +
+      '    at processParams (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:582:12)\n' +
+      '    at next (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:291:5)\n' +
+      '    at rateLimitMonitoring (C:\\Users\\ASUS\\interview-master\\server\\middleware\\monitoring.js:235:3)\n' +
+      '    at Layer.handleRequest (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\lib\\layer.js:152:17)\n' +
+      '    at trimPrefix (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:342:13)\n' +
+      '    at C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:297:9',
+    name: 'Error',
+    statusCode: 404
+  },
+  user: null,
+  timestamp: '2025-09-03 19:45:56',
+  level: 'error',
+  message: 'Request error'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1756908966805-u99rc6fm1',
+    timestamp: 2025-09-03T14:16:06.805Z,
+    service: 'redis',
+    status: 'unhealthy',
+    message: 'Service redis is unhealthy',
+    details: {},
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-03 19:46:06'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1756908966806-ax3sa49lw',
+    timestamp: 2025-09-03T14:16:06.806Z,
+    service: 'memory',
+    status: 'warning',
+    message: 'Service memory is warning',
+    details: {
+      heapUsed: '61 MB',
+      heapTotal: '64.57 MB',
+      rss: '106.01 MB',
+      external: '38.28 MB',
+      systemMemoryUsage: '77.10%',
+      freeMemory: '3.5 GB',
+      totalMemory: '15.29 GB'
+    },
+    error: undefined
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-03 19:46:06'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1756909026804-8vpkgisxj',
+    timestamp: 2025-09-03T14:17:06.804Z,
+    service: 'redis',
+    status: 'unhealthy',
+    message: 'Service redis is unhealthy',
+    details: {},
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-03 19:47:06'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1756909404618-jkjc5pnmx',
+    timestamp: 2025-09-03T14:23:24.618Z,
+    service: 'redis',
+    status: 'unhealthy',
+    message: 'Service redis is unhealthy',
+    details: {},
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-03 19:53:24'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1756909464631-fplbjp58h',
+    timestamp: 2025-09-03T14:24:24.631Z,
+    service: 'redis',
+    status: 'unhealthy',
+    message: 'Service redis is unhealthy',
+    details: {},
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-03 19:54:24'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1756909524637-f95qtuk5a',
+    timestamp: 2025-09-03T14:25:24.637Z,
+    service: 'redis',
+    status: 'unhealthy',
+    message: 'Service redis is unhealthy',
+    details: {},
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-03 19:55:24'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1756909584638-sdsijgbwv',
+    timestamp: 2025-09-03T14:26:24.638Z,
+    service: 'redis',
+    status: 'unhealthy',
+    message: 'Service redis is unhealthy',
+    details: {},
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-03 19:56:24'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1756909644639-6s8m4md6t',
+    timestamp: 2025-09-03T14:27:24.639Z,
+    service: 'redis',
+    status: 'unhealthy',
+    message: 'Service redis is unhealthy',
+    details: {},
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-03 19:57:24'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'error',
+  requestId: 'df50c64d-c8dd-428c-a4d0-2353e661bdb1',
+  method: 'GET',
+  path: '/api/v1/user/profile',
+  error: {
+    message: "Can't find /api/v1/user/profile on this server!",
+    stack: "Error: Can't find /api/v1/user/profile on this server!\n" +
+      '    at handleNotFound (C:\\Users\\ASUS\\interview-master\\server\\middleware\\errorHandler.js:145:17)\n' +
+      '    at Layer.handleRequest (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\lib\\layer.js:152:17)\n' +
+      '    at trimPrefix (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:342:13)\n' +
+      '    at C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:297:9\n' +
+      '    at processParams (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:582:12)\n' +
+      '    at next (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:291:5)\n' +
+      '    at rateLimitMonitoring (C:\\Users\\ASUS\\interview-master\\server\\middleware\\monitoring.js:235:3)\n' +
+      '    at Layer.handleRequest (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\lib\\layer.js:152:17)\n' +
+      '    at trimPrefix (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:342:13)\n' +
+      '    at C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:297:9',
+    name: 'Error',
+    statusCode: 404
+  },
+  user: null,
+  timestamp: '2025-09-03 19:58:05',
+  level: 'error',
+  message: 'Request error'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'error',
+  requestId: '02f4ee9a-42ff-4d81-9680-9d38b40200b9',
+  method: 'GET',
+  path: '/api/v1/user/profile',
+  error: {
+    message: "Can't find /api/v1/user/profile on this server!",
+    stack: "Error: Can't find /api/v1/user/profile on this server!\n" +
+      '    at handleNotFound (C:\\Users\\ASUS\\interview-master\\server\\middleware\\errorHandler.js:145:17)\n' +
+      '    at Layer.handleRequest (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\lib\\layer.js:152:17)\n' +
+      '    at trimPrefix (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:342:13)\n' +
+      '    at C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:297:9\n' +
+      '    at processParams (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:582:12)\n' +
+      '    at next (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:291:5)\n' +
+      '    at rateLimitMonitoring (C:\\Users\\ASUS\\interview-master\\server\\middleware\\monitoring.js:235:3)\n' +
+      '    at Layer.handleRequest (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\lib\\layer.js:152:17)\n' +
+      '    at trimPrefix (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:342:13)\n' +
+      '    at C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:297:9',
+    name: 'Error',
+    statusCode: 404
+  },
+  user: null,
+  timestamp: '2025-09-03 19:58:05',
+  level: 'error',
+  message: 'Request error'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1756909704651-hpu6keohs',
+    timestamp: 2025-09-03T14:28:24.651Z,
+    service: 'redis',
+    status: 'unhealthy',
+    message: 'Service redis is unhealthy',
+    details: {},
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-03 19:58:24'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1756909764659-mnikonj01',
+    timestamp: 2025-09-03T14:29:24.659Z,
+    service: 'redis',
+    status: 'unhealthy',
+    message: 'Service redis is unhealthy',
+    details: {},
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-03 19:59:24'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1756909824669-zao6t1unj',
+    timestamp: 2025-09-03T14:30:24.669Z,
+    service: 'redis',
+    status: 'unhealthy',
+    message: 'Service redis is unhealthy',
+    details: {},
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-03 20:00:24'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1756909884671-7z33x477y',
+    timestamp: 2025-09-03T14:31:24.671Z,
+    service: 'redis',
+    status: 'unhealthy',
+    message: 'Service redis is unhealthy',
+    details: {},
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-03 20:01:24'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1756909944676-8be5trcx0',
+    timestamp: 2025-09-03T14:32:24.676Z,
+    service: 'redis',
+    status: 'unhealthy',
+    message: 'Service redis is unhealthy',
+    details: {},
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-03 20:02:24'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1756910004692-slhustb9b',
+    timestamp: 2025-09-03T14:33:24.692Z,
+    service: 'redis',
+    status: 'unhealthy',
+    message: 'Service redis is unhealthy',
+    details: {},
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-03 20:03:24'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1756910064698-v9w1zcp66',
+    timestamp: 2025-09-03T14:34:24.698Z,
+    service: 'redis',
+    status: 'unhealthy',
+    message: 'Service redis is unhealthy',
+    details: {},
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-03 20:04:24'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1756910124710-0ntbf9axy',
+    timestamp: 2025-09-03T14:35:24.710Z,
+    service: 'redis',
+    status: 'unhealthy',
+    message: 'Service redis is unhealthy',
+    details: {},
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-03 20:05:24'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1756910184725-tr07q6dtx',
+    timestamp: 2025-09-03T14:36:24.725Z,
+    service: 'redis',
+    status: 'unhealthy',
+    message: 'Service redis is unhealthy',
+    details: {},
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-03 20:06:24'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1756910244740-dds5qodn1',
+    timestamp: 2025-09-03T14:37:24.740Z,
+    service: 'redis',
+    status: 'unhealthy',
+    message: 'Service redis is unhealthy',
+    details: {},
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-03 20:07:24'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1756910304741-gkjwe5c38',
+    timestamp: 2025-09-03T14:38:24.741Z,
+    service: 'redis',
+    status: 'unhealthy',
+    message: 'Service redis is unhealthy',
+    details: {},
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-03 20:08:24'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1756910364745-fxhl5mcs3',
+    timestamp: 2025-09-03T14:39:24.745Z,
+    service: 'redis',
+    status: 'unhealthy',
+    message: 'Service redis is unhealthy',
+    details: {},
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-03 20:09:24'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1756910424760-clrx63onk',
+    timestamp: 2025-09-03T14:40:24.760Z,
+    service: 'redis',
+    status: 'unhealthy',
+    message: 'Service redis is unhealthy',
+    details: {},
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-03 20:10:24'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1756910484770-6yknhnvqc',
+    timestamp: 2025-09-03T14:41:24.770Z,
+    service: 'redis',
+    status: 'unhealthy',
+    message: 'Service redis is unhealthy',
+    details: {},
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-03 20:11:24'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1756910544772-aq5fh56z5',
+    timestamp: 2025-09-03T14:42:24.772Z,
+    service: 'redis',
+    status: 'unhealthy',
+    message: 'Service redis is unhealthy',
+    details: {},
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-03 20:12:24'
+}

@@ -1,0 +1,24 @@
+John Doe
+Software Engineer
+Email: john@example.com
+Phone: 555-1234
+Location: New York, NY
+
+SUMMARY:
+Experienced software engineer with 5+ years of experience in full-stack development.
+
+SKILLS:
+- JavaScript, React, Node.js
+- Python, Django, Flask
+- MongoDB, PostgreSQL
+- AWS, Docker, Kubernetes
+
+EXPERIENCE:
+Senior Software Engineer at Tech Corp (2020-2023)
+- Developed scalable web applications
+- Led team of 3 developers
+- Improved system performance by 40%
+
+EDUCATION:
+Bachelor of Science in Computer Science
+University of Technology (2018)

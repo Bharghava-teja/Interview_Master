@@ -1,0 +1,157 @@
+{
+  error: C:\Users\ASUS\interview-master\server\controllers\examController.js:10
+  const { HTTP_STATUS } = require('../constants/httpStatus');
+          ^
+  
+  SyntaxError: Identifier 'HTTP_STATUS' has already been declared
+      at internalCompileFunction (node:internal/vm:76:18)
+      at wrapSafe (node:internal/modules/cjs/loader:1283:20)
+      at Module._compile (node:internal/modules/cjs/loader:1328:27)
+      at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+      at Module.load (node:internal/modules/cjs/loader:1203:32)
+      at Module._load (node:internal/modules/cjs/loader:1019:12)
+      at Module.require (node:internal/modules/cjs/loader:1231:19)
+      at require (node:internal/modules/helpers:177:18)
+      at Object.<anonymous> (C:\Users\ASUS\interview-master\server\routes\exam.js:5:24)
+      at Module._compile (node:internal/modules/cjs/loader:1364:14),
+  level: 'error',
+  message: "uncaughtException: Identifier 'HTTP_STATUS' has already been declared\n" +
+    'C:\\Users\\ASUS\\interview-master\\server\\controllers\\examController.js:10\n' +
+    "const { HTTP_STATUS } = require('../constants/httpStatus');\n" +
+    '        ^\n' +
+    '\n' +
+    "SyntaxError: Identifier 'HTTP_STATUS' has already been declared\n" +
+    '    at internalCompileFunction (node:internal/vm:76:18)\n' +
+    '    at wrapSafe (node:internal/modules/cjs/loader:1283:20)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1328:27)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1203:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1019:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1231:19)\n' +
+    '    at require (node:internal/modules/helpers:177:18)\n' +
+    '    at Object.<anonymous> (C:\\Users\\ASUS\\interview-master\\server\\routes\\exam.js:5:24)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1364:14)',
+  stack: 'C:\\Users\\ASUS\\interview-master\\server\\controllers\\examController.js:10\n' +
+    "const { HTTP_STATUS } = require('../constants/httpStatus');\n" +
+    '        ^\n' +
+    '\n' +
+    "SyntaxError: Identifier 'HTTP_STATUS' has already been declared\n" +
+    '    at internalCompileFunction (node:internal/vm:76:18)\n' +
+    '    at wrapSafe (node:internal/modules/cjs/loader:1283:20)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1328:27)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1203:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1019:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1231:19)\n' +
+    '    at require (node:internal/modules/helpers:177:18)\n' +
+    '    at Object.<anonymous> (C:\\Users\\ASUS\\interview-master\\server\\routes\\exam.js:5:24)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1364:14)',
+  exception: true,
+  date: 'Sat Sep 13 2025 23:58:12 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 16364,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\ASUS\\interview-master\\server',
+    execPath: 'C:\\nvm4w\\nodejs\\node.exe',
+    version: 'v18.20.8',
+    argv: [
+      'C:\\nvm4w\\nodejs\\node.exe',
+      'C:\\Users\\ASUS\\interview-master\\server\\index.js'
+    ],
+    memoryUsage: {
+      rss: 152367104,
+      heapTotal: 109645824,
+      heapUsed: 83312760,
+      external: 40132894,
+      arrayBuffers: 37259201
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 175981.843 },
+  trace: [
+    {
+      column: 18,
+      file: 'node:internal/vm',
+      function: 'internalCompileFunction',
+      line: 76,
+      method: null,
+      native: false
+    },
+    {
+      column: 20,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'wrapSafe',
+      line: 1283,
+      method: null,
+      native: false
+    },
+    {
+      column: 27,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1328,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1422,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1203,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 1019,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1231,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'node:internal/modules/helpers',
+      function: 'require',
+      line: 177,
+      method: null,
+      native: false
+    },
+    {
+      column: 24,
+      file: 'C:\\Users\\ASUS\\interview-master\\server\\routes\\exam.js',
+      function: null,
+      line: 5,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1364,
+      method: '_compile',
+      native: false
+    }
+  ],
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  timestamp: '2025-09-13 23:58:12'
+}

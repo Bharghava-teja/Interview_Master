@@ -1,0 +1,125 @@
+{
+  error: TypeError [ERR_INVALID_ARG_TYPE]: The "string" argument must be of type string or an instance of Buffer or ArrayBuffer. Received an instance of Object
+      at new NodeError (node:internal/errors:405:5)
+      at Function.byteLength (node:buffer:779:11)
+      at PerformanceMonitor.<anonymous> (C:\Users\ASUS\interview-master\server\utils\performance.js:205:43)
+      at res.send (C:\Users\ASUS\interview-master\server\middleware\monitoring.js:232:18)
+      at Object.handler (C:\Users\ASUS\interview-master\server\node_modules\express-rate-limit\dist\index.cjs:668:18)
+      at C:\Users\ASUS\interview-master\server\node_modules\express-rate-limit\dist\index.cjs:804:16
+      at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+      at async C:\Users\ASUS\interview-master\server\node_modules\express-rate-limit\dist\index.cjs:691:5 {
+    code: 'ERR_INVALID_ARG_TYPE'
+  },
+  level: 'error',
+  message: 'unhandledRejection: The "string" argument must be of type string or an instance of Buffer or ArrayBuffer. Received an instance of Object\n' +
+    'TypeError [ERR_INVALID_ARG_TYPE]: The "string" argument must be of type string or an instance of Buffer or ArrayBuffer. Received an instance of Object\n' +
+    '    at new NodeError (node:internal/errors:405:5)\n' +
+    '    at Function.byteLength (node:buffer:779:11)\n' +
+    '    at PerformanceMonitor.<anonymous> (C:\\Users\\ASUS\\interview-master\\server\\utils\\performance.js:205:43)\n' +
+    '    at res.send (C:\\Users\\ASUS\\interview-master\\server\\middleware\\monitoring.js:232:18)\n' +
+    '    at Object.handler (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\express-rate-limit\\dist\\index.cjs:668:18)\n' +
+    '    at C:\\Users\\ASUS\\interview-master\\server\\node_modules\\express-rate-limit\\dist\\index.cjs:804:16\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+    '    at async C:\\Users\\ASUS\\interview-master\\server\\node_modules\\express-rate-limit\\dist\\index.cjs:691:5',
+  stack: 'TypeError [ERR_INVALID_ARG_TYPE]: The "string" argument must be of type string or an instance of Buffer or ArrayBuffer. Received an instance of Object\n' +
+    '    at new NodeError (node:internal/errors:405:5)\n' +
+    '    at Function.byteLength (node:buffer:779:11)\n' +
+    '    at PerformanceMonitor.<anonymous> (C:\\Users\\ASUS\\interview-master\\server\\utils\\performance.js:205:43)\n' +
+    '    at res.send (C:\\Users\\ASUS\\interview-master\\server\\middleware\\monitoring.js:232:18)\n' +
+    '    at Object.handler (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\express-rate-limit\\dist\\index.cjs:668:18)\n' +
+    '    at C:\\Users\\ASUS\\interview-master\\server\\node_modules\\express-rate-limit\\dist\\index.cjs:804:16\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+    '    at async C:\\Users\\ASUS\\interview-master\\server\\node_modules\\express-rate-limit\\dist\\index.cjs:691:5',
+  rejection: true,
+  date: 'Tue Sep 09 2025 00:28:22 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 22616,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\ASUS\\interview-master\\server',
+    execPath: 'C:\\nvm4w\\nodejs\\node.exe',
+    version: 'v18.20.8',
+    argv: [
+      'C:\\nvm4w\\nodejs\\node.exe',
+      'C:\\Users\\ASUS\\interview-master\\server\\index.js'
+    ],
+    memoryUsage: {
+      rss: 152051712,
+      heapTotal: 104640512,
+      heapUsed: 97977000,
+      external: 39834672,
+      arrayBuffers: 36811690
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 386131.234 },
+  trace: [
+    {
+      column: 5,
+      file: 'node:internal/errors',
+      function: 'new NodeError',
+      line: 405,
+      method: null,
+      native: false
+    },
+    {
+      column: 11,
+      file: 'node:buffer',
+      function: 'Function.byteLength',
+      line: 779,
+      method: 'byteLength',
+      native: false
+    },
+    {
+      column: 43,
+      file: 'C:\\Users\\ASUS\\interview-master\\server\\utils\\performance.js',
+      function: null,
+      line: 205,
+      method: null,
+      native: false
+    },
+    {
+      column: 18,
+      file: 'C:\\Users\\ASUS\\interview-master\\server\\middleware\\monitoring.js',
+      function: 'res.send',
+      line: 232,
+      method: 'send',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'C:\\Users\\ASUS\\interview-master\\server\\node_modules\\express-rate-limit\\dist\\index.cjs',
+      function: 'Object.handler',
+      line: 668,
+      method: 'handler',
+      native: false
+    },
+    {
+      column: 16,
+      file: 'C:\\Users\\ASUS\\interview-master\\server\\node_modules\\express-rate-limit\\dist\\index.cjs',
+      function: null,
+      line: 804,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/process/task_queues',
+      function: 'process.processTicksAndRejections',
+      line: 95,
+      method: 'processTicksAndRejections',
+      native: false
+    },
+    {
+      column: 5,
+      file: 'async C:\\Users\\ASUS\\interview-master\\server\\node_modules\\express-rate-limit\\dist\\index.cjs',
+      function: null,
+      line: 691,
+      method: null,
+      native: false
+    }
+  ],
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  timestamp: '2025-09-09 00:28:22'
+}

@@ -1,0 +1,1610 @@
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'performance',
+  metrics: {
+    memory: '88.9 MB',
+    cpu: { user: 4296000, system: 2296000 },
+    timestamp: 1757514442444
+  },
+  level: 'info',
+  message: 'System metrics collected',
+  timestamp: '2025-09-10 19:57:22'
+}
+{
+  service: 'database',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'health',
+  status: 'unhealthy',
+  details: {
+    connected: false,
+    readyState: 0,
+    host: undefined,
+    port: undefined,
+    name: undefined
+  },
+  level: 'info',
+  message: 'Health check: database',
+  timestamp: '2025-09-10 19:57:52'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1757514472445-yt0yrc7ld',
+    timestamp: 2025-09-10T14:27:52.445Z,
+    service: 'database',
+    status: 'unhealthy',
+    message: 'Service database is unhealthy',
+    details: {
+      connected: false,
+      readyState: 0,
+      host: undefined,
+      port: undefined,
+      name: undefined
+    },
+    error: undefined
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-10 19:57:52'
+}
+{
+  service: 'redis',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'health',
+  status: 'unhealthy',
+  details: undefined,
+  level: 'info',
+  message: 'Health check: redis',
+  timestamp: '2025-09-10 19:57:52'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1757514472448-no680aq01',
+    timestamp: 2025-09-10T14:27:52.448Z,
+    service: 'redis',
+    status: 'unhealthy',
+    message: 'Service redis is unhealthy',
+    details: {},
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-10 19:57:52'
+}
+{
+  service: 'memory',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'health',
+  status: 'healthy',
+  details: {
+    heapUsed: '89.54 MB',
+    heapTotal: '94.54 MB',
+    rss: '138.49 MB',
+    external: '37.83 MB',
+    systemMemoryUsage: '71.73%',
+    freeMemory: '4.32 GB',
+    totalMemory: '15.29 GB'
+  },
+  level: 'info',
+  message: 'Health check: memory',
+  timestamp: '2025-09-10 19:57:52'
+}
+{
+  service: 'cpu',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'health',
+  status: 'healthy',
+  details: {
+    loadAverage: [ 0, 0, 0 ],
+    cpuCount: 16,
+    loadPercent: '0.00%',
+    uptime: '6d 6h 45m 12s'
+  },
+  level: 'info',
+  message: 'Health check: cpu',
+  timestamp: '2025-09-10 19:57:52'
+}
+{
+  service: 'disk',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'health',
+  status: 'healthy',
+  details: {
+    path: 'C:\\Users\\ASUS\\interview-master\\server',
+    accessible: true
+  },
+  level: 'info',
+  message: 'Health check: disk',
+  timestamp: '2025-09-10 19:57:52'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'performance',
+  metrics: {
+    memory: '89.66 MB',
+    cpu: { user: 4312000, system: 2296000 },
+    timestamp: 1757514472452
+  },
+  level: 'info',
+  message: 'System metrics collected',
+  timestamp: '2025-09-10 19:57:52'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'performance',
+  metrics: {
+    memory: '89.7 MB',
+    cpu: { user: 4312000, system: 2296000 },
+    timestamp: 1757514502455
+  },
+  level: 'info',
+  message: 'System metrics collected',
+  timestamp: '2025-09-10 19:58:22'
+}
+{
+  service: 'database',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'health',
+  status: 'unhealthy',
+  details: {
+    connected: false,
+    readyState: 0,
+    host: undefined,
+    port: undefined,
+    name: undefined
+  },
+  level: 'info',
+  message: 'Health check: database',
+  timestamp: '2025-09-10 19:58:52'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1757514532459-d7fd5a0vi',
+    timestamp: 2025-09-10T14:28:52.459Z,
+    service: 'database',
+    status: 'unhealthy',
+    message: 'Service database is unhealthy',
+    details: {
+      connected: false,
+      readyState: 0,
+      host: undefined,
+      port: undefined,
+      name: undefined
+    },
+    error: undefined
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-10 19:58:52'
+}
+{
+  service: 'redis',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'health',
+  status: 'unhealthy',
+  details: undefined,
+  level: 'info',
+  message: 'Health check: redis',
+  timestamp: '2025-09-10 19:58:52'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1757514532460-2s6jm9qtt',
+    timestamp: 2025-09-10T14:28:52.460Z,
+    service: 'redis',
+    status: 'unhealthy',
+    message: 'Service redis is unhealthy',
+    details: {},
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-10 19:58:52'
+}
+{
+  service: 'memory',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'health',
+  status: 'warning',
+  details: {
+    heapUsed: '89.86 MB',
+    heapTotal: '94.54 MB',
+    rss: '138.96 MB',
+    external: '37.84 MB',
+    systemMemoryUsage: '76.45%',
+    freeMemory: '3.6 GB',
+    totalMemory: '15.29 GB'
+  },
+  level: 'info',
+  message: 'Health check: memory',
+  timestamp: '2025-09-10 19:58:52'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1757514532461-naeob3q34',
+    timestamp: 2025-09-10T14:28:52.461Z,
+    service: 'memory',
+    status: 'warning',
+    message: 'Service memory is warning',
+    details: {
+      heapUsed: '89.86 MB',
+      heapTotal: '94.54 MB',
+      rss: '138.96 MB',
+      external: '37.84 MB',
+      systemMemoryUsage: '76.45%',
+      freeMemory: '3.6 GB',
+      totalMemory: '15.29 GB'
+    },
+    error: undefined
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-10 19:58:52'
+}
+{
+  service: 'cpu',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'health',
+  status: 'healthy',
+  details: {
+    loadAverage: [ 0, 0, 0 ],
+    cpuCount: 16,
+    loadPercent: '0.00%',
+    uptime: '6d 6h 46m 12s'
+  },
+  level: 'info',
+  message: 'Health check: cpu',
+  timestamp: '2025-09-10 19:58:52'
+}
+{
+  service: 'disk',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'health',
+  status: 'healthy',
+  details: {
+    path: 'C:\\Users\\ASUS\\interview-master\\server',
+    accessible: true
+  },
+  level: 'info',
+  message: 'Health check: disk',
+  timestamp: '2025-09-10 19:58:52'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'performance',
+  metrics: {
+    memory: '90.01 MB',
+    cpu: { user: 4328000, system: 2296000 },
+    timestamp: 1757514532464
+  },
+  level: 'info',
+  message: 'System metrics collected',
+  timestamp: '2025-09-10 19:58:52'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'request',
+  requestId: '8eeadc42-ad40-4da7-a17e-68301510d39c',
+  method: 'POST',
+  path: '/api/v1/auth/login',
+  query: [Object: null prototype] {},
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36 Edg/140.0.0.0',
+  ip: '::1',
+  timestamp: '2025-09-10 19:58:54',
+  level: 'info',
+  message: 'Incoming request'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'error',
+  requestId: '8eeadc42-ad40-4da7-a17e-68301510d39c',
+  method: 'POST',
+  path: '/api/v1/auth/login',
+  error: {
+    message: 'Cannot call `users.findOne()` before initial connection is complete if `bufferCommands = false`. Make sure you `await mongoose.connect()` if you have `bufferCommands = false`.',
+    stack: 'MongooseError: Cannot call `users.findOne()` before initial connection is complete if `bufferCommands = false`. Make sure you `await mongoose.connect()` if you have `bufferCommands = false`.\n' +
+      '    at NativeCollection.<computed> [as findOne] (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\mongoose\\lib\\drivers\\node-mongodb-native\\collection.js:237:15)\n' +
+      '    at model.Query._findOne (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\mongoose\\lib\\query.js:2687:45)\n' +
+      '    at model.Query.exec (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\mongoose\\lib\\query.js:4604:80)\n' +
+      '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+      '    at async C:\\Users\\ASUS\\interview-master\\server\\controllers\\authController.js:200:16',
+    name: 'MongooseError',
+    statusCode: 500
+  },
+  user: null,
+  timestamp: '2025-09-10 19:58:54',
+  level: 'error',
+  message: 'Request error'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'response',
+  requestId: '8eeadc42-ad40-4da7-a17e-68301510d39c',
+  method: 'POST',
+  path: '/api/v1/auth/login',
+  statusCode: 500,
+  responseTime: '56ms',
+  timestamp: '2025-09-10 19:58:54',
+  level: 'info',
+  message: 'Request completed'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'performance',
+  metrics: {
+    memory: '91.13 MB',
+    cpu: { user: 4375000, system: 2312000 },
+    timestamp: 1757514562472
+  },
+  level: 'info',
+  message: 'System metrics collected',
+  timestamp: '2025-09-10 19:59:22'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'request',
+  requestId: 'd36e4765-7d75-4756-b81f-9988ffd57aa4',
+  method: 'POST',
+  path: '/api/v1/auth/login',
+  query: [Object: null prototype] {},
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36 Edg/140.0.0.0',
+  ip: '::1',
+  timestamp: '2025-09-10 19:59:30',
+  level: 'info',
+  message: 'Incoming request'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'error',
+  requestId: 'd36e4765-7d75-4756-b81f-9988ffd57aa4',
+  method: 'POST',
+  path: '/api/v1/auth/login',
+  error: {
+    message: 'Cannot call `users.findOne()` before initial connection is complete if `bufferCommands = false`. Make sure you `await mongoose.connect()` if you have `bufferCommands = false`.',
+    stack: 'MongooseError: Cannot call `users.findOne()` before initial connection is complete if `bufferCommands = false`. Make sure you `await mongoose.connect()` if you have `bufferCommands = false`.\n' +
+      '    at NativeCollection.<computed> [as findOne] (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\mongoose\\lib\\drivers\\node-mongodb-native\\collection.js:237:15)\n' +
+      '    at model.Query._findOne (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\mongoose\\lib\\query.js:2687:45)\n' +
+      '    at model.Query.exec (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\mongoose\\lib\\query.js:4604:80)\n' +
+      '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+      '    at async C:\\Users\\ASUS\\interview-master\\server\\controllers\\authController.js:200:16',
+    name: 'MongooseError',
+    statusCode: 500
+  },
+  user: null,
+  timestamp: '2025-09-10 19:59:30',
+  level: 'error',
+  message: 'Request error'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'response',
+  requestId: 'd36e4765-7d75-4756-b81f-9988ffd57aa4',
+  method: 'POST',
+  path: '/api/v1/auth/login',
+  statusCode: 500,
+  responseTime: '6ms',
+  timestamp: '2025-09-10 19:59:30',
+  level: 'info',
+  message: 'Request completed'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'performance',
+  metrics: {
+    memory: '90.7 MB',
+    cpu: { user: 3703000, system: 1343000 },
+    timestamp: 1757515606348
+  },
+  level: 'info',
+  message: 'System metrics collected',
+  timestamp: '2025-09-10 20:16:46'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'request',
+  requestId: 'b1c36061-f4d4-4155-8fbf-3d4a9e43fd2f',
+  method: 'POST',
+  path: '/api/v1/auth/login',
+  query: [Object: null prototype] {},
+  userAgent: 'Mozilla/5.0 (Windows NT; Windows NT 10.0; en-US) WindowsPowerShell/5.1.26100.4768',
+  ip: '::1',
+  timestamp: '2025-09-10 20:17:01',
+  level: 'info',
+  message: 'Incoming request'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'error',
+  requestId: 'b1c36061-f4d4-4155-8fbf-3d4a9e43fd2f',
+  method: 'POST',
+  path: '/api/v1/auth/login',
+  error: {
+    message: 'Invalid credentials',
+    stack: 'Error: Invalid credentials\n' +
+      '    at C:\\Users\\ASUS\\interview-master\\server\\controllers\\authController.js:205:11\n' +
+      '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)',
+    name: 'Error',
+    statusCode: 401
+  },
+  user: null,
+  timestamp: '2025-09-10 20:17:01',
+  level: 'error',
+  message: 'Request error'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'security',
+  event: 'unauthorized_access',
+  details: {
+    requestId: 'b1c36061-f4d4-4155-8fbf-3d4a9e43fd2f',
+    method: 'POST',
+    path: '/api/v1/auth/login',
+    ip: '::1',
+    userAgent: 'Mozilla/5.0 (Windows NT; Windows NT 10.0; en-US) WindowsPowerShell/5.1.26100.4768',
+    error: 'Invalid credentials'
+  },
+  timestamp: '2025-09-10 20:17:01',
+  level: 'warn',
+  message: 'Security event'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'response',
+  requestId: 'b1c36061-f4d4-4155-8fbf-3d4a9e43fd2f',
+  method: 'POST',
+  path: '/api/v1/auth/login',
+  statusCode: 401,
+  responseTime: '16ms',
+  timestamp: '2025-09-10 20:17:01',
+  level: 'info',
+  message: 'Request completed'
+}
+{
+  service: 'database',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'health',
+  status: 'healthy',
+  details: {
+    connected: true,
+    readyState: 1,
+    host: '127.0.0.1',
+    port: 27017,
+    name: 'interview-master'
+  },
+  level: 'info',
+  message: 'Health check: database',
+  timestamp: '2025-09-10 20:17:16'
+}
+{
+  service: 'redis',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'health',
+  status: 'unhealthy',
+  details: undefined,
+  level: 'info',
+  message: 'Health check: redis',
+  timestamp: '2025-09-10 20:17:16'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1757515636350-myrxqiagf',
+    timestamp: 2025-09-10T14:47:16.350Z,
+    service: 'redis',
+    status: 'unhealthy',
+    message: 'Service redis is unhealthy',
+    details: {},
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-10 20:17:16'
+}
+{
+  service: 'memory',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'health',
+  status: 'healthy',
+  details: {
+    heapUsed: '92.35 MB',
+    heapTotal: '99.29 MB',
+    rss: '142.74 MB',
+    external: '38.02 MB',
+    systemMemoryUsage: '67.40%',
+    freeMemory: '4.99 GB',
+    totalMemory: '15.29 GB'
+  },
+  level: 'info',
+  message: 'Health check: memory',
+  timestamp: '2025-09-10 20:17:16'
+}
+{
+  service: 'cpu',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'health',
+  status: 'healthy',
+  details: {
+    loadAverage: [ 0, 0, 0 ],
+    cpuCount: 16,
+    loadPercent: '0.00%',
+    uptime: '6d 7h 4m 36s'
+  },
+  level: 'info',
+  message: 'Health check: cpu',
+  timestamp: '2025-09-10 20:17:16'
+}
+{
+  service: 'disk',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'health',
+  status: 'healthy',
+  details: {
+    path: 'C:\\Users\\ASUS\\interview-master\\server',
+    accessible: true
+  },
+  level: 'info',
+  message: 'Health check: disk',
+  timestamp: '2025-09-10 20:17:16'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'performance',
+  metrics: {
+    memory: '92.68 MB',
+    cpu: { user: 3843000, system: 1359000 },
+    timestamp: 1757515636355
+  },
+  level: 'info',
+  message: 'System metrics collected',
+  timestamp: '2025-09-10 20:17:16'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'performance',
+  metrics: {
+    memory: '92.53 MB',
+    cpu: { user: 3890000, system: 1375000 },
+    timestamp: 1757515666367
+  },
+  level: 'info',
+  message: 'System metrics collected',
+  timestamp: '2025-09-10 20:17:46'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'request',
+  requestId: '777d539b-9fa0-4d3a-9468-a4601a560bad',
+  method: 'POST',
+  path: '/api/v1/auth/login',
+  query: [Object: null prototype] {},
+  userAgent: 'Mozilla/5.0 (Windows NT; Windows NT 10.0; en-US) WindowsPowerShell/5.1.26100.4768',
+  ip: '::1',
+  timestamp: '2025-09-10 20:17:56',
+  level: 'info',
+  message: 'Incoming request'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'response',
+  requestId: '777d539b-9fa0-4d3a-9468-a4601a560bad',
+  method: 'POST',
+  path: '/login',
+  statusCode: 200,
+  responseTime: '352ms',
+  timestamp: '2025-09-10 20:17:56',
+  level: 'info',
+  message: 'Request completed'
+}
+{
+  service: 'database',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'health',
+  status: 'healthy',
+  details: {
+    connected: true,
+    readyState: 1,
+    host: '127.0.0.1',
+    port: 27017,
+    name: 'interview-master'
+  },
+  level: 'info',
+  message: 'Health check: database',
+  timestamp: '2025-09-10 20:18:16'
+}
+{
+  service: 'redis',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'health',
+  status: 'unhealthy',
+  details: undefined,
+  level: 'info',
+  message: 'Health check: redis',
+  timestamp: '2025-09-10 20:18:16'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1757515696358-63wkhcpn9',
+    timestamp: 2025-09-10T14:48:16.358Z,
+    service: 'redis',
+    status: 'unhealthy',
+    message: 'Service redis is unhealthy',
+    details: {},
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-10 20:18:16'
+}
+{
+  service: 'memory',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'health',
+  status: 'healthy',
+  details: {
+    heapUsed: '93.34 MB',
+    heapTotal: '99.54 MB',
+    rss: '143.29 MB',
+    external: '38.08 MB',
+    systemMemoryUsage: '67.86%',
+    freeMemory: '4.92 GB',
+    totalMemory: '15.29 GB'
+  },
+  level: 'info',
+  message: 'Health check: memory',
+  timestamp: '2025-09-10 20:18:16'
+}
+{
+  service: 'cpu',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'health',
+  status: 'healthy',
+  details: {
+    loadAverage: [ 0, 0, 0 ],
+    cpuCount: 16,
+    loadPercent: '0.00%',
+    uptime: '6d 7h 5m 36s'
+  },
+  level: 'info',
+  message: 'Health check: cpu',
+  timestamp: '2025-09-10 20:18:16'
+}
+{
+  service: 'disk',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'health',
+  status: 'healthy',
+  details: {
+    path: 'C:\\Users\\ASUS\\interview-master\\server',
+    accessible: true
+  },
+  level: 'info',
+  message: 'Health check: disk',
+  timestamp: '2025-09-10 20:18:16'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'performance',
+  metrics: {
+    memory: '93.45 MB',
+    cpu: { user: 4187000, system: 1406000 },
+    timestamp: 1757515696371
+  },
+  level: 'info',
+  message: 'System metrics collected',
+  timestamp: '2025-09-10 20:18:16'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'performance',
+  metrics: {
+    memory: '93.31 MB',
+    cpu: { user: 4281000, system: 1406000 },
+    timestamp: 1757515726386
+  },
+  level: 'info',
+  message: 'System metrics collected',
+  timestamp: '2025-09-10 20:18:46'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'request',
+  requestId: 'ef5919ca-a8a2-4665-a8cf-f7e7e8ca18b4',
+  method: 'POST',
+  path: '/api/v1/auth/login',
+  query: [Object: null prototype] {},
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36 Edg/140.0.0.0',
+  ip: '::1',
+  timestamp: '2025-09-10 20:19:26',
+  level: 'info',
+  message: 'Incoming request'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'error',
+  requestId: 'ef5919ca-a8a2-4665-a8cf-f7e7e8ca18b4',
+  method: 'POST',
+  path: '/api/v1/auth/login',
+  error: {
+    message: 'Invalid credentials',
+    stack: 'Error: Invalid credentials\n' +
+      '    at C:\\Users\\ASUS\\interview-master\\server\\controllers\\authController.js:205:11\n' +
+      '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)',
+    name: 'Error',
+    statusCode: 401
+  },
+  user: null,
+  timestamp: '2025-09-10 20:19:26',
+  level: 'error',
+  message: 'Request error'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'security',
+  event: 'unauthorized_access',
+  details: {
+    requestId: 'ef5919ca-a8a2-4665-a8cf-f7e7e8ca18b4',
+    method: 'POST',
+    path: '/api/v1/auth/login',
+    ip: '::1',
+    userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36 Edg/140.0.0.0',
+    error: 'Invalid credentials'
+  },
+  timestamp: '2025-09-10 20:19:26',
+  level: 'warn',
+  message: 'Security event'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'response',
+  requestId: 'ef5919ca-a8a2-4665-a8cf-f7e7e8ca18b4',
+  method: 'POST',
+  path: '/api/v1/auth/login',
+  statusCode: 401,
+  responseTime: '21ms',
+  timestamp: '2025-09-10 20:19:26',
+  level: 'info',
+  message: 'Request completed'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'performance',
+  metrics: {
+    memory: '92.64 MB',
+    cpu: { user: 3296000, system: 1031000 },
+    timestamp: 1757515771220
+  },
+  level: 'info',
+  message: 'System metrics collected',
+  timestamp: '2025-09-10 20:19:31'
+}
+{
+  service: 'database',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'health',
+  status: 'healthy',
+  details: {
+    connected: true,
+    readyState: 1,
+    host: '127.0.0.1',
+    port: 27017,
+    name: 'interview-master'
+  },
+  level: 'info',
+  message: 'Health check: database',
+  timestamp: '2025-09-10 20:20:01'
+}
+{
+  service: 'redis',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'health',
+  status: 'unhealthy',
+  details: undefined,
+  level: 'info',
+  message: 'Health check: redis',
+  timestamp: '2025-09-10 20:20:01'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1757515801224-25tn8sv76',
+    timestamp: 2025-09-10T14:50:01.224Z,
+    service: 'redis',
+    status: 'unhealthy',
+    message: 'Service redis is unhealthy',
+    details: {},
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-10 20:20:01'
+}
+{
+  service: 'memory',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'health',
+  status: 'healthy',
+  details: {
+    heapUsed: '92.96 MB',
+    heapTotal: '99.54 MB',
+    rss: '144.04 MB',
+    external: '38.04 MB',
+    systemMemoryUsage: '71.19%',
+    freeMemory: '4.41 GB',
+    totalMemory: '15.29 GB'
+  },
+  level: 'info',
+  message: 'Health check: memory',
+  timestamp: '2025-09-10 20:20:01'
+}
+{
+  service: 'cpu',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'health',
+  status: 'healthy',
+  details: {
+    loadAverage: [ 0, 0, 0 ],
+    cpuCount: 16,
+    loadPercent: '0.00%',
+    uptime: '6d 7h 7m 21s'
+  },
+  level: 'info',
+  message: 'Health check: cpu',
+  timestamp: '2025-09-10 20:20:01'
+}
+{
+  service: 'disk',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'health',
+  status: 'healthy',
+  details: {
+    path: 'C:\\Users\\ASUS\\interview-master\\server',
+    accessible: true
+  },
+  level: 'info',
+  message: 'Health check: disk',
+  timestamp: '2025-09-10 20:20:01'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'performance',
+  metrics: {
+    memory: '93.08 MB',
+    cpu: { user: 3375000, system: 1046000 },
+    timestamp: 1757515801229
+  },
+  level: 'info',
+  message: 'System metrics collected',
+  timestamp: '2025-09-10 20:20:01'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'request',
+  requestId: '9c6b4a26-b70f-499e-a524-cb0cf7ebee37',
+  method: 'POST',
+  path: '/api/v1/auth/signup',
+  query: [Object: null prototype] {},
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36 Edg/140.0.0.0',
+  ip: '::1',
+  timestamp: '2025-09-10 20:20:04',
+  level: 'info',
+  message: 'Incoming request'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'error',
+  requestId: '9c6b4a26-b70f-499e-a524-cb0cf7ebee37',
+  method: 'POST',
+  path: '/api/v1/auth/signup',
+  error: {
+    message: 'Email already in use',
+    stack: 'Error: Email already in use\n' +
+      '    at C:\\Users\\ASUS\\interview-master\\server\\controllers\\authController.js:99:11\n' +
+      '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)',
+    name: 'Error',
+    statusCode: 409
+  },
+  user: null,
+  timestamp: '2025-09-10 20:20:04',
+  level: 'error',
+  message: 'Request error'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'response',
+  requestId: '9c6b4a26-b70f-499e-a524-cb0cf7ebee37',
+  method: 'POST',
+  path: '/api/v1/auth/signup',
+  statusCode: 409,
+  responseTime: '9ms',
+  timestamp: '2025-09-10 20:20:04',
+  level: 'info',
+  message: 'Request completed'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'request',
+  requestId: '8a8b0097-898c-4414-8bbf-4c2c50686449',
+  method: 'POST',
+  path: '/api/v1/auth/signup',
+  query: [Object: null prototype] {},
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36 Edg/140.0.0.0',
+  ip: '::1',
+  timestamp: '2025-09-10 20:20:12',
+  level: 'info',
+  message: 'Incoming request'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'response',
+  requestId: '8a8b0097-898c-4414-8bbf-4c2c50686449',
+  method: 'POST',
+  path: '/signup',
+  statusCode: 201,
+  responseTime: '311ms',
+  timestamp: '2025-09-10 20:20:13',
+  level: 'info',
+  message: 'Request completed'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'request',
+  requestId: 'f95e2b7d-4cba-413d-aa93-744ceb668b16',
+  method: 'POST',
+  path: '/api/v1/auth/login',
+  query: [Object: null prototype] {},
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36 Edg/140.0.0.0',
+  ip: '::1',
+  timestamp: '2025-09-10 20:20:18',
+  level: 'info',
+  message: 'Incoming request'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'performance',
+  method: 'POST',
+  path: '/login',
+  responseTime: '1316ms',
+  statusCode: 200,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36 Edg/140.0.0.0',
+  ip: '::1',
+  level: 'warn',
+  message: 'Slow request detected',
+  timestamp: '2025-09-10 20:20:19'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'response',
+  requestId: 'f95e2b7d-4cba-413d-aa93-744ceb668b16',
+  method: 'POST',
+  path: '/login',
+  statusCode: 200,
+  responseTime: '1316ms',
+  timestamp: '2025-09-10 20:20:19',
+  level: 'info',
+  message: 'Request completed'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'request',
+  requestId: '3e8ba641-65bd-4280-898f-2ca6544dce35',
+  method: 'POST',
+  path: '/api/v1/resumes/upload',
+  query: [Object: null prototype] {},
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36 Edg/140.0.0.0',
+  ip: '127.0.0.1',
+  timestamp: '2025-09-10 20:20:30',
+  level: 'info',
+  message: 'Incoming request'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'response',
+  requestId: '3e8ba641-65bd-4280-898f-2ca6544dce35',
+  method: 'POST',
+  path: '/upload',
+  statusCode: 201,
+  responseTime: '843ms',
+  timestamp: '2025-09-10 20:20:30',
+  level: 'info',
+  message: 'Request completed'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'performance',
+  metrics: {
+    memory: '103.18 MB',
+    cpu: { user: 4781000, system: 1078000 },
+    timestamp: 1757515831241
+  },
+  level: 'info',
+  message: 'System metrics collected',
+  timestamp: '2025-09-10 20:20:31'
+}
+{
+  service: 'database',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'health',
+  status: 'healthy',
+  details: {
+    connected: true,
+    readyState: 1,
+    host: '127.0.0.1',
+    port: 27017,
+    name: 'interview-master'
+  },
+  level: 'info',
+  message: 'Health check: database',
+  timestamp: '2025-09-10 20:21:01'
+}
+{
+  service: 'redis',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'health',
+  status: 'unhealthy',
+  details: undefined,
+  level: 'info',
+  message: 'Health check: redis',
+  timestamp: '2025-09-10 20:21:01'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1757515861224-j2b53g1kd',
+    timestamp: 2025-09-10T14:51:01.224Z,
+    service: 'redis',
+    status: 'unhealthy',
+    message: 'Service redis is unhealthy',
+    details: {},
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-10 20:21:01'
+}
+{
+  service: 'memory',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'health',
+  status: 'healthy',
+  details: {
+    heapUsed: '104.48 MB',
+    heapTotal: '115.29 MB',
+    rss: '162.01 MB',
+    external: '39.98 MB',
+    systemMemoryUsage: '74.00%',
+    freeMemory: '3.98 GB',
+    totalMemory: '15.29 GB'
+  },
+  level: 'info',
+  message: 'Health check: memory',
+  timestamp: '2025-09-10 20:21:01'
+}
+{
+  service: 'cpu',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'health',
+  status: 'healthy',
+  details: {
+    loadAverage: [ 0, 0, 0 ],
+    cpuCount: 16,
+    loadPercent: '0.00%',
+    uptime: '6d 7h 8m 21s'
+  },
+  level: 'info',
+  message: 'Health check: cpu',
+  timestamp: '2025-09-10 20:21:01'
+}
+{
+  service: 'disk',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'health',
+  status: 'healthy',
+  details: {
+    path: 'C:\\Users\\ASUS\\interview-master\\server',
+    accessible: true
+  },
+  level: 'info',
+  message: 'Health check: disk',
+  timestamp: '2025-09-10 20:21:01'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'performance',
+  metrics: {
+    memory: '101.12 MB',
+    cpu: { user: 4937000, system: 1109000 },
+    timestamp: 1757515861254
+  },
+  level: 'info',
+  message: 'System metrics collected',
+  timestamp: '2025-09-10 20:21:01'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'request',
+  requestId: 'ae9184a6-40a2-42fd-bf2b-efa54b055e05',
+  method: 'POST',
+  path: '/api/v1/resumes/upload',
+  query: [Object: null prototype] {},
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36 Edg/140.0.0.0',
+  ip: '127.0.0.1',
+  timestamp: '2025-09-10 20:21:02',
+  level: 'info',
+  message: 'Incoming request'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'response',
+  requestId: 'ae9184a6-40a2-42fd-bf2b-efa54b055e05',
+  method: 'POST',
+  path: '/upload',
+  statusCode: 201,
+  responseTime: '265ms',
+  timestamp: '2025-09-10 20:21:02',
+  level: 'info',
+  message: 'Request completed'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'request',
+  requestId: '4dc3058a-b600-4af8-b12f-b97c358ca804',
+  method: 'POST',
+  path: '/api/v1/resumes/upload',
+  query: [Object: null prototype] {},
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36 Edg/140.0.0.0',
+  ip: '127.0.0.1',
+  timestamp: '2025-09-10 20:21:14',
+  level: 'info',
+  message: 'Incoming request'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'response',
+  requestId: '4dc3058a-b600-4af8-b12f-b97c358ca804',
+  method: 'POST',
+  path: '/upload',
+  statusCode: 201,
+  responseTime: '197ms',
+  timestamp: '2025-09-10 20:21:14',
+  level: 'info',
+  message: 'Request completed'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'performance',
+  metrics: {
+    memory: '105.27 MB',
+    cpu: { user: 5671000, system: 1187000 },
+    timestamp: 1757515891269
+  },
+  level: 'info',
+  message: 'System metrics collected',
+  timestamp: '2025-09-10 20:21:31'
+}
+{
+  service: 'database',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'health',
+  status: 'healthy',
+  details: {
+    connected: true,
+    readyState: 1,
+    host: '127.0.0.1',
+    port: 27017,
+    name: 'interview-master'
+  },
+  level: 'info',
+  message: 'Health check: database',
+  timestamp: '2025-09-10 20:22:01'
+}
+{
+  service: 'redis',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'health',
+  status: 'unhealthy',
+  details: undefined,
+  level: 'info',
+  message: 'Health check: redis',
+  timestamp: '2025-09-10 20:22:01'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1757515921231-dpf0gtawg',
+    timestamp: 2025-09-10T14:52:01.231Z,
+    service: 'redis',
+    status: 'unhealthy',
+    message: 'Service redis is unhealthy',
+    details: {},
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-10 20:22:01'
+}
+{
+  service: 'memory',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'health',
+  status: 'healthy',
+  details: {
+    heapUsed: '106.11 MB',
+    heapTotal: '114.43 MB',
+    rss: '162.61 MB',
+    external: '41.05 MB',
+    systemMemoryUsage: '74.41%',
+    freeMemory: '3.91 GB',
+    totalMemory: '15.29 GB'
+  },
+  level: 'info',
+  message: 'Health check: memory',
+  timestamp: '2025-09-10 20:22:01'
+}
+{
+  service: 'cpu',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'health',
+  status: 'healthy',
+  details: {
+    loadAverage: [ 0, 0, 0 ],
+    cpuCount: 16,
+    loadPercent: '0.00%',
+    uptime: '6d 7h 9m 21s'
+  },
+  level: 'info',
+  message: 'Health check: cpu',
+  timestamp: '2025-09-10 20:22:01'
+}
+{
+  service: 'disk',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'health',
+  status: 'healthy',
+  details: {
+    path: 'C:\\Users\\ASUS\\interview-master\\server',
+    accessible: true
+  },
+  level: 'info',
+  message: 'Health check: disk',
+  timestamp: '2025-09-10 20:22:01'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'performance',
+  metrics: {
+    memory: '106.21 MB',
+    cpu: { user: 5765000, system: 1203000 },
+    timestamp: 1757515921277
+  },
+  level: 'info',
+  message: 'System metrics collected',
+  timestamp: '2025-09-10 20:22:01'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'performance',
+  metrics: {
+    memory: '105.14 MB',
+    cpu: { user: 5828000, system: 1203000 },
+    timestamp: 1757515951285
+  },
+  level: 'info',
+  message: 'System metrics collected',
+  timestamp: '2025-09-10 20:22:31'
+}
+{
+  service: 'database',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'health',
+  status: 'healthy',
+  details: {
+    connected: true,
+    readyState: 1,
+    host: '127.0.0.1',
+    port: 27017,
+    name: 'interview-master'
+  },
+  level: 'info',
+  message: 'Health check: database',
+  timestamp: '2025-09-10 20:23:01'
+}
+{
+  service: 'redis',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'health',
+  status: 'unhealthy',
+  details: undefined,
+  level: 'info',
+  message: 'Health check: redis',
+  timestamp: '2025-09-10 20:23:01'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1757515981237-kc5r4vk6s',
+    timestamp: 2025-09-10T14:53:01.237Z,
+    service: 'redis',
+    status: 'unhealthy',
+    message: 'Service redis is unhealthy',
+    details: {},
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-10 20:23:01'
+}
+{
+  service: 'memory',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'health',
+  status: 'healthy',
+  details: {
+    heapUsed: '105.28 MB',
+    heapTotal: '111.43 MB',
+    rss: '160.71 MB',
+    external: '40.95 MB',
+    systemMemoryUsage: '73.62%',
+    freeMemory: '4.03 GB',
+    totalMemory: '15.29 GB'
+  },
+  level: 'info',
+  message: 'Health check: memory',
+  timestamp: '2025-09-10 20:23:01'
+}
+{
+  service: 'cpu',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'health',
+  status: 'healthy',
+  details: {
+    loadAverage: [ 0, 0, 0 ],
+    cpuCount: 16,
+    loadPercent: '0.00%',
+    uptime: '6d 7h 10m 21s'
+  },
+  level: 'info',
+  message: 'Health check: cpu',
+  timestamp: '2025-09-10 20:23:01'
+}
+{
+  service: 'disk',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'health',
+  status: 'healthy',
+  details: {
+    path: 'C:\\Users\\ASUS\\interview-master\\server',
+    accessible: true
+  },
+  level: 'info',
+  message: 'Health check: disk',
+  timestamp: '2025-09-10 20:23:01'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'performance',
+  metrics: {
+    memory: '105.38 MB',
+    cpu: { user: 5906000, system: 1218000 },
+    timestamp: 1757515981299
+  },
+  level: 'info',
+  message: 'System metrics collected',
+  timestamp: '2025-09-10 20:23:01'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'request',
+  requestId: '4562dea0-3c2f-4e74-a34f-d3eb01823482',
+  method: 'POST',
+  path: '/api/v1/resumes/upload',
+  query: [Object: null prototype] {},
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36 Edg/140.0.0.0',
+  ip: '127.0.0.1',
+  timestamp: '2025-09-10 20:23:29',
+  level: 'info',
+  message: 'Incoming request'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'response',
+  requestId: '4562dea0-3c2f-4e74-a34f-d3eb01823482',
+  method: 'POST',
+  path: '/upload',
+  statusCode: 201,
+  responseTime: '316ms',
+  timestamp: '2025-09-10 20:23:30',
+  level: 'info',
+  message: 'Request completed'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'performance',
+  metrics: {
+    memory: '114.67 MB',
+    cpu: { user: 6609000, system: 1250000 },
+    timestamp: 1757516011314
+  },
+  level: 'info',
+  message: 'System metrics collected',
+  timestamp: '2025-09-10 20:23:31'
+}

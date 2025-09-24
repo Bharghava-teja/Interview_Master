@@ -1,0 +1,75 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 30
+    },
+    "auditLog": "C:\\Users\\ASUS\\interview-master\\server\\logs\\.abb9b90a2fa9f5b23a8f92ae3749e26752ad9366-audit.json",
+    "files": [
+        {
+            "date": 1756901347922,
+            "name": "C:\\Users\\ASUS\\interview-master\\server\\logs\\error-2025-09-03.log",
+            "hash": "b40044aeca6bf29c3e342650661dbed91a08609618ce12ac94a9c7d332b62033"
+        },
+        {
+            "date": 1757338677268,
+            "name": "C:\\Users\\ASUS\\interview-master\\server\\logs\\error-2025-09-08.log",
+            "hash": "ca6b5f90c25900fd4305d89f79965824bb86f7270656adc0688b4b92527b2f6c"
+        },
+        {
+            "date": 1757356590411,
+            "name": "C:\\Users\\ASUS\\interview-master\\server\\logs\\error-2025-09-09.log",
+            "hash": "f51c0877af23b5c2c06d70d315bfcbf245ed74df3c494791b3605a0d7c8b8190"
+        },
+        {
+            "date": 1757514412427,
+            "name": "C:\\Users\\ASUS\\interview-master\\server\\logs\\error-2025-09-10.log",
+            "hash": "f4202035d5f74488e1d3a0be0b92b1de1c8a441b783a7ff85ad3b0f9fdb6aebd"
+        },
+        {
+            "date": 1757614699096,
+            "name": "C:\\Users\\ASUS\\interview-master\\server\\logs\\error-2025-09-11.log",
+            "hash": "b5ef5d584a6d343e396e0fc80c3fc5dad70d6a70bdc820a4c938deabe627d63f"
+        },
+        {
+            "date": 1757615559113,
+            "name": "C:\\Users\\ASUS\\interview-master\\server\\logs\\error-2025-09-12.log",
+            "hash": "80e9bca5139f4c5aba1dc73d76ef0168991cdf62ff10abd7a57d92ef2b3fd718"
+        },
+        {
+            "date": 1757784409070,
+            "name": "C:\\Users\\ASUS\\interview-master\\server\\logs\\error-2025-09-13.log",
+            "hash": "08eb51d31d389b8ff63a98727bbf99935a94e42305047654db7c1f6ece071e00"
+        },
+        {
+            "date": 1757788773364,
+            "name": "C:\\Users\\ASUS\\interview-master\\server\\logs\\error-2025-09-14.log",
+            "hash": "274903fde2b7262aa59a6a742e7b9fe50a24c751b0bd5bd95ddda3e44b25f607"
+        },
+        {
+            "date": 1757954970164,
+            "name": "C:\\Users\\ASUS\\interview-master\\server\\logs\\error-2025-09-15.log",
+            "hash": "3931dd8b39602c1542ce802d4348f73f7e1c701ca724d2bed750f4b8b7749342"
+        },
+        {
+            "date": 1757961017268,
+            "name": "C:\\Users\\ASUS\\interview-master\\server\\logs\\error-2025-09-16.log",
+            "hash": "db3286a71a51feeb60a1565ec65c0fb02a73a1bcaa184d3f58a1a525b2bcf9ee"
+        },
+        {
+            "date": 1758090113690,
+            "name": "C:\\Users\\ASUS\\interview-master\\server\\logs\\error-2025-09-17.log",
+            "hash": "d18ebb188a9f13318660149c55b9931a8a782c7f9b3b7fe8b2ca7022f2e2b795"
+        },
+        {
+            "date": 1758274898221,
+            "name": "C:\\Users\\ASUS\\interview-master\\server\\logs\\error-2025-09-19.log",
+            "hash": "1ad76e83d9b8303da99e732f423c25ece685ef6644aac53a664b2a1ea9011464"
+        },
+        {
+            "date": 1758715695032,
+            "name": "C:\\Users\\ASUS\\interview-master\\server\\logs\\error-2025-09-24.log",
+            "hash": "5979a83d460ffeae0fc586c3e04ff143527376f29e55b892097716994bfc2323"
+        }
+    ],
+    "hashType": "sha256"
+}

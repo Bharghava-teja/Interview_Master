@@ -1,0 +1,561 @@
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'error',
+  requestId: 'e944b7fa-da3f-445c-a76e-92837c3273fe',
+  method: 'GET',
+  path: '/api/v1/user/profile',
+  error: {
+    message: "Can't find /api/v1/user/profile on this server!",
+    stack: "Error: Can't find /api/v1/user/profile on this server!\n" +
+      '    at handleNotFound (C:\\Users\\ASUS\\interview-master\\server\\middleware\\errorHandler.js:145:17)\n' +
+      '    at Layer.handleRequest (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\lib\\layer.js:152:17)\n' +
+      '    at trimPrefix (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:342:13)\n' +
+      '    at C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:297:9\n' +
+      '    at processParams (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:582:12)\n' +
+      '    at next (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:291:5)\n' +
+      '    at rateLimitMonitoring (C:\\Users\\ASUS\\interview-master\\server\\middleware\\monitoring.js:235:3)\n' +
+      '    at Layer.handleRequest (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\lib\\layer.js:152:17)\n' +
+      '    at trimPrefix (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:342:13)\n' +
+      '    at C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:297:9',
+    name: 'Error',
+    statusCode: 404
+  },
+  user: null,
+  timestamp: '2025-09-09 00:06:30',
+  level: 'error',
+  message: 'Request error'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'error',
+  requestId: 'f9099b0e-b192-44d8-8d6e-82dbe0ec94d1',
+  method: 'GET',
+  path: '/api/v1/user/profile',
+  error: {
+    message: "Can't find /api/v1/user/profile on this server!",
+    stack: "Error: Can't find /api/v1/user/profile on this server!\n" +
+      '    at handleNotFound (C:\\Users\\ASUS\\interview-master\\server\\middleware\\errorHandler.js:145:17)\n' +
+      '    at Layer.handleRequest (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\lib\\layer.js:152:17)\n' +
+      '    at trimPrefix (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:342:13)\n' +
+      '    at C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:297:9\n' +
+      '    at processParams (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:582:12)\n' +
+      '    at next (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:291:5)\n' +
+      '    at rateLimitMonitoring (C:\\Users\\ASUS\\interview-master\\server\\middleware\\monitoring.js:235:3)\n' +
+      '    at Layer.handleRequest (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\lib\\layer.js:152:17)\n' +
+      '    at trimPrefix (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:342:13)\n' +
+      '    at C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:297:9',
+    name: 'Error',
+    statusCode: 404
+  },
+  user: null,
+  timestamp: '2025-09-09 00:06:30',
+  level: 'error',
+  message: 'Request error'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'error',
+  requestId: '25ab9479-2d1f-4436-bf50-8d8021f533e8',
+  method: 'POST',
+  path: '/api/v1/auth/login',
+  error: {
+    message: 'Invalid credentials',
+    stack: 'Error: Invalid credentials\n' +
+      '    at C:\\Users\\ASUS\\interview-master\\server\\controllers\\authController.js:239:11\n' +
+      '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)',
+    name: 'Error',
+    statusCode: 401
+  },
+  user: null,
+  timestamp: '2025-09-09 00:09:24',
+  level: 'error',
+  message: 'Request error'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'error',
+  requestId: '66d29b3c-29bf-4a78-b29e-f99f52d54006',
+  method: 'GET',
+  path: '/main.9fcfce3d1a80f0e716f8.hot-update.json',
+  error: {
+    message: "Can't find /main.9fcfce3d1a80f0e716f8.hot-update.json on this server!",
+    stack: "Error: Can't find /main.9fcfce3d1a80f0e716f8.hot-update.json on this server!\n" +
+      '    at handleNotFound (C:\\Users\\ASUS\\interview-master\\server\\middleware\\errorHandler.js:145:17)\n' +
+      '    at Layer.handleRequest (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\lib\\layer.js:152:17)\n' +
+      '    at trimPrefix (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:342:13)\n' +
+      '    at C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:297:9\n' +
+      '    at processParams (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:582:12)\n' +
+      '    at next (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:291:5)\n' +
+      '    at rateLimitMonitoring (C:\\Users\\ASUS\\interview-master\\server\\middleware\\monitoring.js:235:3)\n' +
+      '    at Layer.handleRequest (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\lib\\layer.js:152:17)\n' +
+      '    at trimPrefix (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:342:13)\n' +
+      '    at C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:297:9',
+    name: 'Error',
+    statusCode: 404
+  },
+  user: null,
+  timestamp: '2025-09-09 00:13:59',
+  level: 'error',
+  message: 'Request error'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'error',
+  requestId: '8543c31a-3551-48c4-be39-9c7955f55bd0',
+  method: 'GET',
+  path: '/@vite/client',
+  error: {
+    message: "Can't find /@vite/client on this server!",
+    stack: "Error: Can't find /@vite/client on this server!\n" +
+      '    at handleNotFound (C:\\Users\\ASUS\\interview-master\\server\\middleware\\errorHandler.js:145:17)\n' +
+      '    at Layer.handleRequest (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\lib\\layer.js:152:17)\n' +
+      '    at trimPrefix (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:342:13)\n' +
+      '    at C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:297:9\n' +
+      '    at processParams (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:582:12)\n' +
+      '    at next (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:291:5)\n' +
+      '    at rateLimitMonitoring (C:\\Users\\ASUS\\interview-master\\server\\middleware\\monitoring.js:235:3)\n' +
+      '    at Layer.handleRequest (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\lib\\layer.js:152:17)\n' +
+      '    at trimPrefix (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:342:13)\n' +
+      '    at C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:297:9',
+    name: 'Error',
+    statusCode: 404
+  },
+  user: null,
+  timestamp: '2025-09-09 00:14:00',
+  level: 'error',
+  message: 'Request error'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'error',
+  requestId: '128199e8-0264-40fd-b62a-027e891dd5ee',
+  method: 'GET',
+  path: '/@vite/client',
+  error: {
+    message: "Can't find /@vite/client on this server!",
+    stack: "Error: Can't find /@vite/client on this server!\n" +
+      '    at handleNotFound (C:\\Users\\ASUS\\interview-master\\server\\middleware\\errorHandler.js:145:17)\n' +
+      '    at Layer.handleRequest (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\lib\\layer.js:152:17)\n' +
+      '    at trimPrefix (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:342:13)\n' +
+      '    at C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:297:9\n' +
+      '    at processParams (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:582:12)\n' +
+      '    at next (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:291:5)\n' +
+      '    at rateLimitMonitoring (C:\\Users\\ASUS\\interview-master\\server\\middleware\\monitoring.js:235:3)\n' +
+      '    at Layer.handleRequest (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\lib\\layer.js:152:17)\n' +
+      '    at trimPrefix (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:342:13)\n' +
+      '    at C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:297:9',
+    name: 'Error',
+    statusCode: 404
+  },
+  user: null,
+  timestamp: '2025-09-09 00:14:00',
+  level: 'error',
+  message: 'Request error'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'error',
+  requestId: '4e15a8d0-196e-4777-9a49-79fbe8209e2b',
+  method: 'GET',
+  path: '/@vite/client',
+  error: {
+    message: "Can't find /@vite/client on this server!",
+    stack: "Error: Can't find /@vite/client on this server!\n" +
+      '    at handleNotFound (C:\\Users\\ASUS\\interview-master\\server\\middleware\\errorHandler.js:145:17)\n' +
+      '    at Layer.handleRequest (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\lib\\layer.js:152:17)\n' +
+      '    at trimPrefix (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:342:13)\n' +
+      '    at C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:297:9\n' +
+      '    at processParams (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:582:12)\n' +
+      '    at next (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:291:5)\n' +
+      '    at rateLimitMonitoring (C:\\Users\\ASUS\\interview-master\\server\\middleware\\monitoring.js:235:3)\n' +
+      '    at Layer.handleRequest (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\lib\\layer.js:152:17)\n' +
+      '    at trimPrefix (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:342:13)\n' +
+      '    at C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:297:9',
+    name: 'Error',
+    statusCode: 404
+  },
+  user: null,
+  timestamp: '2025-09-09 00:17:09',
+  level: 'error',
+  message: 'Request error'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'error',
+  requestId: '0da21d5e-1366-4b5c-a82b-993664b0a59e',
+  method: 'GET',
+  path: '/main.7d5867f0c9ea1593498a.hot-update.json',
+  error: {
+    message: "Can't find /main.7d5867f0c9ea1593498a.hot-update.json on this server!",
+    stack: "Error: Can't find /main.7d5867f0c9ea1593498a.hot-update.json on this server!\n" +
+      '    at handleNotFound (C:\\Users\\ASUS\\interview-master\\server\\middleware\\errorHandler.js:145:17)\n' +
+      '    at Layer.handleRequest (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\lib\\layer.js:152:17)\n' +
+      '    at trimPrefix (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:342:13)\n' +
+      '    at C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:297:9\n' +
+      '    at processParams (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:582:12)\n' +
+      '    at next (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:291:5)\n' +
+      '    at rateLimitMonitoring (C:\\Users\\ASUS\\interview-master\\server\\middleware\\monitoring.js:235:3)\n' +
+      '    at Layer.handleRequest (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\lib\\layer.js:152:17)\n' +
+      '    at trimPrefix (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:342:13)\n' +
+      '    at C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:297:9',
+    name: 'Error',
+    statusCode: 404
+  },
+  user: null,
+  timestamp: '2025-09-09 00:19:06',
+  level: 'error',
+  message: 'Request error'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'error',
+  requestId: '2e143759-07dc-463b-8ac6-1f43bf592e06',
+  method: 'GET',
+  path: '/@vite/client',
+  error: {
+    message: "Can't find /@vite/client on this server!",
+    stack: "Error: Can't find /@vite/client on this server!\n" +
+      '    at handleNotFound (C:\\Users\\ASUS\\interview-master\\server\\middleware\\errorHandler.js:145:17)\n' +
+      '    at Layer.handleRequest (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\lib\\layer.js:152:17)\n' +
+      '    at trimPrefix (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:342:13)\n' +
+      '    at C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:297:9\n' +
+      '    at processParams (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:582:12)\n' +
+      '    at next (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:291:5)\n' +
+      '    at rateLimitMonitoring (C:\\Users\\ASUS\\interview-master\\server\\middleware\\monitoring.js:235:3)\n' +
+      '    at Layer.handleRequest (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\lib\\layer.js:152:17)\n' +
+      '    at trimPrefix (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:342:13)\n' +
+      '    at C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:297:9',
+    name: 'Error',
+    statusCode: 404
+  },
+  user: null,
+  timestamp: '2025-09-09 00:19:07',
+  level: 'error',
+  message: 'Request error'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'error',
+  requestId: '59073a68-5f3c-499b-8c14-c28662f1935c',
+  method: 'GET',
+  path: '/@vite/client',
+  error: {
+    message: "Can't find /@vite/client on this server!",
+    stack: "Error: Can't find /@vite/client on this server!\n" +
+      '    at handleNotFound (C:\\Users\\ASUS\\interview-master\\server\\middleware\\errorHandler.js:145:17)\n' +
+      '    at Layer.handleRequest (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\lib\\layer.js:152:17)\n' +
+      '    at trimPrefix (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:342:13)\n' +
+      '    at C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:297:9\n' +
+      '    at processParams (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:582:12)\n' +
+      '    at next (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:291:5)\n' +
+      '    at rateLimitMonitoring (C:\\Users\\ASUS\\interview-master\\server\\middleware\\monitoring.js:235:3)\n' +
+      '    at Layer.handleRequest (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\lib\\layer.js:152:17)\n' +
+      '    at trimPrefix (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:342:13)\n' +
+      '    at C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:297:9',
+    name: 'Error',
+    statusCode: 404
+  },
+  user: null,
+  timestamp: '2025-09-09 00:22:21',
+  level: 'error',
+  message: 'Request error'
+}
+{
+  error: TypeError [ERR_INVALID_ARG_TYPE]: The "string" argument must be of type string or an instance of Buffer or ArrayBuffer. Received an instance of Object
+      at new NodeError (node:internal/errors:405:5)
+      at Function.byteLength (node:buffer:779:11)
+      at PerformanceMonitor.<anonymous> (C:\Users\ASUS\interview-master\server\utils\performance.js:205:43)
+      at res.send (C:\Users\ASUS\interview-master\server\middleware\monitoring.js:232:18)
+      at Object.handler (C:\Users\ASUS\interview-master\server\node_modules\express-rate-limit\dist\index.cjs:668:18)
+      at C:\Users\ASUS\interview-master\server\node_modules\express-rate-limit\dist\index.cjs:804:16
+      at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+      at async C:\Users\ASUS\interview-master\server\node_modules\express-rate-limit\dist\index.cjs:691:5 {
+    code: 'ERR_INVALID_ARG_TYPE'
+  },
+  level: 'error',
+  message: 'unhandledRejection: The "string" argument must be of type string or an instance of Buffer or ArrayBuffer. Received an instance of Object\n' +
+    'TypeError [ERR_INVALID_ARG_TYPE]: The "string" argument must be of type string or an instance of Buffer or ArrayBuffer. Received an instance of Object\n' +
+    '    at new NodeError (node:internal/errors:405:5)\n' +
+    '    at Function.byteLength (node:buffer:779:11)\n' +
+    '    at PerformanceMonitor.<anonymous> (C:\\Users\\ASUS\\interview-master\\server\\utils\\performance.js:205:43)\n' +
+    '    at res.send (C:\\Users\\ASUS\\interview-master\\server\\middleware\\monitoring.js:232:18)\n' +
+    '    at Object.handler (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\express-rate-limit\\dist\\index.cjs:668:18)\n' +
+    '    at C:\\Users\\ASUS\\interview-master\\server\\node_modules\\express-rate-limit\\dist\\index.cjs:804:16\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+    '    at async C:\\Users\\ASUS\\interview-master\\server\\node_modules\\express-rate-limit\\dist\\index.cjs:691:5',
+  stack: 'TypeError [ERR_INVALID_ARG_TYPE]: The "string" argument must be of type string or an instance of Buffer or ArrayBuffer. Received an instance of Object\n' +
+    '    at new NodeError (node:internal/errors:405:5)\n' +
+    '    at Function.byteLength (node:buffer:779:11)\n' +
+    '    at PerformanceMonitor.<anonymous> (C:\\Users\\ASUS\\interview-master\\server\\utils\\performance.js:205:43)\n' +
+    '    at res.send (C:\\Users\\ASUS\\interview-master\\server\\middleware\\monitoring.js:232:18)\n' +
+    '    at Object.handler (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\express-rate-limit\\dist\\index.cjs:668:18)\n' +
+    '    at C:\\Users\\ASUS\\interview-master\\server\\node_modules\\express-rate-limit\\dist\\index.cjs:804:16\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+    '    at async C:\\Users\\ASUS\\interview-master\\server\\node_modules\\express-rate-limit\\dist\\index.cjs:691:5',
+  rejection: true,
+  date: 'Tue Sep 09 2025 00:25:02 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 9856,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\ASUS\\interview-master\\server',
+    execPath: 'C:\\nvm4w\\nodejs\\node.exe',
+    version: 'v18.20.8',
+    argv: [
+      'C:\\nvm4w\\nodejs\\node.exe',
+      'C:\\Users\\ASUS\\interview-master\\server\\index.js'
+    ],
+    memoryUsage: {
+      rss: 152723456,
+      heapTotal: 112709632,
+      heapUsed: 106431848,
+      external: 40819314,
+      arrayBuffers: 37796332
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 385931.25 },
+  trace: [
+    {
+      column: 5,
+      file: 'node:internal/errors',
+      function: 'new NodeError',
+      line: 405,
+      method: null,
+      native: false
+    },
+    {
+      column: 11,
+      file: 'node:buffer',
+      function: 'Function.byteLength',
+      line: 779,
+      method: 'byteLength',
+      native: false
+    },
+    {
+      column: 43,
+      file: 'C:\\Users\\ASUS\\interview-master\\server\\utils\\performance.js',
+      function: null,
+      line: 205,
+      method: null,
+      native: false
+    },
+    {
+      column: 18,
+      file: 'C:\\Users\\ASUS\\interview-master\\server\\middleware\\monitoring.js',
+      function: 'res.send',
+      line: 232,
+      method: 'send',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'C:\\Users\\ASUS\\interview-master\\server\\node_modules\\express-rate-limit\\dist\\index.cjs',
+      function: 'Object.handler',
+      line: 668,
+      method: 'handler',
+      native: false
+    },
+    {
+      column: 16,
+      file: 'C:\\Users\\ASUS\\interview-master\\server\\node_modules\\express-rate-limit\\dist\\index.cjs',
+      function: null,
+      line: 804,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/process/task_queues',
+      function: 'process.processTicksAndRejections',
+      line: 95,
+      method: 'processTicksAndRejections',
+      native: false
+    },
+    {
+      column: 5,
+      file: 'async C:\\Users\\ASUS\\interview-master\\server\\node_modules\\express-rate-limit\\dist\\index.cjs',
+      function: null,
+      line: 691,
+      method: null,
+      native: false
+    }
+  ],
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  timestamp: '2025-09-09 00:25:02'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'error',
+  requestId: 'a582b640-96d1-4270-80d7-183f0be2e6e0',
+  method: 'GET',
+  path: '/@vite/client',
+  error: {
+    message: "Can't find /@vite/client on this server!",
+    stack: "Error: Can't find /@vite/client on this server!\n" +
+      '    at handleNotFound (C:\\Users\\ASUS\\interview-master\\server\\middleware\\errorHandler.js:145:17)\n' +
+      '    at Layer.handleRequest (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\lib\\layer.js:152:17)\n' +
+      '    at trimPrefix (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:342:13)\n' +
+      '    at C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:297:9\n' +
+      '    at processParams (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:582:12)\n' +
+      '    at next (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:291:5)\n' +
+      '    at rateLimitMonitoring (C:\\Users\\ASUS\\interview-master\\server\\middleware\\monitoring.js:235:3)\n' +
+      '    at Layer.handleRequest (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\lib\\layer.js:152:17)\n' +
+      '    at trimPrefix (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:342:13)\n' +
+      '    at C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:297:9',
+    name: 'Error',
+    statusCode: 404
+  },
+  user: null,
+  timestamp: '2025-09-09 00:27:20',
+  level: 'error',
+  message: 'Request error'
+}
+{
+  error: TypeError [ERR_INVALID_ARG_TYPE]: The "string" argument must be of type string or an instance of Buffer or ArrayBuffer. Received an instance of Object
+      at new NodeError (node:internal/errors:405:5)
+      at Function.byteLength (node:buffer:779:11)
+      at PerformanceMonitor.<anonymous> (C:\Users\ASUS\interview-master\server\utils\performance.js:205:43)
+      at res.send (C:\Users\ASUS\interview-master\server\middleware\monitoring.js:232:18)
+      at Object.handler (C:\Users\ASUS\interview-master\server\node_modules\express-rate-limit\dist\index.cjs:668:18)
+      at C:\Users\ASUS\interview-master\server\node_modules\express-rate-limit\dist\index.cjs:804:16
+      at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+      at async C:\Users\ASUS\interview-master\server\node_modules\express-rate-limit\dist\index.cjs:691:5 {
+    code: 'ERR_INVALID_ARG_TYPE'
+  },
+  level: 'error',
+  message: 'unhandledRejection: The "string" argument must be of type string or an instance of Buffer or ArrayBuffer. Received an instance of Object\n' +
+    'TypeError [ERR_INVALID_ARG_TYPE]: The "string" argument must be of type string or an instance of Buffer or ArrayBuffer. Received an instance of Object\n' +
+    '    at new NodeError (node:internal/errors:405:5)\n' +
+    '    at Function.byteLength (node:buffer:779:11)\n' +
+    '    at PerformanceMonitor.<anonymous> (C:\\Users\\ASUS\\interview-master\\server\\utils\\performance.js:205:43)\n' +
+    '    at res.send (C:\\Users\\ASUS\\interview-master\\server\\middleware\\monitoring.js:232:18)\n' +
+    '    at Object.handler (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\express-rate-limit\\dist\\index.cjs:668:18)\n' +
+    '    at C:\\Users\\ASUS\\interview-master\\server\\node_modules\\express-rate-limit\\dist\\index.cjs:804:16\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+    '    at async C:\\Users\\ASUS\\interview-master\\server\\node_modules\\express-rate-limit\\dist\\index.cjs:691:5',
+  stack: 'TypeError [ERR_INVALID_ARG_TYPE]: The "string" argument must be of type string or an instance of Buffer or ArrayBuffer. Received an instance of Object\n' +
+    '    at new NodeError (node:internal/errors:405:5)\n' +
+    '    at Function.byteLength (node:buffer:779:11)\n' +
+    '    at PerformanceMonitor.<anonymous> (C:\\Users\\ASUS\\interview-master\\server\\utils\\performance.js:205:43)\n' +
+    '    at res.send (C:\\Users\\ASUS\\interview-master\\server\\middleware\\monitoring.js:232:18)\n' +
+    '    at Object.handler (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\express-rate-limit\\dist\\index.cjs:668:18)\n' +
+    '    at C:\\Users\\ASUS\\interview-master\\server\\node_modules\\express-rate-limit\\dist\\index.cjs:804:16\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+    '    at async C:\\Users\\ASUS\\interview-master\\server\\node_modules\\express-rate-limit\\dist\\index.cjs:691:5',
+  rejection: true,
+  date: 'Tue Sep 09 2025 00:28:22 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 22616,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\ASUS\\interview-master\\server',
+    execPath: 'C:\\nvm4w\\nodejs\\node.exe',
+    version: 'v18.20.8',
+    argv: [
+      'C:\\nvm4w\\nodejs\\node.exe',
+      'C:\\Users\\ASUS\\interview-master\\server\\index.js'
+    ],
+    memoryUsage: {
+      rss: 152051712,
+      heapTotal: 104640512,
+      heapUsed: 97977000,
+      external: 39834672,
+      arrayBuffers: 36811690
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 386131.234 },
+  trace: [
+    {
+      column: 5,
+      file: 'node:internal/errors',
+      function: 'new NodeError',
+      line: 405,
+      method: null,
+      native: false
+    },
+    {
+      column: 11,
+      file: 'node:buffer',
+      function: 'Function.byteLength',
+      line: 779,
+      method: 'byteLength',
+      native: false
+    },
+    {
+      column: 43,
+      file: 'C:\\Users\\ASUS\\interview-master\\server\\utils\\performance.js',
+      function: null,
+      line: 205,
+      method: null,
+      native: false
+    },
+    {
+      column: 18,
+      file: 'C:\\Users\\ASUS\\interview-master\\server\\middleware\\monitoring.js',
+      function: 'res.send',
+      line: 232,
+      method: 'send',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'C:\\Users\\ASUS\\interview-master\\server\\node_modules\\express-rate-limit\\dist\\index.cjs',
+      function: 'Object.handler',
+      line: 668,
+      method: 'handler',
+      native: false
+    },
+    {
+      column: 16,
+      file: 'C:\\Users\\ASUS\\interview-master\\server\\node_modules\\express-rate-limit\\dist\\index.cjs',
+      function: null,
+      line: 804,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/process/task_queues',
+      function: 'process.processTicksAndRejections',
+      line: 95,
+      method: 'processTicksAndRejections',
+      native: false
+    },
+    {
+      column: 5,
+      file: 'async C:\\Users\\ASUS\\interview-master\\server\\node_modules\\express-rate-limit\\dist\\index.cjs',
+      function: null,
+      line: 691,
+      method: null,
+      native: false
+    }
+  ],
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  timestamp: '2025-09-09 00:28:22'
+}

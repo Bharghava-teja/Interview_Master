@@ -1,0 +1,5605 @@
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1758090132976-e18exavl8',
+    timestamp: 2025-09-17T06:22:12.976Z,
+    service: 'redis',
+    status: 'warning',
+    message: 'Service redis is warning',
+    details: { connected: false, optional: true },
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-17 11:52:12'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1758090132982-3foprgtih',
+    timestamp: 2025-09-17T06:22:12.982Z,
+    service: 'memory',
+    status: 'warning',
+    message: 'Service memory is warning',
+    details: {
+      heapUsed: '107.56 MB',
+      heapTotal: '136.04 MB',
+      rss: '181.29 MB',
+      external: '39.93 MB',
+      systemMemoryUsage: '79.77%',
+      freeMemory: '3.09 GB',
+      totalMemory: '15.29 GB'
+    },
+    error: undefined
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-17 11:52:12'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1758090173717-tmeibwp14',
+    timestamp: 2025-09-17T06:22:53.717Z,
+    service: 'redis',
+    status: 'warning',
+    message: 'Service redis is warning',
+    details: { connected: false, optional: true },
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-17 11:52:53'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1758090173718-rdme3y6qm',
+    timestamp: 2025-09-17T06:22:53.718Z,
+    service: 'memory',
+    status: 'warning',
+    message: 'Service memory is warning',
+    details: {
+      heapUsed: '93.45 MB',
+      heapTotal: '98.54 MB',
+      rss: '143.34 MB',
+      external: '38.03 MB',
+      systemMemoryUsage: '83.07%',
+      freeMemory: '2.59 GB',
+      totalMemory: '15.29 GB'
+    },
+    error: undefined
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-17 11:52:53'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1758090233720-po1mjsc8c',
+    timestamp: 2025-09-17T06:23:53.720Z,
+    service: 'redis',
+    status: 'warning',
+    message: 'Service redis is warning',
+    details: { connected: false, optional: true },
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-17 11:53:53'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1758090233723-151xlirje',
+    timestamp: 2025-09-17T06:23:53.723Z,
+    service: 'memory',
+    status: 'warning',
+    message: 'Service memory is warning',
+    details: {
+      heapUsed: '93.75 MB',
+      heapTotal: '98.54 MB',
+      rss: '143.71 MB',
+      external: '38.13 MB',
+      systemMemoryUsage: '81.81%',
+      freeMemory: '2.78 GB',
+      totalMemory: '15.29 GB'
+    },
+    error: undefined
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-17 11:53:53'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'error',
+  requestId: 'ae3e12af-f526-4f63-8667-3f15149e64da',
+  method: 'GET',
+  path: '/@vite/client',
+  error: {
+    message: "Can't find /@vite/client on this server!",
+    stack: "Error: Can't find /@vite/client on this server!\n" +
+      '    at handleNotFound (C:\\Users\\ASUS\\interview-master\\server\\middleware\\errorHandler.js:145:17)\n' +
+      '    at Layer.handleRequest (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\lib\\layer.js:152:17)\n' +
+      '    at trimPrefix (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:342:13)\n' +
+      '    at C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:297:9\n' +
+      '    at processParams (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:582:12)\n' +
+      '    at next (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:291:5)\n' +
+      '    at rateLimitMonitoring (C:\\Users\\ASUS\\interview-master\\server\\middleware\\monitoring.js:235:3)\n' +
+      '    at Layer.handleRequest (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\lib\\layer.js:152:17)\n' +
+      '    at trimPrefix (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:342:13)\n' +
+      '    at C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:297:9',
+    name: 'Error',
+    statusCode: 404
+  },
+  user: null,
+  timestamp: '2025-09-17 11:54:43',
+  level: 'error',
+  message: 'Request error'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1758090293733-rn2gurxkl',
+    timestamp: 2025-09-17T06:24:53.733Z,
+    service: 'redis',
+    status: 'warning',
+    message: 'Service redis is warning',
+    details: { connected: false, optional: true },
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-17 11:54:53'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1758090293734-th63danl5',
+    timestamp: 2025-09-17T06:24:53.734Z,
+    service: 'memory',
+    status: 'warning',
+    message: 'Service memory is warning',
+    details: {
+      heapUsed: '94.84 MB',
+      heapTotal: '99.79 MB',
+      rss: '144.71 MB',
+      external: '38.19 MB',
+      systemMemoryUsage: '84.38%',
+      freeMemory: '2.39 GB',
+      totalMemory: '15.29 GB'
+    },
+    error: undefined
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-17 11:54:53'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1758090353738-v9mbtvpdv',
+    timestamp: 2025-09-17T06:25:53.738Z,
+    service: 'redis',
+    status: 'warning',
+    message: 'Service redis is warning',
+    details: { connected: false, optional: true },
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-17 11:55:53'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1758090353739-99zf9yee0',
+    timestamp: 2025-09-17T06:25:53.739Z,
+    service: 'memory',
+    status: 'warning',
+    message: 'Service memory is warning',
+    details: {
+      heapUsed: '95.71 MB',
+      heapTotal: '100.54 MB',
+      rss: '145.66 MB',
+      external: '38.27 MB',
+      systemMemoryUsage: '84.18%',
+      freeMemory: '2.42 GB',
+      totalMemory: '15.29 GB'
+    },
+    error: undefined
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-17 11:55:53'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1758090413738-6k9cxwfbx',
+    timestamp: 2025-09-17T06:26:53.738Z,
+    service: 'redis',
+    status: 'warning',
+    message: 'Service redis is warning',
+    details: { connected: false, optional: true },
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-17 11:56:53'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1758090413739-3cvflcmoi',
+    timestamp: 2025-09-17T06:26:53.739Z,
+    service: 'memory',
+    status: 'warning',
+    message: 'Service memory is warning',
+    details: {
+      heapUsed: '95.75 MB',
+      heapTotal: '101.29 MB',
+      rss: '145.59 MB',
+      external: '38.22 MB',
+      systemMemoryUsage: '84.10%',
+      freeMemory: '2.43 GB',
+      totalMemory: '15.29 GB'
+    },
+    error: undefined
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-17 11:56:53'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1758090473741-20z8md507',
+    timestamp: 2025-09-17T06:27:53.741Z,
+    service: 'redis',
+    status: 'warning',
+    message: 'Service redis is warning',
+    details: { connected: false, optional: true },
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-17 11:57:53'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1758090473741-x9x3tir1f',
+    timestamp: 2025-09-17T06:27:53.741Z,
+    service: 'memory',
+    status: 'warning',
+    message: 'Service memory is warning',
+    details: {
+      heapUsed: '96.42 MB',
+      heapTotal: '101.29 MB',
+      rss: '146.46 MB',
+      external: '38.29 MB',
+      systemMemoryUsage: '81.73%',
+      freeMemory: '2.79 GB',
+      totalMemory: '15.29 GB'
+    },
+    error: undefined
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-17 11:57:53'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1758090533748-n9xbyt6wp',
+    timestamp: 2025-09-17T06:28:53.748Z,
+    service: 'redis',
+    status: 'warning',
+    message: 'Service redis is warning',
+    details: { connected: false, optional: true },
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-17 11:58:53'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1758090533748-g73ij1zfo',
+    timestamp: 2025-09-17T06:28:53.748Z,
+    service: 'memory',
+    status: 'warning',
+    message: 'Service memory is warning',
+    details: {
+      heapUsed: '96.37 MB',
+      heapTotal: '101.54 MB',
+      rss: '146.64 MB',
+      external: '38.26 MB',
+      systemMemoryUsage: '80.45%',
+      freeMemory: '2.99 GB',
+      totalMemory: '15.29 GB'
+    },
+    error: undefined
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-17 11:58:53'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1758090593753-ioxkl41mb',
+    timestamp: 2025-09-17T06:29:53.753Z,
+    service: 'redis',
+    status: 'warning',
+    message: 'Service redis is warning',
+    details: { connected: false, optional: true },
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-17 11:59:53'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1758090593754-7lt0acxh3',
+    timestamp: 2025-09-17T06:29:53.754Z,
+    service: 'memory',
+    status: 'warning',
+    message: 'Service memory is warning',
+    details: {
+      heapUsed: '96.51 MB',
+      heapTotal: '101.54 MB',
+      rss: '147.15 MB',
+      external: '38.28 MB',
+      systemMemoryUsage: '80.50%',
+      freeMemory: '2.98 GB',
+      totalMemory: '15.29 GB'
+    },
+    error: undefined
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-17 11:59:53'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1758090653757-ghs57s80a',
+    timestamp: 2025-09-17T06:30:53.757Z,
+    service: 'redis',
+    status: 'warning',
+    message: 'Service redis is warning',
+    details: { connected: false, optional: true },
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-17 12:00:53'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1758090653758-5miwqayk8',
+    timestamp: 2025-09-17T06:30:53.758Z,
+    service: 'memory',
+    status: 'warning',
+    message: 'Service memory is warning',
+    details: {
+      heapUsed: '96.74 MB',
+      heapTotal: '102.29 MB',
+      rss: '146.87 MB',
+      external: '38.39 MB',
+      systemMemoryUsage: '80.55%',
+      freeMemory: '2.97 GB',
+      totalMemory: '15.29 GB'
+    },
+    error: undefined
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-17 12:00:53'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1758090713762-dmnubxtkg',
+    timestamp: 2025-09-17T06:31:53.762Z,
+    service: 'redis',
+    status: 'warning',
+    message: 'Service redis is warning',
+    details: { connected: false, optional: true },
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-17 12:01:53'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1758090713763-gwkfa6x43',
+    timestamp: 2025-09-17T06:31:53.763Z,
+    service: 'memory',
+    status: 'warning',
+    message: 'Service memory is warning',
+    details: {
+      heapUsed: '97.7 MB',
+      heapTotal: '102.29 MB',
+      rss: '148.09 MB',
+      external: '38.39 MB',
+      systemMemoryUsage: '79.32%',
+      freeMemory: '3.16 GB',
+      totalMemory: '15.29 GB'
+    },
+    error: undefined
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-17 12:01:53'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1758090773767-izqmkadmr',
+    timestamp: 2025-09-17T06:32:53.767Z,
+    service: 'redis',
+    status: 'warning',
+    message: 'Service redis is warning',
+    details: { connected: false, optional: true },
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-17 12:02:53'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1758090773768-b19xkanbd',
+    timestamp: 2025-09-17T06:32:53.768Z,
+    service: 'memory',
+    status: 'warning',
+    message: 'Service memory is warning',
+    details: {
+      heapUsed: '97.59 MB',
+      heapTotal: '102.54 MB',
+      rss: '147.54 MB',
+      external: '38.42 MB',
+      systemMemoryUsage: '81.23%',
+      freeMemory: '2.87 GB',
+      totalMemory: '15.29 GB'
+    },
+    error: undefined
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-17 12:02:53'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1758090833773-mlp48gi5p',
+    timestamp: 2025-09-17T06:33:53.773Z,
+    service: 'redis',
+    status: 'warning',
+    message: 'Service redis is warning',
+    details: { connected: false, optional: true },
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-17 12:03:53'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1758090833773-vfjy2nhbe',
+    timestamp: 2025-09-17T06:33:53.773Z,
+    service: 'memory',
+    status: 'warning',
+    message: 'Service memory is warning',
+    details: {
+      heapUsed: '97.54 MB',
+      heapTotal: '102.79 MB',
+      rss: '147.73 MB',
+      external: '38.39 MB',
+      systemMemoryUsage: '79.74%',
+      freeMemory: '3.1 GB',
+      totalMemory: '15.29 GB'
+    },
+    error: undefined
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-17 12:03:53'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'error',
+  requestId: '048f9a42-d5d3-4701-b08d-c935572a6b33',
+  method: 'GET',
+  path: '/@vite/client',
+  error: {
+    message: "Can't find /@vite/client on this server!",
+    stack: "Error: Can't find /@vite/client on this server!\n" +
+      '    at handleNotFound (C:\\Users\\ASUS\\interview-master\\server\\middleware\\errorHandler.js:145:17)\n' +
+      '    at Layer.handleRequest (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\lib\\layer.js:152:17)\n' +
+      '    at trimPrefix (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:342:13)\n' +
+      '    at C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:297:9\n' +
+      '    at processParams (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:582:12)\n' +
+      '    at next (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:291:5)\n' +
+      '    at rateLimitMonitoring (C:\\Users\\ASUS\\interview-master\\server\\middleware\\monitoring.js:235:3)\n' +
+      '    at Layer.handleRequest (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\lib\\layer.js:152:17)\n' +
+      '    at trimPrefix (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:342:13)\n' +
+      '    at C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:297:9',
+    name: 'Error',
+    statusCode: 404
+  },
+  user: null,
+  timestamp: '2025-09-17 12:04:22',
+  level: 'error',
+  message: 'Request error'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1758090893787-ki9em7ame',
+    timestamp: 2025-09-17T06:34:53.787Z,
+    service: 'redis',
+    status: 'warning',
+    message: 'Service redis is warning',
+    details: { connected: false, optional: true },
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-17 12:04:53'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1758090893788-xs98mhv9m',
+    timestamp: 2025-09-17T06:34:53.788Z,
+    service: 'memory',
+    status: 'warning',
+    message: 'Service memory is warning',
+    details: {
+      heapUsed: '98.56 MB',
+      heapTotal: '103.04 MB',
+      rss: '148.78 MB',
+      external: '38.57 MB',
+      systemMemoryUsage: '79.85%',
+      freeMemory: '3.08 GB',
+      totalMemory: '15.29 GB'
+    },
+    error: undefined
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-17 12:04:53'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1758090953796-95hry59i2',
+    timestamp: 2025-09-17T06:35:53.796Z,
+    service: 'redis',
+    status: 'warning',
+    message: 'Service redis is warning',
+    details: { connected: false, optional: true },
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-17 12:05:53'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1758090953797-030ptft7q',
+    timestamp: 2025-09-17T06:35:53.797Z,
+    service: 'memory',
+    status: 'warning',
+    message: 'Service memory is warning',
+    details: {
+      heapUsed: '99.29 MB',
+      heapTotal: '103.79 MB',
+      rss: '149.42 MB',
+      external: '38.57 MB',
+      systemMemoryUsage: '83.02%',
+      freeMemory: '2.6 GB',
+      totalMemory: '15.29 GB'
+    },
+    error: undefined
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-17 12:05:53'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'error',
+  requestId: 'a530681b-340f-46ec-91e0-61db095d19bf',
+  method: 'GET',
+  path: '/api/v1/exams/exam_1758090958797_gw67w7b51/fullscreen-status',
+  error: {
+    message: 'Invalid token',
+    stack: 'Error: Invalid token\n' +
+      '    at SecurityManager.verifyJWT (C:\\Users\\ASUS\\interview-master\\server\\utils\\security.js:102:15)\n' +
+      '    at authenticate (C:\\Users\\ASUS\\interview-master\\server\\middleware\\auth.js:61:39)\n' +
+      '    at Layer.handleRequest (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\lib\\layer.js:152:17)\n' +
+      '    at trimPrefix (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:342:13)\n' +
+      '    at C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:297:9\n' +
+      '    at processParams (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:582:12)\n' +
+      '    at next (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:291:5)\n' +
+      '    at rateLimitMonitoring (C:\\Users\\ASUS\\interview-master\\server\\middleware\\monitoring.js:235:3)\n' +
+      '    at Layer.handleRequest (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\lib\\layer.js:152:17)\n' +
+      '    at trimPrefix (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:342:13)',
+    name: 'Error',
+    statusCode: 401
+  },
+  user: null,
+  timestamp: '2025-09-17 12:06:28',
+  level: 'error',
+  message: 'Request error'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'security',
+  event: 'unauthorized_access',
+  details: {
+    requestId: 'a530681b-340f-46ec-91e0-61db095d19bf',
+    method: 'GET',
+    path: '/api/v1/exams/exam_1758090958797_gw67w7b51/fullscreen-status',
+    ip: '::1',
+    userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36 Edg/140.0.0.0',
+    error: 'Invalid token'
+  },
+  timestamp: '2025-09-17 12:06:28',
+  level: 'warn',
+  message: 'Security event'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'security',
+  event: 'suspicious_input',
+  details: {
+    requestId: 'd166de81-afac-4ffc-85be-3670073070ab',
+    method: 'POST',
+    path: '/api/v1/exams/exam_1758090958797_gw67w7b51/violations',
+    suspiciousContent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36 Edg/140.0.0.0',
+    location: 'body.details.userAgent',
+    ip: '::1',
+    userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36 Edg/140.0.0.0'
+  },
+  timestamp: '2025-09-17 12:06:28',
+  level: 'warn',
+  message: 'Security event'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'error',
+  requestId: 'd166de81-afac-4ffc-85be-3670073070ab',
+  method: 'POST',
+  path: '/api/v1/exams/exam_1758090958797_gw67w7b51/violations',
+  error: {
+    message: 'Invalid token',
+    stack: 'Error: Invalid token\n' +
+      '    at SecurityManager.verifyJWT (C:\\Users\\ASUS\\interview-master\\server\\utils\\security.js:102:15)\n' +
+      '    at authenticate (C:\\Users\\ASUS\\interview-master\\server\\middleware\\auth.js:61:39)\n' +
+      '    at Layer.handleRequest (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\lib\\layer.js:152:17)\n' +
+      '    at trimPrefix (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:342:13)\n' +
+      '    at C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:297:9\n' +
+      '    at processParams (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:582:12)\n' +
+      '    at next (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:291:5)\n' +
+      '    at rateLimitMonitoring (C:\\Users\\ASUS\\interview-master\\server\\middleware\\monitoring.js:235:3)\n' +
+      '    at Layer.handleRequest (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\lib\\layer.js:152:17)\n' +
+      '    at trimPrefix (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:342:13)',
+    name: 'Error',
+    statusCode: 401
+  },
+  user: null,
+  timestamp: '2025-09-17 12:06:28',
+  level: 'error',
+  message: 'Request error'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'security',
+  event: 'unauthorized_access',
+  details: {
+    requestId: 'd166de81-afac-4ffc-85be-3670073070ab',
+    method: 'POST',
+    path: '/api/v1/exams/exam_1758090958797_gw67w7b51/violations',
+    ip: '::1',
+    userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36 Edg/140.0.0.0',
+    error: 'Invalid token'
+  },
+  timestamp: '2025-09-17 12:06:28',
+  level: 'warn',
+  message: 'Security event'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'security',
+  event: 'suspicious_input',
+  details: {
+    requestId: 'ae4f4f05-4569-4931-a234-3c38a7b2620f',
+    method: 'POST',
+    path: '/api/v1/exams/exam_1758090958797_gw67w7b51/violations',
+    suspiciousContent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36 Edg/140.0.0.0',
+    location: 'body.details.userAgent',
+    ip: '::1',
+    userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36 Edg/140.0.0.0'
+  },
+  timestamp: '2025-09-17 12:06:34',
+  level: 'warn',
+  message: 'Security event'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'error',
+  requestId: 'ae4f4f05-4569-4931-a234-3c38a7b2620f',
+  method: 'POST',
+  path: '/api/v1/exams/exam_1758090958797_gw67w7b51/violations',
+  error: {
+    message: 'Invalid token',
+    stack: 'Error: Invalid token\n' +
+      '    at SecurityManager.verifyJWT (C:\\Users\\ASUS\\interview-master\\server\\utils\\security.js:102:15)\n' +
+      '    at authenticate (C:\\Users\\ASUS\\interview-master\\server\\middleware\\auth.js:61:39)\n' +
+      '    at Layer.handleRequest (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\lib\\layer.js:152:17)\n' +
+      '    at trimPrefix (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:342:13)\n' +
+      '    at C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:297:9\n' +
+      '    at processParams (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:582:12)\n' +
+      '    at next (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:291:5)\n' +
+      '    at rateLimitMonitoring (C:\\Users\\ASUS\\interview-master\\server\\middleware\\monitoring.js:235:3)\n' +
+      '    at Layer.handleRequest (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\lib\\layer.js:152:17)\n' +
+      '    at trimPrefix (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:342:13)',
+    name: 'Error',
+    statusCode: 401
+  },
+  user: null,
+  timestamp: '2025-09-17 12:06:34',
+  level: 'error',
+  message: 'Request error'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'security',
+  event: 'unauthorized_access',
+  details: {
+    requestId: 'ae4f4f05-4569-4931-a234-3c38a7b2620f',
+    method: 'POST',
+    path: '/api/v1/exams/exam_1758090958797_gw67w7b51/violations',
+    ip: '::1',
+    userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36 Edg/140.0.0.0',
+    error: 'Invalid token'
+  },
+  timestamp: '2025-09-17 12:06:34',
+  level: 'warn',
+  message: 'Security event'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1758091013805-8qmz4d022',
+    timestamp: 2025-09-17T06:36:53.805Z,
+    service: 'redis',
+    status: 'warning',
+    message: 'Service redis is warning',
+    details: { connected: false, optional: true },
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-17 12:06:53'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1758091013805-qg140nogl',
+    timestamp: 2025-09-17T06:36:53.805Z,
+    service: 'memory',
+    status: 'warning',
+    message: 'Service memory is warning',
+    details: {
+      heapUsed: '99.78 MB',
+      heapTotal: '104.54 MB',
+      rss: '149.99 MB',
+      external: '38.59 MB',
+      systemMemoryUsage: '84.94%',
+      freeMemory: '2.3 GB',
+      totalMemory: '15.29 GB'
+    },
+    error: undefined
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-17 12:06:53'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1758091073812-xdqo079c7',
+    timestamp: 2025-09-17T06:37:53.812Z,
+    service: 'redis',
+    status: 'warning',
+    message: 'Service redis is warning',
+    details: { connected: false, optional: true },
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-17 12:07:53'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1758091073813-63unkh9yx',
+    timestamp: 2025-09-17T06:37:53.813Z,
+    service: 'memory',
+    status: 'warning',
+    message: 'Service memory is warning',
+    details: {
+      heapUsed: '94 MB',
+      heapTotal: '104.54 MB',
+      rss: '150.49 MB',
+      external: '37.95 MB',
+      systemMemoryUsage: '81.44%',
+      freeMemory: '2.84 GB',
+      totalMemory: '15.29 GB'
+    },
+    error: undefined
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-17 12:07:53'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'error',
+  requestId: '0512c641-7817-4317-8f02-592866712f4d',
+  method: 'GET',
+  path: '/api/v1/exams/exam_1758091098818_yvg5v0is0/fullscreen-status',
+  error: {
+    message: 'Invalid token',
+    stack: 'Error: Invalid token\n' +
+      '    at SecurityManager.verifyJWT (C:\\Users\\ASUS\\interview-master\\server\\utils\\security.js:102:15)\n' +
+      '    at authenticate (C:\\Users\\ASUS\\interview-master\\server\\middleware\\auth.js:61:39)\n' +
+      '    at Layer.handleRequest (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\lib\\layer.js:152:17)\n' +
+      '    at trimPrefix (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:342:13)\n' +
+      '    at C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:297:9\n' +
+      '    at processParams (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:582:12)\n' +
+      '    at next (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:291:5)\n' +
+      '    at rateLimitMonitoring (C:\\Users\\ASUS\\interview-master\\server\\middleware\\monitoring.js:235:3)\n' +
+      '    at Layer.handleRequest (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\lib\\layer.js:152:17)\n' +
+      '    at trimPrefix (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:342:13)',
+    name: 'Error',
+    statusCode: 401
+  },
+  user: null,
+  timestamp: '2025-09-17 12:08:42',
+  level: 'error',
+  message: 'Request error'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'security',
+  event: 'unauthorized_access',
+  details: {
+    requestId: '0512c641-7817-4317-8f02-592866712f4d',
+    method: 'GET',
+    path: '/api/v1/exams/exam_1758091098818_yvg5v0is0/fullscreen-status',
+    ip: '::1',
+    userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36 Edg/140.0.0.0',
+    error: 'Invalid token'
+  },
+  timestamp: '2025-09-17 12:08:42',
+  level: 'warn',
+  message: 'Security event'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1758091133812-pz7r5792t',
+    timestamp: 2025-09-17T06:38:53.812Z,
+    service: 'redis',
+    status: 'warning',
+    message: 'Service redis is warning',
+    details: { connected: false, optional: true },
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-17 12:08:53'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1758091133812-0hj8h5dh3',
+    timestamp: 2025-09-17T06:38:53.812Z,
+    service: 'memory',
+    status: 'warning',
+    message: 'Service memory is warning',
+    details: {
+      heapUsed: '94.86 MB',
+      heapTotal: '104.54 MB',
+      rss: '150.4 MB',
+      external: '38.06 MB',
+      systemMemoryUsage: '82.06%',
+      freeMemory: '2.74 GB',
+      totalMemory: '15.29 GB'
+    },
+    error: undefined
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-17 12:08:53'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1758091193823-jk3bjve4f',
+    timestamp: 2025-09-17T06:39:53.823Z,
+    service: 'redis',
+    status: 'warning',
+    message: 'Service redis is warning',
+    details: { connected: false, optional: true },
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-17 12:09:53'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1758091193824-rfdf4lmiw',
+    timestamp: 2025-09-17T06:39:53.824Z,
+    service: 'memory',
+    status: 'warning',
+    message: 'Service memory is warning',
+    details: {
+      heapUsed: '94.34 MB',
+      heapTotal: '104.54 MB',
+      rss: '149.65 MB',
+      external: '38.13 MB',
+      systemMemoryUsage: '81.69%',
+      freeMemory: '2.8 GB',
+      totalMemory: '15.29 GB'
+    },
+    error: undefined
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-17 12:09:53'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1758091253833-heyj6zpla',
+    timestamp: 2025-09-17T06:40:53.833Z,
+    service: 'redis',
+    status: 'warning',
+    message: 'Service redis is warning',
+    details: { connected: false, optional: true },
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-17 12:10:53'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1758091253833-tcocto2za',
+    timestamp: 2025-09-17T06:40:53.833Z,
+    service: 'memory',
+    status: 'warning',
+    message: 'Service memory is warning',
+    details: {
+      heapUsed: '94.58 MB',
+      heapTotal: '104.54 MB',
+      rss: '150.16 MB',
+      external: '38.15 MB',
+      systemMemoryUsage: '81.71%',
+      freeMemory: '2.8 GB',
+      totalMemory: '15.29 GB'
+    },
+    error: undefined
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-17 12:10:53'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'error',
+  requestId: 'd2464f2a-89c4-4132-88a1-7ce6ff76dc02',
+  method: 'GET',
+  path: '/@vite/client',
+  error: {
+    message: "Can't find /@vite/client on this server!",
+    stack: "Error: Can't find /@vite/client on this server!\n" +
+      '    at handleNotFound (C:\\Users\\ASUS\\interview-master\\server\\middleware\\errorHandler.js:145:17)\n' +
+      '    at Layer.handleRequest (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\lib\\layer.js:152:17)\n' +
+      '    at trimPrefix (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:342:13)\n' +
+      '    at C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:297:9\n' +
+      '    at processParams (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:582:12)\n' +
+      '    at next (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:291:5)\n' +
+      '    at rateLimitMonitoring (C:\\Users\\ASUS\\interview-master\\server\\middleware\\monitoring.js:235:3)\n' +
+      '    at Layer.handleRequest (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\lib\\layer.js:152:17)\n' +
+      '    at trimPrefix (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:342:13)\n' +
+      '    at C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:297:9',
+    name: 'Error',
+    statusCode: 404
+  },
+  user: null,
+  timestamp: '2025-09-17 12:11:07',
+  level: 'error',
+  message: 'Request error'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1758091313838-my42jhu6u',
+    timestamp: 2025-09-17T06:41:53.838Z,
+    service: 'redis',
+    status: 'warning',
+    message: 'Service redis is warning',
+    details: { connected: false, optional: true },
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-17 12:11:53'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1758091313839-zek0uryfo',
+    timestamp: 2025-09-17T06:41:53.839Z,
+    service: 'memory',
+    status: 'warning',
+    message: 'Service memory is warning',
+    details: {
+      heapUsed: '95.16 MB',
+      heapTotal: '104.54 MB',
+      rss: '150.67 MB',
+      external: '38.05 MB',
+      systemMemoryUsage: '82.52%',
+      freeMemory: '2.67 GB',
+      totalMemory: '15.29 GB'
+    },
+    error: undefined
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-17 12:11:53'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1758091373844-k5wnqgmrx',
+    timestamp: 2025-09-17T06:42:53.844Z,
+    service: 'redis',
+    status: 'warning',
+    message: 'Service redis is warning',
+    details: { connected: false, optional: true },
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-17 12:12:53'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1758091373845-u35sua8d9',
+    timestamp: 2025-09-17T06:42:53.845Z,
+    service: 'memory',
+    status: 'warning',
+    message: 'Service memory is warning',
+    details: {
+      heapUsed: '95.92 MB',
+      heapTotal: '104.79 MB',
+      rss: '150.43 MB',
+      external: '38.14 MB',
+      systemMemoryUsage: '80.16%',
+      freeMemory: '3.03 GB',
+      totalMemory: '15.29 GB'
+    },
+    error: undefined
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-17 12:12:53'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1758091433844-jzk2j15rn',
+    timestamp: 2025-09-17T06:43:53.844Z,
+    service: 'redis',
+    status: 'warning',
+    message: 'Service redis is warning',
+    details: { connected: false, optional: true },
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-17 12:13:53'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1758091433845-zcllvoglc',
+    timestamp: 2025-09-17T06:43:53.845Z,
+    service: 'memory',
+    status: 'warning',
+    message: 'Service memory is warning',
+    details: {
+      heapUsed: '96.65 MB',
+      heapTotal: '104.79 MB',
+      rss: '151.02 MB',
+      external: '38.22 MB',
+      systemMemoryUsage: '77.99%',
+      freeMemory: '3.37 GB',
+      totalMemory: '15.29 GB'
+    },
+    error: undefined
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-17 12:13:53'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1758091493854-qvolv6316',
+    timestamp: 2025-09-17T06:44:53.854Z,
+    service: 'redis',
+    status: 'warning',
+    message: 'Service redis is warning',
+    details: { connected: false, optional: true },
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-17 12:14:53'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1758091493855-w2dbi4t51',
+    timestamp: 2025-09-17T06:44:53.855Z,
+    service: 'memory',
+    status: 'warning',
+    message: 'Service memory is warning',
+    details: {
+      heapUsed: '96.65 MB',
+      heapTotal: '104.79 MB',
+      rss: '150.8 MB',
+      external: '38.21 MB',
+      systemMemoryUsage: '79.22%',
+      freeMemory: '3.18 GB',
+      totalMemory: '15.29 GB'
+    },
+    error: undefined
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-17 12:14:53'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'error',
+  requestId: '6d704a0c-b692-4444-95d6-67dcb0f0ee46',
+  method: 'GET',
+  path: '/api/v1/exams/exam_1758091511257_saflktxmm/fullscreen-status',
+  error: {
+    message: 'Invalid token',
+    stack: 'Error: Invalid token\n' +
+      '    at SecurityManager.verifyJWT (C:\\Users\\ASUS\\interview-master\\server\\utils\\security.js:102:15)\n' +
+      '    at authenticate (C:\\Users\\ASUS\\interview-master\\server\\middleware\\auth.js:61:39)\n' +
+      '    at Layer.handleRequest (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\lib\\layer.js:152:17)\n' +
+      '    at trimPrefix (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:342:13)\n' +
+      '    at C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:297:9\n' +
+      '    at processParams (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:582:12)\n' +
+      '    at next (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:291:5)\n' +
+      '    at rateLimitMonitoring (C:\\Users\\ASUS\\interview-master\\server\\middleware\\monitoring.js:235:3)\n' +
+      '    at Layer.handleRequest (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\lib\\layer.js:152:17)\n' +
+      '    at trimPrefix (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:342:13)',
+    name: 'Error',
+    statusCode: 401
+  },
+  user: null,
+  timestamp: '2025-09-17 12:15:51',
+  level: 'error',
+  message: 'Request error'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'security',
+  event: 'unauthorized_access',
+  details: {
+    requestId: '6d704a0c-b692-4444-95d6-67dcb0f0ee46',
+    method: 'GET',
+    path: '/api/v1/exams/exam_1758091511257_saflktxmm/fullscreen-status',
+    ip: '::1',
+    userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36 Edg/140.0.0.0',
+    error: 'Invalid token'
+  },
+  timestamp: '2025-09-17 12:15:51',
+  level: 'warn',
+  message: 'Security event'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1758091553870-pmlk4j774',
+    timestamp: 2025-09-17T06:45:53.870Z,
+    service: 'redis',
+    status: 'warning',
+    message: 'Service redis is warning',
+    details: { connected: false, optional: true },
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-17 12:15:53'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1758091553871-4gjn6njl2',
+    timestamp: 2025-09-17T06:45:53.871Z,
+    service: 'memory',
+    status: 'warning',
+    message: 'Service memory is warning',
+    details: {
+      heapUsed: '96.58 MB',
+      heapTotal: '104.79 MB',
+      rss: '150.56 MB',
+      external: '38.26 MB',
+      systemMemoryUsage: '80.12%',
+      freeMemory: '3.04 GB',
+      totalMemory: '15.29 GB'
+    },
+    error: undefined
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-17 12:15:53'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1758091613874-v18gox7zz',
+    timestamp: 2025-09-17T06:46:53.874Z,
+    service: 'redis',
+    status: 'warning',
+    message: 'Service redis is warning',
+    details: { connected: false, optional: true },
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-17 12:16:53'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1758091613874-ui1m1u31j',
+    timestamp: 2025-09-17T06:46:53.874Z,
+    service: 'memory',
+    status: 'warning',
+    message: 'Service memory is warning',
+    details: {
+      heapUsed: '97.69 MB',
+      heapTotal: '104.79 MB',
+      rss: '151.26 MB',
+      external: '38.34 MB',
+      systemMemoryUsage: '79.42%',
+      freeMemory: '3.15 GB',
+      totalMemory: '15.29 GB'
+    },
+    error: undefined
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-17 12:16:53'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1758091673885-8k41grdvx',
+    timestamp: 2025-09-17T06:47:53.885Z,
+    service: 'redis',
+    status: 'warning',
+    message: 'Service redis is warning',
+    details: { connected: false, optional: true },
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-17 12:17:53'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1758091673885-ol4oj8890',
+    timestamp: 2025-09-17T06:47:53.885Z,
+    service: 'memory',
+    status: 'warning',
+    message: 'Service memory is warning',
+    details: {
+      heapUsed: '97.62 MB',
+      heapTotal: '104.79 MB',
+      rss: '150.63 MB',
+      external: '38.36 MB',
+      systemMemoryUsage: '77.81%',
+      freeMemory: '3.39 GB',
+      totalMemory: '15.29 GB'
+    },
+    error: undefined
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-17 12:17:53'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1758091733890-bm3fd1yxs',
+    timestamp: 2025-09-17T06:48:53.890Z,
+    service: 'redis',
+    status: 'warning',
+    message: 'Service redis is warning',
+    details: { connected: false, optional: true },
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-17 12:18:53'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1758091733891-r0ce83t2n',
+    timestamp: 2025-09-17T06:48:53.891Z,
+    service: 'memory',
+    status: 'warning',
+    message: 'Service memory is warning',
+    details: {
+      heapUsed: '100.06 MB',
+      heapTotal: '106.34 MB',
+      rss: '153.07 MB',
+      external: '37.98 MB',
+      systemMemoryUsage: '78.70%',
+      freeMemory: '3.26 GB',
+      totalMemory: '15.29 GB'
+    },
+    error: undefined
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-17 12:18:53'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1758091793902-5k2w0yym6',
+    timestamp: 2025-09-17T06:49:53.902Z,
+    service: 'redis',
+    status: 'warning',
+    message: 'Service redis is warning',
+    details: { connected: false, optional: true },
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-17 12:19:53'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1758091793903-5tztb4oba',
+    timestamp: 2025-09-17T06:49:53.903Z,
+    service: 'memory',
+    status: 'warning',
+    message: 'Service memory is warning',
+    details: {
+      heapUsed: '100.51 MB',
+      heapTotal: '106.34 MB',
+      rss: '153.32 MB',
+      external: '38.08 MB',
+      systemMemoryUsage: '77.95%',
+      freeMemory: '3.37 GB',
+      totalMemory: '15.29 GB'
+    },
+    error: undefined
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-17 12:19:53'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1758091853909-f0e1l1ptd',
+    timestamp: 2025-09-17T06:50:53.909Z,
+    service: 'redis',
+    status: 'warning',
+    message: 'Service redis is warning',
+    details: { connected: false, optional: true },
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-17 12:20:53'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1758091853909-9480choud',
+    timestamp: 2025-09-17T06:50:53.909Z,
+    service: 'memory',
+    status: 'warning',
+    message: 'Service memory is warning',
+    details: {
+      heapUsed: '100.93 MB',
+      heapTotal: '107.09 MB',
+      rss: '152.8 MB',
+      external: '38.07 MB',
+      systemMemoryUsage: '78.73%',
+      freeMemory: '3.25 GB',
+      totalMemory: '15.29 GB'
+    },
+    error: undefined
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-17 12:20:53'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1758091913919-m25e4jqn4',
+    timestamp: 2025-09-17T06:51:53.919Z,
+    service: 'redis',
+    status: 'warning',
+    message: 'Service redis is warning',
+    details: { connected: false, optional: true },
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-17 12:21:53'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1758091913920-p2m3s0bat',
+    timestamp: 2025-09-17T06:51:53.920Z,
+    service: 'memory',
+    status: 'warning',
+    message: 'Service memory is warning',
+    details: {
+      heapUsed: '101.54 MB',
+      heapTotal: '107.09 MB',
+      rss: '153.95 MB',
+      external: '38.12 MB',
+      systemMemoryUsage: '77.40%',
+      freeMemory: '3.46 GB',
+      totalMemory: '15.29 GB'
+    },
+    error: undefined
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-17 12:21:53'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1758091973923-h6lj64vmh',
+    timestamp: 2025-09-17T06:52:53.923Z,
+    service: 'redis',
+    status: 'warning',
+    message: 'Service redis is warning',
+    details: { connected: false, optional: true },
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-17 12:22:53'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1758091973923-bnha7zexh',
+    timestamp: 2025-09-17T06:52:53.923Z,
+    service: 'memory',
+    status: 'warning',
+    message: 'Service memory is warning',
+    details: {
+      heapUsed: '101.56 MB',
+      heapTotal: '107.09 MB',
+      rss: '154.44 MB',
+      external: '38.17 MB',
+      systemMemoryUsage: '78.80%',
+      freeMemory: '3.24 GB',
+      totalMemory: '15.29 GB'
+    },
+    error: undefined
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-17 12:22:53'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1758092033929-uohxi5rg5',
+    timestamp: 2025-09-17T06:53:53.929Z,
+    service: 'redis',
+    status: 'warning',
+    message: 'Service redis is warning',
+    details: { connected: false, optional: true },
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-17 12:23:53'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1758092033930-1b92c3d1i',
+    timestamp: 2025-09-17T06:53:53.930Z,
+    service: 'memory',
+    status: 'warning',
+    message: 'Service memory is warning',
+    details: {
+      heapUsed: '101.81 MB',
+      heapTotal: '107.59 MB',
+      rss: '143.38 MB',
+      external: '38.15 MB',
+      systemMemoryUsage: '78.85%',
+      freeMemory: '3.23 GB',
+      totalMemory: '15.29 GB'
+    },
+    error: undefined
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-17 12:23:53'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'error',
+  requestId: '46d837ce-130a-494d-ba46-e82c73c93e80',
+  method: 'GET',
+  path: '/@vite/client',
+  error: {
+    message: "Can't find /@vite/client on this server!",
+    stack: "Error: Can't find /@vite/client on this server!\n" +
+      '    at handleNotFound (C:\\Users\\ASUS\\interview-master\\server\\middleware\\errorHandler.js:145:17)\n' +
+      '    at Layer.handleRequest (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\lib\\layer.js:152:17)\n' +
+      '    at trimPrefix (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:342:13)\n' +
+      '    at C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:297:9\n' +
+      '    at processParams (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:582:12)\n' +
+      '    at next (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:291:5)\n' +
+      '    at rateLimitMonitoring (C:\\Users\\ASUS\\interview-master\\server\\middleware\\monitoring.js:235:3)\n' +
+      '    at Layer.handleRequest (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\lib\\layer.js:152:17)\n' +
+      '    at trimPrefix (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:342:13)\n' +
+      '    at C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:297:9',
+    name: 'Error',
+    statusCode: 404
+  },
+  user: null,
+  timestamp: '2025-09-17 12:24:34',
+  level: 'error',
+  message: 'Request error'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1758092093934-pbn2ae9c5',
+    timestamp: 2025-09-17T06:54:53.934Z,
+    service: 'redis',
+    status: 'warning',
+    message: 'Service redis is warning',
+    details: { connected: false, optional: true },
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-17 12:24:53'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1758092093935-61wx8j99q',
+    timestamp: 2025-09-17T06:54:53.935Z,
+    service: 'memory',
+    status: 'warning',
+    message: 'Service memory is warning',
+    details: {
+      heapUsed: '101.95 MB',
+      heapTotal: '108.09 MB',
+      rss: '143.91 MB',
+      external: '38.29 MB',
+      systemMemoryUsage: '77.19%',
+      freeMemory: '3.49 GB',
+      totalMemory: '15.29 GB'
+    },
+    error: undefined
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-17 12:24:53'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1758092153933-lg3qjain9',
+    timestamp: 2025-09-17T06:55:53.933Z,
+    service: 'redis',
+    status: 'warning',
+    message: 'Service redis is warning',
+    details: { connected: false, optional: true },
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-17 12:25:53'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1758092153934-fg87fj8ae',
+    timestamp: 2025-09-17T06:55:53.934Z,
+    service: 'memory',
+    status: 'warning',
+    message: 'Service memory is warning',
+    details: {
+      heapUsed: '103.24 MB',
+      heapTotal: '108.59 MB',
+      rss: '144.6 MB',
+      external: '38.36 MB',
+      systemMemoryUsage: '75.53%',
+      freeMemory: '3.74 GB',
+      totalMemory: '15.29 GB'
+    },
+    error: undefined
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-17 12:25:53'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'error',
+  requestId: 'f5b1ce23-c621-4309-9ddb-c33d7bd5f708',
+  method: 'GET',
+  path: '/@vite/client',
+  error: {
+    message: "Can't find /@vite/client on this server!",
+    stack: "Error: Can't find /@vite/client on this server!\n" +
+      '    at handleNotFound (C:\\Users\\ASUS\\interview-master\\server\\middleware\\errorHandler.js:145:17)\n' +
+      '    at Layer.handleRequest (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\lib\\layer.js:152:17)\n' +
+      '    at trimPrefix (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:342:13)\n' +
+      '    at C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:297:9\n' +
+      '    at processParams (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:582:12)\n' +
+      '    at next (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:291:5)\n' +
+      '    at rateLimitMonitoring (C:\\Users\\ASUS\\interview-master\\server\\middleware\\monitoring.js:235:3)\n' +
+      '    at Layer.handleRequest (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\lib\\layer.js:152:17)\n' +
+      '    at trimPrefix (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:342:13)\n' +
+      '    at C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:297:9',
+    name: 'Error',
+    statusCode: 404
+  },
+  user: null,
+  timestamp: '2025-09-17 12:26:07',
+  level: 'error',
+  message: 'Request error'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1758092213948-toahji2dr',
+    timestamp: 2025-09-17T06:56:53.948Z,
+    service: 'redis',
+    status: 'warning',
+    message: 'Service redis is warning',
+    details: { connected: false, optional: true },
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-17 12:26:53'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1758092213948-y9jjbdvpt',
+    timestamp: 2025-09-17T06:56:53.948Z,
+    service: 'memory',
+    status: 'warning',
+    message: 'Service memory is warning',
+    details: {
+      heapUsed: '104.22 MB',
+      heapTotal: '109.34 MB',
+      rss: '146.13 MB',
+      external: '38.47 MB',
+      systemMemoryUsage: '78.90%',
+      freeMemory: '3.23 GB',
+      totalMemory: '15.29 GB'
+    },
+    error: undefined
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-17 12:26:53'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1758092273954-2w6wmc63w',
+    timestamp: 2025-09-17T06:57:53.954Z,
+    service: 'redis',
+    status: 'warning',
+    message: 'Service redis is warning',
+    details: { connected: false, optional: true },
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-17 12:27:53'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1758092273955-skpt4ynsb',
+    timestamp: 2025-09-17T06:57:53.955Z,
+    service: 'memory',
+    status: 'warning',
+    message: 'Service memory is warning',
+    details: {
+      heapUsed: '104.89 MB',
+      heapTotal: '110.09 MB',
+      rss: '145.55 MB',
+      external: '38.55 MB',
+      systemMemoryUsage: '78.70%',
+      freeMemory: '3.26 GB',
+      totalMemory: '15.29 GB'
+    },
+    error: undefined
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-17 12:27:53'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'error',
+  requestId: 'd1164ccd-5d33-4582-a9ca-71c0efccfe8b',
+  method: 'GET',
+  path: '/api/v1/exams/exam_1758092242673_ugk9cgr4o/fullscreen-status',
+  error: {
+    message: 'Invalid token',
+    stack: 'Error: Invalid token\n' +
+      '    at SecurityManager.verifyJWT (C:\\Users\\ASUS\\interview-master\\server\\utils\\security.js:102:15)\n' +
+      '    at authenticate (C:\\Users\\ASUS\\interview-master\\server\\middleware\\auth.js:61:39)\n' +
+      '    at Layer.handleRequest (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\lib\\layer.js:152:17)\n' +
+      '    at trimPrefix (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:342:13)\n' +
+      '    at C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:297:9\n' +
+      '    at processParams (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:582:12)\n' +
+      '    at next (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:291:5)\n' +
+      '    at rateLimitMonitoring (C:\\Users\\ASUS\\interview-master\\server\\middleware\\monitoring.js:235:3)\n' +
+      '    at Layer.handleRequest (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\lib\\layer.js:152:17)\n' +
+      '    at trimPrefix (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:342:13)',
+    name: 'Error',
+    statusCode: 401
+  },
+  user: null,
+  timestamp: '2025-09-17 12:28:32',
+  level: 'error',
+  message: 'Request error'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'security',
+  event: 'unauthorized_access',
+  details: {
+    requestId: 'd1164ccd-5d33-4582-a9ca-71c0efccfe8b',
+    method: 'GET',
+    path: '/api/v1/exams/exam_1758092242673_ugk9cgr4o/fullscreen-status',
+    ip: '::1',
+    userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36 Edg/140.0.0.0',
+    error: 'Invalid token'
+  },
+  timestamp: '2025-09-17 12:28:32',
+  level: 'warn',
+  message: 'Security event'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'security',
+  event: 'suspicious_input',
+  details: {
+    requestId: '461edb87-70ef-49db-b1d6-84e85c520760',
+    method: 'POST',
+    path: '/api/v1/exams/exam_1758092242673_ugk9cgr4o/violations',
+    suspiciousContent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36 Edg/140.0.0.0',
+    location: 'body.details.userAgent',
+    ip: '::1',
+    userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36 Edg/140.0.0.0'
+  },
+  timestamp: '2025-09-17 12:28:33',
+  level: 'warn',
+  message: 'Security event'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'error',
+  requestId: '461edb87-70ef-49db-b1d6-84e85c520760',
+  method: 'POST',
+  path: '/api/v1/exams/exam_1758092242673_ugk9cgr4o/violations',
+  error: {
+    message: 'Invalid token',
+    stack: 'Error: Invalid token\n' +
+      '    at SecurityManager.verifyJWT (C:\\Users\\ASUS\\interview-master\\server\\utils\\security.js:102:15)\n' +
+      '    at authenticate (C:\\Users\\ASUS\\interview-master\\server\\middleware\\auth.js:61:39)\n' +
+      '    at Layer.handleRequest (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\lib\\layer.js:152:17)\n' +
+      '    at trimPrefix (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:342:13)\n' +
+      '    at C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:297:9\n' +
+      '    at processParams (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:582:12)\n' +
+      '    at next (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:291:5)\n' +
+      '    at rateLimitMonitoring (C:\\Users\\ASUS\\interview-master\\server\\middleware\\monitoring.js:235:3)\n' +
+      '    at Layer.handleRequest (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\lib\\layer.js:152:17)\n' +
+      '    at trimPrefix (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:342:13)',
+    name: 'Error',
+    statusCode: 401
+  },
+  user: null,
+  timestamp: '2025-09-17 12:28:33',
+  level: 'error',
+  message: 'Request error'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'security',
+  event: 'unauthorized_access',
+  details: {
+    requestId: '461edb87-70ef-49db-b1d6-84e85c520760',
+    method: 'POST',
+    path: '/api/v1/exams/exam_1758092242673_ugk9cgr4o/violations',
+    ip: '::1',
+    userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36 Edg/140.0.0.0',
+    error: 'Invalid token'
+  },
+  timestamp: '2025-09-17 12:28:33',
+  level: 'warn',
+  message: 'Security event'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1758092333959-0jgdk9jjo',
+    timestamp: 2025-09-17T06:58:53.959Z,
+    service: 'redis',
+    status: 'warning',
+    message: 'Service redis is warning',
+    details: { connected: false, optional: true },
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-17 12:28:53'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1758092333960-e5a7b1ulm',
+    timestamp: 2025-09-17T06:58:53.960Z,
+    service: 'memory',
+    status: 'warning',
+    message: 'Service memory is warning',
+    details: {
+      heapUsed: '105.81 MB',
+      heapTotal: '110.84 MB',
+      rss: '142.81 MB',
+      external: '38.73 MB',
+      systemMemoryUsage: '75.13%',
+      freeMemory: '3.8 GB',
+      totalMemory: '15.29 GB'
+    },
+    error: undefined
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-17 12:28:53'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'error',
+  requestId: '9016744e-2af2-4b3b-a44f-cccfe0dd8005',
+  method: 'GET',
+  path: '/api/v1/exams/exam_1758092346239_yzautfjlj/fullscreen-status',
+  error: {
+    message: 'Invalid token',
+    stack: 'Error: Invalid token\n' +
+      '    at SecurityManager.verifyJWT (C:\\Users\\ASUS\\interview-master\\server\\utils\\security.js:102:15)\n' +
+      '    at authenticate (C:\\Users\\ASUS\\interview-master\\server\\middleware\\auth.js:61:39)\n' +
+      '    at Layer.handleRequest (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\lib\\layer.js:152:17)\n' +
+      '    at trimPrefix (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:342:13)\n' +
+      '    at C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:297:9\n' +
+      '    at processParams (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:582:12)\n' +
+      '    at next (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:291:5)\n' +
+      '    at rateLimitMonitoring (C:\\Users\\ASUS\\interview-master\\server\\middleware\\monitoring.js:235:3)\n' +
+      '    at Layer.handleRequest (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\lib\\layer.js:152:17)\n' +
+      '    at trimPrefix (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:342:13)',
+    name: 'Error',
+    statusCode: 401
+  },
+  user: null,
+  timestamp: '2025-09-17 12:29:31',
+  level: 'error',
+  message: 'Request error'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'security',
+  event: 'unauthorized_access',
+  details: {
+    requestId: '9016744e-2af2-4b3b-a44f-cccfe0dd8005',
+    method: 'GET',
+    path: '/api/v1/exams/exam_1758092346239_yzautfjlj/fullscreen-status',
+    ip: '::1',
+    userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36 Edg/140.0.0.0',
+    error: 'Invalid token'
+  },
+  timestamp: '2025-09-17 12:29:31',
+  level: 'warn',
+  message: 'Security event'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1758092393962-z9fxkbhth',
+    timestamp: 2025-09-17T06:59:53.962Z,
+    service: 'redis',
+    status: 'warning',
+    message: 'Service redis is warning',
+    details: { connected: false, optional: true },
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-17 12:29:53'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1758092393963-kqhgmbu8h',
+    timestamp: 2025-09-17T06:59:53.963Z,
+    service: 'memory',
+    status: 'warning',
+    message: 'Service memory is warning',
+    details: {
+      heapUsed: '105.43 MB',
+      heapTotal: '111.09 MB',
+      rss: '143.46 MB',
+      external: '38.64 MB',
+      systemMemoryUsage: '75.70%',
+      freeMemory: '3.72 GB',
+      totalMemory: '15.29 GB'
+    },
+    error: undefined
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-17 12:29:53'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1758092453969-bzyw7jsma',
+    timestamp: 2025-09-17T07:00:53.969Z,
+    service: 'redis',
+    status: 'warning',
+    message: 'Service redis is warning',
+    details: { connected: false, optional: true },
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-17 12:30:53'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1758092453970-nlyqv29u5',
+    timestamp: 2025-09-17T07:00:53.970Z,
+    service: 'memory',
+    status: 'warning',
+    message: 'Service memory is warning',
+    details: {
+      heapUsed: '105.81 MB',
+      heapTotal: '111.34 MB',
+      rss: '143.44 MB',
+      external: '38.72 MB',
+      systemMemoryUsage: '75.91%',
+      freeMemory: '3.68 GB',
+      totalMemory: '15.29 GB'
+    },
+    error: undefined
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-17 12:30:53'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1758092513973-lsirgxj87',
+    timestamp: 2025-09-17T07:01:53.973Z,
+    service: 'redis',
+    status: 'warning',
+    message: 'Service redis is warning',
+    details: { connected: false, optional: true },
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-17 12:31:53'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1758092513973-br1v78z5q',
+    timestamp: 2025-09-17T07:01:53.973Z,
+    service: 'memory',
+    status: 'warning',
+    message: 'Service memory is warning',
+    details: {
+      heapUsed: '106.48 MB',
+      heapTotal: '111.59 MB',
+      rss: '144.05 MB',
+      external: '38.8 MB',
+      systemMemoryUsage: '76.19%',
+      freeMemory: '3.64 GB',
+      totalMemory: '15.29 GB'
+    },
+    error: undefined
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-17 12:31:53'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'error',
+  requestId: '12550d9b-6144-4640-8ce4-5085d8b238b4',
+  method: 'GET',
+  path: '/@vite/client',
+  error: {
+    message: "Can't find /@vite/client on this server!",
+    stack: "Error: Can't find /@vite/client on this server!\n" +
+      '    at handleNotFound (C:\\Users\\ASUS\\interview-master\\server\\middleware\\errorHandler.js:145:17)\n' +
+      '    at Layer.handleRequest (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\lib\\layer.js:152:17)\n' +
+      '    at trimPrefix (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:342:13)\n' +
+      '    at C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:297:9\n' +
+      '    at processParams (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:582:12)\n' +
+      '    at next (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:291:5)\n' +
+      '    at rateLimitMonitoring (C:\\Users\\ASUS\\interview-master\\server\\middleware\\monitoring.js:235:3)\n' +
+      '    at Layer.handleRequest (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\lib\\layer.js:152:17)\n' +
+      '    at trimPrefix (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:342:13)\n' +
+      '    at C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:297:9',
+    name: 'Error',
+    statusCode: 404
+  },
+  user: null,
+  timestamp: '2025-09-17 12:31:58',
+  level: 'error',
+  message: 'Request error'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1758092573986-v10qv0kuc',
+    timestamp: 2025-09-17T07:02:53.986Z,
+    service: 'redis',
+    status: 'warning',
+    message: 'Service redis is warning',
+    details: { connected: false, optional: true },
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-17 12:32:53'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1758092573987-y2diietzm',
+    timestamp: 2025-09-17T07:02:53.987Z,
+    service: 'memory',
+    status: 'warning',
+    message: 'Service memory is warning',
+    details: {
+      heapUsed: '106.43 MB',
+      heapTotal: '112.09 MB',
+      rss: '144.29 MB',
+      external: '38.78 MB',
+      systemMemoryUsage: '79.78%',
+      freeMemory: '3.09 GB',
+      totalMemory: '15.29 GB'
+    },
+    error: undefined
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-17 12:32:53'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'error',
+  requestId: 'ab945191-c4fc-4cd6-a2e2-62e663458f7c',
+  method: 'GET',
+  path: '/api/v1/exams/exam_1758092563599_09ypsznnl/fullscreen-status',
+  error: {
+    message: 'Invalid token',
+    stack: 'Error: Invalid token\n' +
+      '    at SecurityManager.verifyJWT (C:\\Users\\ASUS\\interview-master\\server\\utils\\security.js:102:15)\n' +
+      '    at authenticate (C:\\Users\\ASUS\\interview-master\\server\\middleware\\auth.js:61:39)\n' +
+      '    at Layer.handleRequest (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\lib\\layer.js:152:17)\n' +
+      '    at trimPrefix (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:342:13)\n' +
+      '    at C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:297:9\n' +
+      '    at processParams (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:582:12)\n' +
+      '    at next (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:291:5)\n' +
+      '    at rateLimitMonitoring (C:\\Users\\ASUS\\interview-master\\server\\middleware\\monitoring.js:235:3)\n' +
+      '    at Layer.handleRequest (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\lib\\layer.js:152:17)\n' +
+      '    at trimPrefix (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:342:13)',
+    name: 'Error',
+    statusCode: 401
+  },
+  user: null,
+  timestamp: '2025-09-17 12:33:04',
+  level: 'error',
+  message: 'Request error'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'security',
+  event: 'unauthorized_access',
+  details: {
+    requestId: 'ab945191-c4fc-4cd6-a2e2-62e663458f7c',
+    method: 'GET',
+    path: '/api/v1/exams/exam_1758092563599_09ypsznnl/fullscreen-status',
+    ip: '::1',
+    userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36 Edg/140.0.0.0',
+    error: 'Invalid token'
+  },
+  timestamp: '2025-09-17 12:33:04',
+  level: 'warn',
+  message: 'Security event'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1758092633993-nj1y9xay1',
+    timestamp: 2025-09-17T07:03:53.993Z,
+    service: 'redis',
+    status: 'warning',
+    message: 'Service redis is warning',
+    details: { connected: false, optional: true },
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-17 12:33:53'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1758092633994-pral04gav',
+    timestamp: 2025-09-17T07:03:53.994Z,
+    service: 'memory',
+    status: 'warning',
+    message: 'Service memory is warning',
+    details: {
+      heapUsed: '106.99 MB',
+      heapTotal: '112.09 MB',
+      rss: '143.42 MB',
+      external: '38.94 MB',
+      systemMemoryUsage: '77.72%',
+      freeMemory: '3.41 GB',
+      totalMemory: '15.29 GB'
+    },
+    error: undefined
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-17 12:33:53'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1758092694001-d3g5xya67',
+    timestamp: 2025-09-17T07:04:54.001Z,
+    service: 'redis',
+    status: 'warning',
+    message: 'Service redis is warning',
+    details: { connected: false, optional: true },
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-17 12:34:54'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1758092694002-a3lwvf314',
+    timestamp: 2025-09-17T07:04:54.002Z,
+    service: 'memory',
+    status: 'warning',
+    message: 'Service memory is warning',
+    details: {
+      heapUsed: '107.53 MB',
+      heapTotal: '112.34 MB',
+      rss: '143.27 MB',
+      external: '38.98 MB',
+      systemMemoryUsage: '76.74%',
+      freeMemory: '3.56 GB',
+      totalMemory: '15.29 GB'
+    },
+    error: undefined
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-17 12:34:54'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1758092754014-n317vag46',
+    timestamp: 2025-09-17T07:05:54.014Z,
+    service: 'redis',
+    status: 'warning',
+    message: 'Service redis is warning',
+    details: { connected: false, optional: true },
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-17 12:35:54'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1758092754014-o1r36llqz',
+    timestamp: 2025-09-17T07:05:54.014Z,
+    service: 'memory',
+    status: 'warning',
+    message: 'Service memory is warning',
+    details: {
+      heapUsed: '107.57 MB',
+      heapTotal: '112.84 MB',
+      rss: '143.31 MB',
+      external: '38.98 MB',
+      systemMemoryUsage: '76.40%',
+      freeMemory: '3.61 GB',
+      totalMemory: '15.29 GB'
+    },
+    error: undefined
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-17 12:35:54'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1758114343721-478vaexkh',
+    timestamp: 2025-09-17T13:05:43.721Z,
+    service: 'redis',
+    status: 'warning',
+    message: 'Service redis is warning',
+    details: { connected: false, optional: true },
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-17 18:35:43'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1758114343724-g387gmdhq',
+    timestamp: 2025-09-17T13:05:43.724Z,
+    service: 'memory',
+    status: 'warning',
+    message: 'Service memory is warning',
+    details: {
+      heapUsed: '133.69 MB',
+      heapTotal: '157.71 MB',
+      rss: '205.47 MB',
+      external: '40.85 MB',
+      systemMemoryUsage: '79.59%',
+      freeMemory: '3.12 GB',
+      totalMemory: '15.29 GB'
+    },
+    error: undefined
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-17 18:35:43'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1758114386671-3gs5nbrlg',
+    timestamp: 2025-09-17T13:06:26.671Z,
+    service: 'redis',
+    status: 'warning',
+    message: 'Service redis is warning',
+    details: { connected: false, optional: true },
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-17 18:36:26'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1758114386672-3ytwgusj1',
+    timestamp: 2025-09-17T13:06:26.672Z,
+    service: 'memory',
+    status: 'warning',
+    message: 'Service memory is warning',
+    details: {
+      heapUsed: '92.75 MB',
+      heapTotal: '98.54 MB',
+      rss: '143.5 MB',
+      external: '37.93 MB',
+      systemMemoryUsage: '77.77%',
+      freeMemory: '3.4 GB',
+      totalMemory: '15.29 GB'
+    },
+    error: undefined
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-17 18:36:26'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1758114446681-yxlqx2ttd',
+    timestamp: 2025-09-17T13:07:26.681Z,
+    service: 'redis',
+    status: 'warning',
+    message: 'Service redis is warning',
+    details: { connected: false, optional: true },
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-17 18:37:26'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1758114446682-jxhxyh47g',
+    timestamp: 2025-09-17T13:07:26.682Z,
+    service: 'memory',
+    status: 'warning',
+    message: 'Service memory is warning',
+    details: {
+      heapUsed: '95.35 MB',
+      heapTotal: '100.29 MB',
+      rss: '145.45 MB',
+      external: '38.11 MB',
+      systemMemoryUsage: '80.15%',
+      freeMemory: '3.04 GB',
+      totalMemory: '15.29 GB'
+    },
+    error: undefined
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-17 18:37:26'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1758114506683-xce3l675s',
+    timestamp: 2025-09-17T13:08:26.683Z,
+    service: 'redis',
+    status: 'warning',
+    message: 'Service redis is warning',
+    details: { connected: false, optional: true },
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-17 18:38:26'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1758114506684-sflfndgwj',
+    timestamp: 2025-09-17T13:08:26.684Z,
+    service: 'memory',
+    status: 'warning',
+    message: 'Service memory is warning',
+    details: {
+      heapUsed: '95.43 MB',
+      heapTotal: '100.54 MB',
+      rss: '145.85 MB',
+      external: '38.14 MB',
+      systemMemoryUsage: '78.25%',
+      freeMemory: '3.33 GB',
+      totalMemory: '15.29 GB'
+    },
+    error: undefined
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-17 18:38:26'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'error',
+  requestId: '726b0d86-5194-45ce-baa7-f38a85d33acc',
+  method: 'GET',
+  path: '/@vite/client',
+  error: {
+    message: "Can't find /@vite/client on this server!",
+    stack: "Error: Can't find /@vite/client on this server!\n" +
+      '    at handleNotFound (C:\\Users\\ASUS\\interview-master\\server\\middleware\\errorHandler.js:145:17)\n' +
+      '    at Layer.handleRequest (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\lib\\layer.js:152:17)\n' +
+      '    at trimPrefix (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:342:13)\n' +
+      '    at C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:297:9\n' +
+      '    at processParams (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:582:12)\n' +
+      '    at next (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:291:5)\n' +
+      '    at rateLimitMonitoring (C:\\Users\\ASUS\\interview-master\\server\\middleware\\monitoring.js:235:3)\n' +
+      '    at Layer.handleRequest (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\lib\\layer.js:152:17)\n' +
+      '    at trimPrefix (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:342:13)\n' +
+      '    at C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:297:9',
+    name: 'Error',
+    statusCode: 404
+  },
+  user: null,
+  timestamp: '2025-09-17 18:39:13',
+  level: 'error',
+  message: 'Request error'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1758114566692-g95xrnr16',
+    timestamp: 2025-09-17T13:09:26.692Z,
+    service: 'redis',
+    status: 'warning',
+    message: 'Service redis is warning',
+    details: { connected: false, optional: true },
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-17 18:39:26'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1758114566692-yqd58s85k',
+    timestamp: 2025-09-17T13:09:26.692Z,
+    service: 'memory',
+    status: 'warning',
+    message: 'Service memory is warning',
+    details: {
+      heapUsed: '95.67 MB',
+      heapTotal: '101.04 MB',
+      rss: '146.04 MB',
+      external: '38.25 MB',
+      systemMemoryUsage: '75.98%',
+      freeMemory: '3.67 GB',
+      totalMemory: '15.29 GB'
+    },
+    error: undefined
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-17 18:39:26'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1758114626705-lkafhs4wi',
+    timestamp: 2025-09-17T13:10:26.705Z,
+    service: 'redis',
+    status: 'warning',
+    message: 'Service redis is warning',
+    details: { connected: false, optional: true },
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-17 18:40:26'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1758114626706-vbgbbrqij',
+    timestamp: 2025-09-17T13:10:26.706Z,
+    service: 'memory',
+    status: 'warning',
+    message: 'Service memory is warning',
+    details: {
+      heapUsed: '95.95 MB',
+      heapTotal: '101.04 MB',
+      rss: '146.63 MB',
+      external: '38.2 MB',
+      systemMemoryUsage: '79.28%',
+      freeMemory: '3.17 GB',
+      totalMemory: '15.29 GB'
+    },
+    error: undefined
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-17 18:40:26'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1758114686708-2dqkzon0d',
+    timestamp: 2025-09-17T13:11:26.708Z,
+    service: 'redis',
+    status: 'warning',
+    message: 'Service redis is warning',
+    details: { connected: false, optional: true },
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-17 18:41:26'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1758114686709-damiwfwxq',
+    timestamp: 2025-09-17T13:11:26.709Z,
+    service: 'memory',
+    status: 'warning',
+    message: 'Service memory is warning',
+    details: {
+      heapUsed: '96.82 MB',
+      heapTotal: '101.54 MB',
+      rss: '147.19 MB',
+      external: '38.29 MB',
+      systemMemoryUsage: '78.27%',
+      freeMemory: '3.32 GB',
+      totalMemory: '15.29 GB'
+    },
+    error: undefined
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-17 18:41:26'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'error',
+  requestId: '827c2de0-21f9-454b-b19b-a7b85b255eaf',
+  method: 'GET',
+  path: '/api/v1/exams/exam_1758114622217_qdk84l2jm/fullscreen-status',
+  error: {
+    message: 'Invalid token',
+    stack: 'Error: Invalid token\n' +
+      '    at SecurityManager.verifyJWT (C:\\Users\\ASUS\\interview-master\\server\\utils\\security.js:102:15)\n' +
+      '    at authenticate (C:\\Users\\ASUS\\interview-master\\server\\middleware\\auth.js:61:39)\n' +
+      '    at Layer.handleRequest (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\lib\\layer.js:152:17)\n' +
+      '    at trimPrefix (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:342:13)\n' +
+      '    at C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:297:9\n' +
+      '    at processParams (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:582:12)\n' +
+      '    at next (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:291:5)\n' +
+      '    at rateLimitMonitoring (C:\\Users\\ASUS\\interview-master\\server\\middleware\\monitoring.js:235:3)\n' +
+      '    at Layer.handleRequest (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\lib\\layer.js:152:17)\n' +
+      '    at trimPrefix (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:342:13)',
+    name: 'Error',
+    statusCode: 401
+  },
+  user: null,
+  timestamp: '2025-09-17 18:41:32',
+  level: 'error',
+  message: 'Request error'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'security',
+  event: 'unauthorized_access',
+  details: {
+    requestId: '827c2de0-21f9-454b-b19b-a7b85b255eaf',
+    method: 'GET',
+    path: '/api/v1/exams/exam_1758114622217_qdk84l2jm/fullscreen-status',
+    ip: '::1',
+    userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36 Edg/140.0.0.0',
+    error: 'Invalid token'
+  },
+  timestamp: '2025-09-17 18:41:32',
+  level: 'warn',
+  message: 'Security event'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'security',
+  event: 'suspicious_input',
+  details: {
+    requestId: 'cc6a0a32-8bc3-41f8-a03e-b3026cb45453',
+    method: 'POST',
+    path: '/api/v1/exams/exam_1758114622217_qdk84l2jm/violations',
+    suspiciousContent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36 Edg/140.0.0.0',
+    location: 'body.details.userAgent',
+    ip: '::1',
+    userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36 Edg/140.0.0.0'
+  },
+  timestamp: '2025-09-17 18:41:32',
+  level: 'warn',
+  message: 'Security event'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'error',
+  requestId: 'cc6a0a32-8bc3-41f8-a03e-b3026cb45453',
+  method: 'POST',
+  path: '/api/v1/exams/exam_1758114622217_qdk84l2jm/violations',
+  error: {
+    message: 'Invalid token',
+    stack: 'Error: Invalid token\n' +
+      '    at SecurityManager.verifyJWT (C:\\Users\\ASUS\\interview-master\\server\\utils\\security.js:102:15)\n' +
+      '    at authenticate (C:\\Users\\ASUS\\interview-master\\server\\middleware\\auth.js:61:39)\n' +
+      '    at Layer.handleRequest (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\lib\\layer.js:152:17)\n' +
+      '    at trimPrefix (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:342:13)\n' +
+      '    at C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:297:9\n' +
+      '    at processParams (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:582:12)\n' +
+      '    at next (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:291:5)\n' +
+      '    at rateLimitMonitoring (C:\\Users\\ASUS\\interview-master\\server\\middleware\\monitoring.js:235:3)\n' +
+      '    at Layer.handleRequest (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\lib\\layer.js:152:17)\n' +
+      '    at trimPrefix (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:342:13)',
+    name: 'Error',
+    statusCode: 401
+  },
+  user: null,
+  timestamp: '2025-09-17 18:41:32',
+  level: 'error',
+  message: 'Request error'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'security',
+  event: 'unauthorized_access',
+  details: {
+    requestId: 'cc6a0a32-8bc3-41f8-a03e-b3026cb45453',
+    method: 'POST',
+    path: '/api/v1/exams/exam_1758114622217_qdk84l2jm/violations',
+    ip: '::1',
+    userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36 Edg/140.0.0.0',
+    error: 'Invalid token'
+  },
+  timestamp: '2025-09-17 18:41:32',
+  level: 'warn',
+  message: 'Security event'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1758114746711-iqm2e80gj',
+    timestamp: 2025-09-17T13:12:26.711Z,
+    service: 'redis',
+    status: 'warning',
+    message: 'Service redis is warning',
+    details: { connected: false, optional: true },
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-17 18:42:26'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1758114746711-gaf8nuwar',
+    timestamp: 2025-09-17T13:12:26.711Z,
+    service: 'memory',
+    status: 'warning',
+    message: 'Service memory is warning',
+    details: {
+      heapUsed: '97.47 MB',
+      heapTotal: '102.29 MB',
+      rss: '147.83 MB',
+      external: '38.35 MB',
+      systemMemoryUsage: '77.15%',
+      freeMemory: '3.5 GB',
+      totalMemory: '15.29 GB'
+    },
+    error: undefined
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-17 18:42:26'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1758114806712-114w3p8w7',
+    timestamp: 2025-09-17T13:13:26.712Z,
+    service: 'redis',
+    status: 'warning',
+    message: 'Service redis is warning',
+    details: { connected: false, optional: true },
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-17 18:43:26'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1758114866727-2ladqw9yl',
+    timestamp: 2025-09-17T13:14:26.727Z,
+    service: 'redis',
+    status: 'warning',
+    message: 'Service redis is warning',
+    details: { connected: false, optional: true },
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-17 18:44:26'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1758114926735-csbng8luq',
+    timestamp: 2025-09-17T13:15:26.735Z,
+    service: 'redis',
+    status: 'warning',
+    message: 'Service redis is warning',
+    details: { connected: false, optional: true },
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-17 18:45:26'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1758114986749-dnjsmpkaa',
+    timestamp: 2025-09-17T13:16:26.749Z,
+    service: 'redis',
+    status: 'warning',
+    message: 'Service redis is warning',
+    details: { connected: false, optional: true },
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-17 18:46:26'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1758115046765-k540uswg8',
+    timestamp: 2025-09-17T13:17:26.765Z,
+    service: 'redis',
+    status: 'warning',
+    message: 'Service redis is warning',
+    details: { connected: false, optional: true },
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-17 18:47:26'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1758115106782-2h0o8gsok',
+    timestamp: 2025-09-17T13:18:26.782Z,
+    service: 'redis',
+    status: 'warning',
+    message: 'Service redis is warning',
+    details: { connected: false, optional: true },
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-17 18:48:26'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1758115166781-zpuzdlyb2',
+    timestamp: 2025-09-17T13:19:26.781Z,
+    service: 'redis',
+    status: 'warning',
+    message: 'Service redis is warning',
+    details: { connected: false, optional: true },
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-17 18:49:26'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1758115226794-jrvomn0u7',
+    timestamp: 2025-09-17T13:20:26.794Z,
+    service: 'redis',
+    status: 'warning',
+    message: 'Service redis is warning',
+    details: { connected: false, optional: true },
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-17 18:50:26'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1758115286805-arz47qmr2',
+    timestamp: 2025-09-17T13:21:26.805Z,
+    service: 'redis',
+    status: 'warning',
+    message: 'Service redis is warning',
+    details: { connected: false, optional: true },
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-17 18:51:26'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1758115346817-4pd1jqkzj',
+    timestamp: 2025-09-17T13:22:26.817Z,
+    service: 'redis',
+    status: 'warning',
+    message: 'Service redis is warning',
+    details: { connected: false, optional: true },
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-17 18:52:26'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1758115406829-oubqpf475',
+    timestamp: 2025-09-17T13:23:26.829Z,
+    service: 'redis',
+    status: 'warning',
+    message: 'Service redis is warning',
+    details: { connected: false, optional: true },
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-17 18:53:26'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1758115466840-l4f8jyntf',
+    timestamp: 2025-09-17T13:24:26.840Z,
+    service: 'redis',
+    status: 'warning',
+    message: 'Service redis is warning',
+    details: { connected: false, optional: true },
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-17 18:54:26'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1758115526847-8v1dr130l',
+    timestamp: 2025-09-17T13:25:26.847Z,
+    service: 'redis',
+    status: 'warning',
+    message: 'Service redis is warning',
+    details: { connected: false, optional: true },
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-17 18:55:26'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1758115586858-62c1pfenn',
+    timestamp: 2025-09-17T13:26:26.858Z,
+    service: 'redis',
+    status: 'warning',
+    message: 'Service redis is warning',
+    details: { connected: false, optional: true },
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-17 18:56:26'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'error',
+  requestId: 'eda5ff00-2354-497e-bb8b-d51ba2644a07',
+  method: 'GET',
+  path: '/@vite/client',
+  error: {
+    message: "Can't find /@vite/client on this server!",
+    stack: "Error: Can't find /@vite/client on this server!\n" +
+      '    at handleNotFound (C:\\Users\\ASUS\\interview-master\\server\\middleware\\errorHandler.js:145:17)\n' +
+      '    at Layer.handleRequest (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\lib\\layer.js:152:17)\n' +
+      '    at trimPrefix (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:342:13)\n' +
+      '    at C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:297:9\n' +
+      '    at processParams (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:582:12)\n' +
+      '    at next (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:291:5)\n' +
+      '    at rateLimitMonitoring (C:\\Users\\ASUS\\interview-master\\server\\middleware\\monitoring.js:235:3)\n' +
+      '    at Layer.handleRequest (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\lib\\layer.js:152:17)\n' +
+      '    at trimPrefix (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:342:13)\n' +
+      '    at C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:297:9',
+    name: 'Error',
+    statusCode: 404
+  },
+  user: null,
+  timestamp: '2025-09-17 18:57:09',
+  level: 'error',
+  message: 'Request error'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1758115646861-8nwcgbtv1',
+    timestamp: 2025-09-17T13:27:26.861Z,
+    service: 'redis',
+    status: 'warning',
+    message: 'Service redis is warning',
+    details: { connected: false, optional: true },
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-17 18:57:26'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1758115706873-5jgtdsm91',
+    timestamp: 2025-09-17T13:28:26.873Z,
+    service: 'redis',
+    status: 'warning',
+    message: 'Service redis is warning',
+    details: { connected: false, optional: true },
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-17 18:58:26'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'error',
+  requestId: '565c6923-47cf-4317-8c59-776b36ac6cea',
+  method: 'GET',
+  path: '/api/v1/exams/exam_1758115671930_v3xut5ica/fullscreen-status',
+  error: {
+    message: 'Invalid token',
+    stack: 'Error: Invalid token\n' +
+      '    at SecurityManager.verifyJWT (C:\\Users\\ASUS\\interview-master\\server\\utils\\security.js:102:15)\n' +
+      '    at authenticate (C:\\Users\\ASUS\\interview-master\\server\\middleware\\auth.js:61:39)\n' +
+      '    at Layer.handleRequest (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\lib\\layer.js:152:17)\n' +
+      '    at trimPrefix (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:342:13)\n' +
+      '    at C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:297:9\n' +
+      '    at processParams (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:582:12)\n' +
+      '    at next (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:291:5)\n' +
+      '    at rateLimitMonitoring (C:\\Users\\ASUS\\interview-master\\server\\middleware\\monitoring.js:235:3)\n' +
+      '    at Layer.handleRequest (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\lib\\layer.js:152:17)\n' +
+      '    at trimPrefix (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:342:13)',
+    name: 'Error',
+    statusCode: 401
+  },
+  user: null,
+  timestamp: '2025-09-17 18:58:47',
+  level: 'error',
+  message: 'Request error'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'security',
+  event: 'unauthorized_access',
+  details: {
+    requestId: '565c6923-47cf-4317-8c59-776b36ac6cea',
+    method: 'GET',
+    path: '/api/v1/exams/exam_1758115671930_v3xut5ica/fullscreen-status',
+    ip: '::1',
+    userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36 Edg/140.0.0.0',
+    error: 'Invalid token'
+  },
+  timestamp: '2025-09-17 18:58:47',
+  level: 'warn',
+  message: 'Security event'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1758115766877-r1xc9emz1',
+    timestamp: 2025-09-17T13:29:26.877Z,
+    service: 'redis',
+    status: 'warning',
+    message: 'Service redis is warning',
+    details: { connected: false, optional: true },
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-17 18:59:26'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1758115826886-s2j3xc4j6',
+    timestamp: 2025-09-17T13:30:26.886Z,
+    service: 'redis',
+    status: 'warning',
+    message: 'Service redis is warning',
+    details: { connected: false, optional: true },
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-17 19:00:26'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1758115886890-xo253c3qf',
+    timestamp: 2025-09-17T13:31:26.890Z,
+    service: 'redis',
+    status: 'warning',
+    message: 'Service redis is warning',
+    details: { connected: false, optional: true },
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-17 19:01:26'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1758115946892-upmczx97n',
+    timestamp: 2025-09-17T13:32:26.892Z,
+    service: 'redis',
+    status: 'warning',
+    message: 'Service redis is warning',
+    details: { connected: false, optional: true },
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-17 19:02:26'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1758116006898-ckmricow6',
+    timestamp: 2025-09-17T13:33:26.898Z,
+    service: 'redis',
+    status: 'warning',
+    message: 'Service redis is warning',
+    details: { connected: false, optional: true },
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-17 19:03:26'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1758116066907-ud8og1hj1',
+    timestamp: 2025-09-17T13:34:26.907Z,
+    service: 'redis',
+    status: 'warning',
+    message: 'Service redis is warning',
+    details: { connected: false, optional: true },
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-17 19:04:26'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1758116126913-oi8yge4yp',
+    timestamp: 2025-09-17T13:35:26.913Z,
+    service: 'redis',
+    status: 'warning',
+    message: 'Service redis is warning',
+    details: { connected: false, optional: true },
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-17 19:05:26'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'error',
+  requestId: 'd0eccaf0-5d76-4efe-b240-2d707f4ae7e5',
+  method: 'GET',
+  path: '/@vite/client',
+  error: {
+    message: "Can't find /@vite/client on this server!",
+    stack: "Error: Can't find /@vite/client on this server!\n" +
+      '    at handleNotFound (C:\\Users\\ASUS\\interview-master\\server\\middleware\\errorHandler.js:145:17)\n' +
+      '    at Layer.handleRequest (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\lib\\layer.js:152:17)\n' +
+      '    at trimPrefix (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:342:13)\n' +
+      '    at C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:297:9\n' +
+      '    at processParams (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:582:12)\n' +
+      '    at next (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:291:5)\n' +
+      '    at rateLimitMonitoring (C:\\Users\\ASUS\\interview-master\\server\\middleware\\monitoring.js:235:3)\n' +
+      '    at Layer.handleRequest (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\lib\\layer.js:152:17)\n' +
+      '    at trimPrefix (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:342:13)\n' +
+      '    at C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:297:9',
+    name: 'Error',
+    statusCode: 404
+  },
+  user: null,
+  timestamp: '2025-09-17 19:06:05',
+  level: 'error',
+  message: 'Request error'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1758116186928-2ffwfqndt',
+    timestamp: 2025-09-17T13:36:26.928Z,
+    service: 'redis',
+    status: 'warning',
+    message: 'Service redis is warning',
+    details: { connected: false, optional: true },
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-17 19:06:26'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1758116246929-h959tqxxd',
+    timestamp: 2025-09-17T13:37:26.929Z,
+    service: 'redis',
+    status: 'warning',
+    message: 'Service redis is warning',
+    details: { connected: false, optional: true },
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-17 19:07:26'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'error',
+  requestId: '0c4f50ee-9964-40fc-a1cf-956a1d2f3366',
+  method: 'GET',
+  path: '/@vite/client',
+  error: {
+    message: "Can't find /@vite/client on this server!",
+    stack: "Error: Can't find /@vite/client on this server!\n" +
+      '    at handleNotFound (C:\\Users\\ASUS\\interview-master\\server\\middleware\\errorHandler.js:145:17)\n' +
+      '    at Layer.handleRequest (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\lib\\layer.js:152:17)\n' +
+      '    at trimPrefix (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:342:13)\n' +
+      '    at C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:297:9\n' +
+      '    at processParams (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:582:12)\n' +
+      '    at next (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:291:5)\n' +
+      '    at rateLimitMonitoring (C:\\Users\\ASUS\\interview-master\\server\\middleware\\monitoring.js:235:3)\n' +
+      '    at Layer.handleRequest (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\lib\\layer.js:152:17)\n' +
+      '    at trimPrefix (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:342:13)\n' +
+      '    at C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:297:9',
+    name: 'Error',
+    statusCode: 404
+  },
+  user: null,
+  timestamp: '2025-09-17 19:07:37',
+  level: 'error',
+  message: 'Request error'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'error',
+  requestId: 'a987d81d-b839-426e-b0d9-c9e82b88dabd',
+  method: 'GET',
+  path: '/@vite/client',
+  error: {
+    message: "Can't find /@vite/client on this server!",
+    stack: "Error: Can't find /@vite/client on this server!\n" +
+      '    at handleNotFound (C:\\Users\\ASUS\\interview-master\\server\\middleware\\errorHandler.js:145:17)\n' +
+      '    at Layer.handleRequest (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\lib\\layer.js:152:17)\n' +
+      '    at trimPrefix (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:342:13)\n' +
+      '    at C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:297:9\n' +
+      '    at processParams (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:582:12)\n' +
+      '    at next (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:291:5)\n' +
+      '    at rateLimitMonitoring (C:\\Users\\ASUS\\interview-master\\server\\middleware\\monitoring.js:235:3)\n' +
+      '    at Layer.handleRequest (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\lib\\layer.js:152:17)\n' +
+      '    at trimPrefix (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:342:13)\n' +
+      '    at C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:297:9',
+    name: 'Error',
+    statusCode: 404
+  },
+  user: null,
+  timestamp: '2025-09-17 19:08:05',
+  level: 'error',
+  message: 'Request error'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'error',
+  requestId: '24738fe9-cf09-400b-a483-188568ead05d',
+  method: 'GET',
+  path: '/@vite/client',
+  error: {
+    message: "Can't find /@vite/client on this server!",
+    stack: "Error: Can't find /@vite/client on this server!\n" +
+      '    at handleNotFound (C:\\Users\\ASUS\\interview-master\\server\\middleware\\errorHandler.js:145:17)\n' +
+      '    at Layer.handleRequest (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\lib\\layer.js:152:17)\n' +
+      '    at trimPrefix (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:342:13)\n' +
+      '    at C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:297:9\n' +
+      '    at processParams (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:582:12)\n' +
+      '    at next (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:291:5)\n' +
+      '    at rateLimitMonitoring (C:\\Users\\ASUS\\interview-master\\server\\middleware\\monitoring.js:235:3)\n' +
+      '    at Layer.handleRequest (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\lib\\layer.js:152:17)\n' +
+      '    at trimPrefix (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:342:13)\n' +
+      '    at C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:297:9',
+    name: 'Error',
+    statusCode: 404
+  },
+  user: null,
+  timestamp: '2025-09-17 19:08:23',
+  level: 'error',
+  message: 'Request error'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1758116306942-cm5rgnyu1',
+    timestamp: 2025-09-17T13:38:26.942Z,
+    service: 'redis',
+    status: 'warning',
+    message: 'Service redis is warning',
+    details: { connected: false, optional: true },
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-17 19:08:26'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'error',
+  requestId: '99be5d62-c94e-4e8b-b361-6f56fc6b668d',
+  method: 'GET',
+  path: '/@vite/client',
+  error: {
+    message: "Can't find /@vite/client on this server!",
+    stack: "Error: Can't find /@vite/client on this server!\n" +
+      '    at handleNotFound (C:\\Users\\ASUS\\interview-master\\server\\middleware\\errorHandler.js:145:17)\n' +
+      '    at Layer.handleRequest (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\lib\\layer.js:152:17)\n' +
+      '    at trimPrefix (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:342:13)\n' +
+      '    at C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:297:9\n' +
+      '    at processParams (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:582:12)\n' +
+      '    at next (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:291:5)\n' +
+      '    at rateLimitMonitoring (C:\\Users\\ASUS\\interview-master\\server\\middleware\\monitoring.js:235:3)\n' +
+      '    at Layer.handleRequest (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\lib\\layer.js:152:17)\n' +
+      '    at trimPrefix (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:342:13)\n' +
+      '    at C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:297:9',
+    name: 'Error',
+    statusCode: 404
+  },
+  user: null,
+  timestamp: '2025-09-17 19:08:38',
+  level: 'error',
+  message: 'Request error'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'error',
+  requestId: 'ad189343-0860-4ae2-8889-313d78c797f0',
+  method: 'GET',
+  path: '/@vite/client',
+  error: {
+    message: "Can't find /@vite/client on this server!",
+    stack: "Error: Can't find /@vite/client on this server!\n" +
+      '    at handleNotFound (C:\\Users\\ASUS\\interview-master\\server\\middleware\\errorHandler.js:145:17)\n' +
+      '    at Layer.handleRequest (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\lib\\layer.js:152:17)\n' +
+      '    at trimPrefix (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:342:13)\n' +
+      '    at C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:297:9\n' +
+      '    at processParams (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:582:12)\n' +
+      '    at next (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:291:5)\n' +
+      '    at rateLimitMonitoring (C:\\Users\\ASUS\\interview-master\\server\\middleware\\monitoring.js:235:3)\n' +
+      '    at Layer.handleRequest (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\lib\\layer.js:152:17)\n' +
+      '    at trimPrefix (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:342:13)\n' +
+      '    at C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:297:9',
+    name: 'Error',
+    statusCode: 404
+  },
+  user: null,
+  timestamp: '2025-09-17 19:09:10',
+  level: 'error',
+  message: 'Request error'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1758116366958-qbxm2qz0l',
+    timestamp: 2025-09-17T13:39:26.958Z,
+    service: 'redis',
+    status: 'warning',
+    message: 'Service redis is warning',
+    details: { connected: false, optional: true },
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-17 19:09:26'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'error',
+  requestId: '5aedd500-26c7-411f-b745-6de8b887b4b8',
+  method: 'GET',
+  path: '/api/v1/exams/exam_1758116388165_151xxtma5/fullscreen-status',
+  error: {
+    message: 'Invalid token',
+    stack: 'Error: Invalid token\n' +
+      '    at SecurityManager.verifyJWT (C:\\Users\\ASUS\\interview-master\\server\\utils\\security.js:102:15)\n' +
+      '    at authenticate (C:\\Users\\ASUS\\interview-master\\server\\middleware\\auth.js:61:39)\n' +
+      '    at Layer.handleRequest (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\lib\\layer.js:152:17)\n' +
+      '    at trimPrefix (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:342:13)\n' +
+      '    at C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:297:9\n' +
+      '    at processParams (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:582:12)\n' +
+      '    at next (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:291:5)\n' +
+      '    at rateLimitMonitoring (C:\\Users\\ASUS\\interview-master\\server\\middleware\\monitoring.js:235:3)\n' +
+      '    at Layer.handleRequest (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\lib\\layer.js:152:17)\n' +
+      '    at trimPrefix (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:342:13)',
+    name: 'Error',
+    statusCode: 401
+  },
+  user: null,
+  timestamp: '2025-09-17 19:10:26',
+  level: 'error',
+  message: 'Request error'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'security',
+  event: 'unauthorized_access',
+  details: {
+    requestId: '5aedd500-26c7-411f-b745-6de8b887b4b8',
+    method: 'GET',
+    path: '/api/v1/exams/exam_1758116388165_151xxtma5/fullscreen-status',
+    ip: '::1',
+    userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36 Edg/140.0.0.0',
+    error: 'Invalid token'
+  },
+  timestamp: '2025-09-17 19:10:26',
+  level: 'warn',
+  message: 'Security event'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1758116426969-tz86wfj8i',
+    timestamp: 2025-09-17T13:40:26.969Z,
+    service: 'redis',
+    status: 'warning',
+    message: 'Service redis is warning',
+    details: { connected: false, optional: true },
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-17 19:10:26'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1758116486981-ottgrblca',
+    timestamp: 2025-09-17T13:41:26.981Z,
+    service: 'redis',
+    status: 'warning',
+    message: 'Service redis is warning',
+    details: { connected: false, optional: true },
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-17 19:11:26'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1758116486982-fk88n01pr',
+    timestamp: 2025-09-17T13:41:26.982Z,
+    service: 'memory',
+    status: 'warning',
+    message: 'Service memory is warning',
+    details: {
+      heapUsed: '99.89 MB',
+      heapTotal: '106.04 MB',
+      rss: '142.26 MB',
+      external: '38.54 MB',
+      systemMemoryUsage: '75.00%',
+      freeMemory: '3.82 GB',
+      totalMemory: '15.29 GB'
+    },
+    error: undefined
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-17 19:11:26'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1758116546994-mn4suzyeu',
+    timestamp: 2025-09-17T13:42:26.994Z,
+    service: 'redis',
+    status: 'warning',
+    message: 'Service redis is warning',
+    details: { connected: false, optional: true },
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-17 19:12:26'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1758116546994-qeyrul9f0',
+    timestamp: 2025-09-17T13:42:26.994Z,
+    service: 'memory',
+    status: 'warning',
+    message: 'Service memory is warning',
+    details: {
+      heapUsed: '100.36 MB',
+      heapTotal: '106.04 MB',
+      rss: '142.71 MB',
+      external: '38.6 MB',
+      systemMemoryUsage: '75.84%',
+      freeMemory: '3.69 GB',
+      totalMemory: '15.29 GB'
+    },
+    error: undefined
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-17 19:12:26'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1758116607000-sj1b7te6u',
+    timestamp: 2025-09-17T13:43:27.000Z,
+    service: 'redis',
+    status: 'warning',
+    message: 'Service redis is warning',
+    details: { connected: false, optional: true },
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-17 19:13:27'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1758116607001-9e35e1my1',
+    timestamp: 2025-09-17T13:43:27.001Z,
+    service: 'memory',
+    status: 'warning',
+    message: 'Service memory is warning',
+    details: {
+      heapUsed: '100.71 MB',
+      heapTotal: '106.04 MB',
+      rss: '142.99 MB',
+      external: '38.64 MB',
+      systemMemoryUsage: '75.92%',
+      freeMemory: '3.68 GB',
+      totalMemory: '15.29 GB'
+    },
+    error: undefined
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-17 19:13:27'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1758116667012-c13323r3y',
+    timestamp: 2025-09-17T13:44:27.012Z,
+    service: 'redis',
+    status: 'warning',
+    message: 'Service redis is warning',
+    details: { connected: false, optional: true },
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-17 19:14:27'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1758116727018-74192l7th',
+    timestamp: 2025-09-17T13:45:27.018Z,
+    service: 'redis',
+    status: 'warning',
+    message: 'Service redis is warning',
+    details: { connected: false, optional: true },
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-17 19:15:27'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1758129914919-g3fq370gv',
+    timestamp: 2025-09-17T17:25:14.919Z,
+    service: 'redis',
+    status: 'warning',
+    message: 'Service redis is warning',
+    details: { connected: false, optional: true },
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-17 22:55:14'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'error',
+  requestId: '96fd4c3e-a001-4769-b60e-321030fb75ba',
+  method: 'GET',
+  path: '/api/v1/users/profile',
+  error: {
+    message: 'Invalid token',
+    stack: 'Error: Invalid token\n' +
+      '    at SecurityManager.verifyJWT (C:\\Users\\ASUS\\interview-master\\server\\utils\\security.js:102:15)\n' +
+      '    at authenticate (C:\\Users\\ASUS\\interview-master\\server\\middleware\\auth.js:61:39)\n' +
+      '    at Layer.handleRequest (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\lib\\layer.js:152:17)\n' +
+      '    at trimPrefix (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:342:13)\n' +
+      '    at C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:297:9\n' +
+      '    at processParams (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:582:12)\n' +
+      '    at next (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:291:5)\n' +
+      '    at rateLimitMonitoring (C:\\Users\\ASUS\\interview-master\\server\\middleware\\monitoring.js:235:3)\n' +
+      '    at Layer.handleRequest (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\lib\\layer.js:152:17)\n' +
+      '    at trimPrefix (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:342:13)',
+    name: 'Error',
+    statusCode: 401
+  },
+  user: null,
+  timestamp: '2025-09-17 22:55:30',
+  level: 'error',
+  message: 'Request error'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'security',
+  event: 'unauthorized_access',
+  details: {
+    requestId: '96fd4c3e-a001-4769-b60e-321030fb75ba',
+    method: 'GET',
+    path: '/api/v1/users/profile',
+    ip: '::1',
+    userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36 Edg/140.0.0.0',
+    error: 'Invalid token'
+  },
+  timestamp: '2025-09-17 22:55:30',
+  level: 'warn',
+  message: 'Security event'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'error',
+  requestId: '1099aa54-5450-4570-aae5-d2c494413de8',
+  method: 'GET',
+  path: '/api/v1/users/profile',
+  error: {
+    message: 'Access token required',
+    stack: 'Error: Access token required\n' +
+      '    at authenticate (C:\\Users\\ASUS\\interview-master\\server\\middleware\\auth.js:57:21)\n' +
+      '    at Layer.handleRequest (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\lib\\layer.js:152:17)\n' +
+      '    at trimPrefix (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:342:13)\n' +
+      '    at C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:297:9\n' +
+      '    at processParams (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:582:12)\n' +
+      '    at next (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:291:5)\n' +
+      '    at rateLimitMonitoring (C:\\Users\\ASUS\\interview-master\\server\\middleware\\monitoring.js:235:3)\n' +
+      '    at Layer.handleRequest (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\lib\\layer.js:152:17)\n' +
+      '    at trimPrefix (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:342:13)\n' +
+      '    at C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:297:9',
+    name: 'Error',
+    statusCode: 401
+  },
+  user: null,
+  timestamp: '2025-09-17 22:55:30',
+  level: 'error',
+  message: 'Request error'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'security',
+  event: 'unauthorized_access',
+  details: {
+    requestId: '1099aa54-5450-4570-aae5-d2c494413de8',
+    method: 'GET',
+    path: '/api/v1/users/profile',
+    ip: '::1',
+    userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36 Edg/140.0.0.0',
+    error: 'Access token required'
+  },
+  timestamp: '2025-09-17 22:55:30',
+  level: 'warn',
+  message: 'Security event'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1758129974924-2fgc2e55y',
+    timestamp: 2025-09-17T17:26:14.924Z,
+    service: 'redis',
+    status: 'warning',
+    message: 'Service redis is warning',
+    details: { connected: false, optional: true },
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-17 22:56:14'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1758129974925-jf505ktvp',
+    timestamp: 2025-09-17T17:26:14.925Z,
+    service: 'memory',
+    status: 'warning',
+    message: 'Service memory is warning',
+    details: {
+      heapUsed: '94.41 MB',
+      heapTotal: '99.29 MB',
+      rss: '144.11 MB',
+      external: '38.1 MB',
+      systemMemoryUsage: '75.05%',
+      freeMemory: '3.82 GB',
+      totalMemory: '15.29 GB'
+    },
+    error: undefined
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-17 22:56:14'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1758130034935-9qkqgjyud',
+    timestamp: 2025-09-17T17:27:14.935Z,
+    service: 'redis',
+    status: 'warning',
+    message: 'Service redis is warning',
+    details: { connected: false, optional: true },
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-17 22:57:14'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1758130094949-74orxtxkg',
+    timestamp: 2025-09-17T17:28:14.949Z,
+    service: 'redis',
+    status: 'warning',
+    message: 'Service redis is warning',
+    details: { connected: false, optional: true },
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-17 22:58:14'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1758130154952-nshnqaoyj',
+    timestamp: 2025-09-17T17:29:14.952Z,
+    service: 'redis',
+    status: 'warning',
+    message: 'Service redis is warning',
+    details: { connected: false, optional: true },
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-17 22:59:14'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1758130214960-c7ox9rdvx',
+    timestamp: 2025-09-17T17:30:14.960Z,
+    service: 'redis',
+    status: 'warning',
+    message: 'Service redis is warning',
+    details: { connected: false, optional: true },
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-17 23:00:14'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1758130274972-sjr7xwfs6',
+    timestamp: 2025-09-17T17:31:14.972Z,
+    service: 'redis',
+    status: 'warning',
+    message: 'Service redis is warning',
+    details: { connected: false, optional: true },
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-17 23:01:14'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1758130334977-pq2v3z9j5',
+    timestamp: 2025-09-17T17:32:14.977Z,
+    service: 'redis',
+    status: 'warning',
+    message: 'Service redis is warning',
+    details: { connected: false, optional: true },
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-17 23:02:14'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1758130394987-o0smgozgd',
+    timestamp: 2025-09-17T17:33:14.987Z,
+    service: 'redis',
+    status: 'warning',
+    message: 'Service redis is warning',
+    details: { connected: false, optional: true },
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-17 23:03:14'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1758130455003-qy5pfp5ix',
+    timestamp: 2025-09-17T17:34:15.003Z,
+    service: 'redis',
+    status: 'warning',
+    message: 'Service redis is warning',
+    details: { connected: false, optional: true },
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-17 23:04:15'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1758130515008-194bdjhkf',
+    timestamp: 2025-09-17T17:35:15.008Z,
+    service: 'redis',
+    status: 'warning',
+    message: 'Service redis is warning',
+    details: { connected: false, optional: true },
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-17 23:05:15'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1758130575010-61hj8aekv',
+    timestamp: 2025-09-17T17:36:15.010Z,
+    service: 'redis',
+    status: 'warning',
+    message: 'Service redis is warning',
+    details: { connected: false, optional: true },
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-17 23:06:15'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'error',
+  requestId: '57f0c6fd-3d66-4f03-af2c-a85c7e96aa21',
+  method: 'GET',
+  path: '/@vite/client',
+  error: {
+    message: "Can't find /@vite/client on this server!",
+    stack: "Error: Can't find /@vite/client on this server!\n" +
+      '    at handleNotFound (C:\\Users\\ASUS\\interview-master\\server\\middleware\\errorHandler.js:145:17)\n' +
+      '    at Layer.handleRequest (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\lib\\layer.js:152:17)\n' +
+      '    at trimPrefix (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:342:13)\n' +
+      '    at C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:297:9\n' +
+      '    at processParams (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:582:12)\n' +
+      '    at next (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:291:5)\n' +
+      '    at rateLimitMonitoring (C:\\Users\\ASUS\\interview-master\\server\\middleware\\monitoring.js:235:3)\n' +
+      '    at Layer.handleRequest (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\lib\\layer.js:152:17)\n' +
+      '    at trimPrefix (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:342:13)\n' +
+      '    at C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:297:9',
+    name: 'Error',
+    statusCode: 404
+  },
+  user: null,
+  timestamp: '2025-09-17 23:07:11',
+  level: 'error',
+  message: 'Request error'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1758130635017-zx35gvykv',
+    timestamp: 2025-09-17T17:37:15.017Z,
+    service: 'redis',
+    status: 'warning',
+    message: 'Service redis is warning',
+    details: { connected: false, optional: true },
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-17 23:07:15'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1758130695018-t5ictc36m',
+    timestamp: 2025-09-17T17:38:15.018Z,
+    service: 'redis',
+    status: 'warning',
+    message: 'Service redis is warning',
+    details: { connected: false, optional: true },
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-17 23:08:15'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1758130755025-qukr8qhyy',
+    timestamp: 2025-09-17T17:39:15.025Z,
+    service: 'redis',
+    status: 'warning',
+    message: 'Service redis is warning',
+    details: { connected: false, optional: true },
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-17 23:09:15'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'error',
+  requestId: 'a1d5c8c7-dbf0-42ce-8ec3-09341ef310c8',
+  method: 'GET',
+  path: '/api/v1/exams/exam_1758130650420_m6ydlpe2f/fullscreen-status',
+  error: {
+    message: 'Invalid token',
+    stack: 'Error: Invalid token\n' +
+      '    at SecurityManager.verifyJWT (C:\\Users\\ASUS\\interview-master\\server\\utils\\security.js:102:15)\n' +
+      '    at authenticate (C:\\Users\\ASUS\\interview-master\\server\\middleware\\auth.js:61:39)\n' +
+      '    at Layer.handleRequest (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\lib\\layer.js:152:17)\n' +
+      '    at trimPrefix (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:342:13)\n' +
+      '    at C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:297:9\n' +
+      '    at processParams (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:582:12)\n' +
+      '    at next (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:291:5)\n' +
+      '    at rateLimitMonitoring (C:\\Users\\ASUS\\interview-master\\server\\middleware\\monitoring.js:235:3)\n' +
+      '    at Layer.handleRequest (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\lib\\layer.js:152:17)\n' +
+      '    at trimPrefix (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:342:13)',
+    name: 'Error',
+    statusCode: 401
+  },
+  user: null,
+  timestamp: '2025-09-17 23:09:18',
+  level: 'error',
+  message: 'Request error'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'security',
+  event: 'unauthorized_access',
+  details: {
+    requestId: 'a1d5c8c7-dbf0-42ce-8ec3-09341ef310c8',
+    method: 'GET',
+    path: '/api/v1/exams/exam_1758130650420_m6ydlpe2f/fullscreen-status',
+    ip: '::1',
+    userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36 Edg/140.0.0.0',
+    error: 'Invalid token'
+  },
+  timestamp: '2025-09-17 23:09:18',
+  level: 'warn',
+  message: 'Security event'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'security',
+  event: 'suspicious_input',
+  details: {
+    requestId: '087aed74-6756-4e91-a7a0-d6a24e20f0f1',
+    method: 'POST',
+    path: '/api/exam/violation',
+    suspiciousContent: 'data:image/jpeg;base64,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'... 35475 more characters,
+    location: 'body.snapshot',
+    ip: '127.0.0.1',
+    userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36 Edg/140.0.0.0'
+  },
+  timestamp: '2025-09-17 23:09:25',
+  level: 'warn',
+  message: 'Security event'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1758130815027-vrvvwm1tu',
+    timestamp: 2025-09-17T17:40:15.027Z,
+    service: 'redis',
+    status: 'warning',
+    message: 'Service redis is warning',
+    details: { connected: false, optional: true },
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-17 23:10:15'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1758130875031-jdzbrr0za',
+    timestamp: 2025-09-17T17:41:15.031Z,
+    service: 'redis',
+    status: 'warning',
+    message: 'Service redis is warning',
+    details: { connected: false, optional: true },
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-17 23:11:15'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1758130935040-y2odmv7kn',
+    timestamp: 2025-09-17T17:42:15.040Z,
+    service: 'redis',
+    status: 'warning',
+    message: 'Service redis is warning',
+    details: { connected: false, optional: true },
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-17 23:12:15'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1758130995045-06ubr6fvw',
+    timestamp: 2025-09-17T17:43:15.045Z,
+    service: 'redis',
+    status: 'warning',
+    message: 'Service redis is warning',
+    details: { connected: false, optional: true },
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-17 23:13:15'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1758131055053-bzm4ffg94',
+    timestamp: 2025-09-17T17:44:15.053Z,
+    service: 'redis',
+    status: 'warning',
+    message: 'Service redis is warning',
+    details: { connected: false, optional: true },
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-17 23:14:15'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1758131115063-1v5v5r94z',
+    timestamp: 2025-09-17T17:45:15.063Z,
+    service: 'redis',
+    status: 'warning',
+    message: 'Service redis is warning',
+    details: { connected: false, optional: true },
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-17 23:15:15'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1758131175077-ds45ytaow',
+    timestamp: 2025-09-17T17:46:15.077Z,
+    service: 'redis',
+    status: 'warning',
+    message: 'Service redis is warning',
+    details: { connected: false, optional: true },
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-17 23:16:15'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1758131235091-we4af7ro1',
+    timestamp: 2025-09-17T17:47:15.091Z,
+    service: 'redis',
+    status: 'warning',
+    message: 'Service redis is warning',
+    details: { connected: false, optional: true },
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-17 23:17:15'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1758131295092-12v49bnnl',
+    timestamp: 2025-09-17T17:48:15.092Z,
+    service: 'redis',
+    status: 'warning',
+    message: 'Service redis is warning',
+    details: { connected: false, optional: true },
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-17 23:18:15'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1758131355097-lrzs9inyk',
+    timestamp: 2025-09-17T17:49:15.097Z,
+    service: 'redis',
+    status: 'warning',
+    message: 'Service redis is warning',
+    details: { connected: false, optional: true },
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-17 23:19:15'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'error',
+  requestId: '869a03dd-e3ce-4541-8a8c-389b93ddc916',
+  method: 'GET',
+  path: '/@vite/client',
+  error: {
+    message: "Can't find /@vite/client on this server!",
+    stack: "Error: Can't find /@vite/client on this server!\n" +
+      '    at handleNotFound (C:\\Users\\ASUS\\interview-master\\server\\middleware\\errorHandler.js:145:17)\n' +
+      '    at Layer.handleRequest (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\lib\\layer.js:152:17)\n' +
+      '    at trimPrefix (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:342:13)\n' +
+      '    at C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:297:9\n' +
+      '    at processParams (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:582:12)\n' +
+      '    at next (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:291:5)\n' +
+      '    at rateLimitMonitoring (C:\\Users\\ASUS\\interview-master\\server\\middleware\\monitoring.js:235:3)\n' +
+      '    at Layer.handleRequest (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\lib\\layer.js:152:17)\n' +
+      '    at trimPrefix (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:342:13)\n' +
+      '    at C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:297:9',
+    name: 'Error',
+    statusCode: 404
+  },
+  user: null,
+  timestamp: '2025-09-17 23:20:05',
+  level: 'error',
+  message: 'Request error'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1758131415108-j3hmi47eg',
+    timestamp: 2025-09-17T17:50:15.108Z,
+    service: 'redis',
+    status: 'warning',
+    message: 'Service redis is warning',
+    details: { connected: false, optional: true },
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-17 23:20:15'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'error',
+  requestId: 'af40b0af-06cb-42bb-97ee-388d7a10be25',
+  method: 'GET',
+  path: '/api/v1/exams/exam_1758131442366_oxbfxzrif/fullscreen-status',
+  error: {
+    message: 'Invalid token',
+    stack: 'Error: Invalid token\n' +
+      '    at SecurityManager.verifyJWT (C:\\Users\\ASUS\\interview-master\\server\\utils\\security.js:102:15)\n' +
+      '    at authenticate (C:\\Users\\ASUS\\interview-master\\server\\middleware\\auth.js:61:39)\n' +
+      '    at Layer.handleRequest (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\lib\\layer.js:152:17)\n' +
+      '    at trimPrefix (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:342:13)\n' +
+      '    at C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:297:9\n' +
+      '    at processParams (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:582:12)\n' +
+      '    at next (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:291:5)\n' +
+      '    at rateLimitMonitoring (C:\\Users\\ASUS\\interview-master\\server\\middleware\\monitoring.js:235:3)\n' +
+      '    at Layer.handleRequest (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\lib\\layer.js:152:17)\n' +
+      '    at trimPrefix (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:342:13)',
+    name: 'Error',
+    statusCode: 401
+  },
+  user: null,
+  timestamp: '2025-09-17 23:21:13',
+  level: 'error',
+  message: 'Request error'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'security',
+  event: 'unauthorized_access',
+  details: {
+    requestId: 'af40b0af-06cb-42bb-97ee-388d7a10be25',
+    method: 'GET',
+    path: '/api/v1/exams/exam_1758131442366_oxbfxzrif/fullscreen-status',
+    ip: '::1',
+    userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36 Edg/140.0.0.0',
+    error: 'Invalid token'
+  },
+  timestamp: '2025-09-17 23:21:13',
+  level: 'warn',
+  message: 'Security event'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1758131475109-s9q0iecca',
+    timestamp: 2025-09-17T17:51:15.109Z,
+    service: 'redis',
+    status: 'warning',
+    message: 'Service redis is warning',
+    details: { connected: false, optional: true },
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-17 23:21:15'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1758131535112-avv3iddsi',
+    timestamp: 2025-09-17T17:52:15.112Z,
+    service: 'redis',
+    status: 'warning',
+    message: 'Service redis is warning',
+    details: { connected: false, optional: true },
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-17 23:22:15'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1758131595127-thvzev3q7',
+    timestamp: 2025-09-17T17:53:15.127Z,
+    service: 'redis',
+    status: 'warning',
+    message: 'Service redis is warning',
+    details: { connected: false, optional: true },
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-17 23:23:15'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1758131655131-wdgwholyf',
+    timestamp: 2025-09-17T17:54:15.131Z,
+    service: 'redis',
+    status: 'warning',
+    message: 'Service redis is warning',
+    details: { connected: false, optional: true },
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-17 23:24:15'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1758131715132-ckoy8ooxt',
+    timestamp: 2025-09-17T17:55:15.132Z,
+    service: 'redis',
+    status: 'warning',
+    message: 'Service redis is warning',
+    details: { connected: false, optional: true },
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-17 23:25:15'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1758131775135-ykqe9psp9',
+    timestamp: 2025-09-17T17:56:15.135Z,
+    service: 'redis',
+    status: 'warning',
+    message: 'Service redis is warning',
+    details: { connected: false, optional: true },
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-17 23:26:15'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1758131835138-voxmdqhvf',
+    timestamp: 2025-09-17T17:57:15.138Z,
+    service: 'redis',
+    status: 'warning',
+    message: 'Service redis is warning',
+    details: { connected: false, optional: true },
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-17 23:27:15'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1758131895150-uyjekq2vt',
+    timestamp: 2025-09-17T17:58:15.150Z,
+    service: 'redis',
+    status: 'warning',
+    message: 'Service redis is warning',
+    details: { connected: false, optional: true },
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-17 23:28:15'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1758131955159-af0gwmy6e',
+    timestamp: 2025-09-17T17:59:15.159Z,
+    service: 'redis',
+    status: 'warning',
+    message: 'Service redis is warning',
+    details: { connected: false, optional: true },
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-17 23:29:15'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1758132015170-lhu7149go',
+    timestamp: 2025-09-17T18:00:15.170Z,
+    service: 'redis',
+    status: 'warning',
+    message: 'Service redis is warning',
+    details: { connected: false, optional: true },
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-17 23:30:15'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1758132075185-jsogjbzmm',
+    timestamp: 2025-09-17T18:01:15.185Z,
+    service: 'redis',
+    status: 'warning',
+    message: 'Service redis is warning',
+    details: { connected: false, optional: true },
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-17 23:31:15'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1758132135199-htjb8q0q5',
+    timestamp: 2025-09-17T18:02:15.199Z,
+    service: 'redis',
+    status: 'warning',
+    message: 'Service redis is warning',
+    details: { connected: false, optional: true },
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-17 23:32:15'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1758132195206-x16hqb0fc',
+    timestamp: 2025-09-17T18:03:15.206Z,
+    service: 'redis',
+    status: 'warning',
+    message: 'Service redis is warning',
+    details: { connected: false, optional: true },
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-17 23:33:15'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1758132255213-fjdkqn9te',
+    timestamp: 2025-09-17T18:04:15.213Z,
+    service: 'redis',
+    status: 'warning',
+    message: 'Service redis is warning',
+    details: { connected: false, optional: true },
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-17 23:34:15'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'error',
+  requestId: '6552309c-b6f8-4b00-82fa-a29179f7df61',
+  method: 'GET',
+  path: '/@vite/client',
+  error: {
+    message: "Can't find /@vite/client on this server!",
+    stack: "Error: Can't find /@vite/client on this server!\n" +
+      '    at handleNotFound (C:\\Users\\ASUS\\interview-master\\server\\middleware\\errorHandler.js:145:17)\n' +
+      '    at Layer.handleRequest (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\lib\\layer.js:152:17)\n' +
+      '    at trimPrefix (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:342:13)\n' +
+      '    at C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:297:9\n' +
+      '    at processParams (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:582:12)\n' +
+      '    at next (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:291:5)\n' +
+      '    at rateLimitMonitoring (C:\\Users\\ASUS\\interview-master\\server\\middleware\\monitoring.js:235:3)\n' +
+      '    at Layer.handleRequest (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\lib\\layer.js:152:17)\n' +
+      '    at trimPrefix (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:342:13)\n' +
+      '    at C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:297:9',
+    name: 'Error',
+    statusCode: 404
+  },
+  user: null,
+  timestamp: '2025-09-17 23:35:11',
+  level: 'error',
+  message: 'Request error'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1758132315220-ax6ypznx7',
+    timestamp: 2025-09-17T18:05:15.220Z,
+    service: 'redis',
+    status: 'warning',
+    message: 'Service redis is warning',
+    details: { connected: false, optional: true },
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-17 23:35:15'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1758132375232-1kqzv4jxw',
+    timestamp: 2025-09-17T18:06:15.232Z,
+    service: 'redis',
+    status: 'warning',
+    message: 'Service redis is warning',
+    details: { connected: false, optional: true },
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-17 23:36:15'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1758132435234-9c4dquocm',
+    timestamp: 2025-09-17T18:07:15.234Z,
+    service: 'redis',
+    status: 'warning',
+    message: 'Service redis is warning',
+    details: { connected: false, optional: true },
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-17 23:37:15'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1758132495242-tgbpgcvje',
+    timestamp: 2025-09-17T18:08:15.242Z,
+    service: 'redis',
+    status: 'warning',
+    message: 'Service redis is warning',
+    details: { connected: false, optional: true },
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-17 23:38:15'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1758132495242-zysgzwunl',
+    timestamp: 2025-09-17T18:08:15.242Z,
+    service: 'memory',
+    status: 'warning',
+    message: 'Service memory is warning',
+    details: {
+      heapUsed: '101.43 MB',
+      heapTotal: '106.79 MB',
+      rss: '137.33 MB',
+      external: '38.73 MB',
+      systemMemoryUsage: '77.11%',
+      freeMemory: '3.5 GB',
+      totalMemory: '15.29 GB'
+    },
+    error: undefined
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-17 23:38:15'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'error',
+  requestId: '82d696db-920c-49fd-bea9-4874330d76a5',
+  method: 'GET',
+  path: '/@vite/client',
+  error: {
+    message: "Can't find /@vite/client on this server!",
+    stack: "Error: Can't find /@vite/client on this server!\n" +
+      '    at handleNotFound (C:\\Users\\ASUS\\interview-master\\server\\middleware\\errorHandler.js:145:17)\n' +
+      '    at Layer.handleRequest (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\lib\\layer.js:152:17)\n' +
+      '    at trimPrefix (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:342:13)\n' +
+      '    at C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:297:9\n' +
+      '    at processParams (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:582:12)\n' +
+      '    at next (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:291:5)\n' +
+      '    at rateLimitMonitoring (C:\\Users\\ASUS\\interview-master\\server\\middleware\\monitoring.js:235:3)\n' +
+      '    at Layer.handleRequest (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\lib\\layer.js:152:17)\n' +
+      '    at trimPrefix (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:342:13)\n' +
+      '    at C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:297:9',
+    name: 'Error',
+    statusCode: 404
+  },
+  user: null,
+  timestamp: '2025-09-17 23:38:25',
+  level: 'error',
+  message: 'Request error'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1758132555253-5hhgcl1o8',
+    timestamp: 2025-09-17T18:09:15.253Z,
+    service: 'redis',
+    status: 'warning',
+    message: 'Service redis is warning',
+    details: { connected: false, optional: true },
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-17 23:39:15'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1758132555254-k6fdr5zgv',
+    timestamp: 2025-09-17T18:09:15.254Z,
+    service: 'memory',
+    status: 'warning',
+    message: 'Service memory is warning',
+    details: {
+      heapUsed: '101.86 MB',
+      heapTotal: '107.29 MB',
+      rss: '138.07 MB',
+      external: '38.74 MB',
+      systemMemoryUsage: '77.19%',
+      freeMemory: '3.49 GB',
+      totalMemory: '15.29 GB'
+    },
+    error: undefined
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-17 23:39:15'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1758132615256-qi8lhyb7j',
+    timestamp: 2025-09-17T18:10:15.256Z,
+    service: 'redis',
+    status: 'warning',
+    message: 'Service redis is warning',
+    details: { connected: false, optional: true },
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-17 23:40:15'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1758132615256-l8ev4dhs5',
+    timestamp: 2025-09-17T18:10:15.256Z,
+    service: 'memory',
+    status: 'warning',
+    message: 'Service memory is warning',
+    details: {
+      heapUsed: '102.37 MB',
+      heapTotal: '107.54 MB',
+      rss: '138.16 MB',
+      external: '38.78 MB',
+      systemMemoryUsage: '78.42%',
+      freeMemory: '3.3 GB',
+      totalMemory: '15.29 GB'
+    },
+    error: undefined
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-17 23:40:15'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1758132675266-o97xe4zxh',
+    timestamp: 2025-09-17T18:11:15.266Z,
+    service: 'redis',
+    status: 'warning',
+    message: 'Service redis is warning',
+    details: { connected: false, optional: true },
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-17 23:41:15'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1758132675267-9128taffy',
+    timestamp: 2025-09-17T18:11:15.267Z,
+    service: 'memory',
+    status: 'warning',
+    message: 'Service memory is warning',
+    details: {
+      heapUsed: '102.36 MB',
+      heapTotal: '107.79 MB',
+      rss: '125.05 MB',
+      external: '38.75 MB',
+      systemMemoryUsage: '80.16%',
+      freeMemory: '3.03 GB',
+      totalMemory: '15.29 GB'
+    },
+    error: undefined
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-17 23:41:15'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1758132735273-87uvllcwp',
+    timestamp: 2025-09-17T18:12:15.273Z,
+    service: 'redis',
+    status: 'warning',
+    message: 'Service redis is warning',
+    details: { connected: false, optional: true },
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-17 23:42:15'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1758132795274-64a2yn0ys',
+    timestamp: 2025-09-17T18:13:15.274Z,
+    service: 'redis',
+    status: 'warning',
+    message: 'Service redis is warning',
+    details: { connected: false, optional: true },
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-17 23:43:15'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1758132855285-ijeruipqq',
+    timestamp: 2025-09-17T18:14:15.285Z,
+    service: 'redis',
+    status: 'warning',
+    message: 'Service redis is warning',
+    details: { connected: false, optional: true },
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-17 23:44:15'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1758132915297-8rt17kayb',
+    timestamp: 2025-09-17T18:15:15.297Z,
+    service: 'redis',
+    status: 'warning',
+    message: 'Service redis is warning',
+    details: { connected: false, optional: true },
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-17 23:45:15'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1758132975303-oj48hlgsw',
+    timestamp: 2025-09-17T18:16:15.303Z,
+    service: 'redis',
+    status: 'warning',
+    message: 'Service redis is warning',
+    details: { connected: false, optional: true },
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-17 23:46:15'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1758133035311-u0497f5st',
+    timestamp: 2025-09-17T18:17:15.311Z,
+    service: 'redis',
+    status: 'warning',
+    message: 'Service redis is warning',
+    details: { connected: false, optional: true },
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-17 23:47:15'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1758133095312-utkj2x0iv',
+    timestamp: 2025-09-17T18:18:15.312Z,
+    service: 'redis',
+    status: 'warning',
+    message: 'Service redis is warning',
+    details: { connected: false, optional: true },
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-17 23:48:15'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1758133155313-6zuga5x3f',
+    timestamp: 2025-09-17T18:19:15.313Z,
+    service: 'redis',
+    status: 'warning',
+    message: 'Service redis is warning',
+    details: { connected: false, optional: true },
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-17 23:49:15'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'error',
+  requestId: '76ba3fe0-a4fa-4172-8ea8-b005dce934a3',
+  method: 'GET',
+  path: '/api/v1/exams/exam_1758133153752_g6taaodum/fullscreen-status',
+  error: {
+    message: 'Invalid token',
+    stack: 'Error: Invalid token\n' +
+      '    at SecurityManager.verifyJWT (C:\\Users\\ASUS\\interview-master\\server\\utils\\security.js:102:15)\n' +
+      '    at authenticate (C:\\Users\\ASUS\\interview-master\\server\\middleware\\auth.js:61:39)\n' +
+      '    at Layer.handleRequest (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\lib\\layer.js:152:17)\n' +
+      '    at trimPrefix (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:342:13)\n' +
+      '    at C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:297:9\n' +
+      '    at processParams (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:582:12)\n' +
+      '    at next (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:291:5)\n' +
+      '    at rateLimitMonitoring (C:\\Users\\ASUS\\interview-master\\server\\middleware\\monitoring.js:235:3)\n' +
+      '    at Layer.handleRequest (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\lib\\layer.js:152:17)\n' +
+      '    at trimPrefix (C:\\Users\\ASUS\\interview-master\\server\\node_modules\\router\\index.js:342:13)',
+    name: 'Error',
+    statusCode: 401
+  },
+  user: null,
+  timestamp: '2025-09-17 23:49:28',
+  level: 'error',
+  message: 'Request error'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'security',
+  event: 'unauthorized_access',
+  details: {
+    requestId: '76ba3fe0-a4fa-4172-8ea8-b005dce934a3',
+    method: 'GET',
+    path: '/api/v1/exams/exam_1758133153752_g6taaodum/fullscreen-status',
+    ip: '::1',
+    userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36 Edg/140.0.0.0',
+    error: 'Invalid token'
+  },
+  timestamp: '2025-09-17 23:49:28',
+  level: 'warn',
+  message: 'Security event'
+}
+{
+  service: 'interview-system',
+  environment: 'development',
+  version: '1.0.0',
+  category: 'alert',
+  alert: {
+    id: 'alert-1758133215322-fbk4hfk72',
+    timestamp: 2025-09-17T18:20:15.322Z,
+    service: 'redis',
+    status: 'warning',
+    message: 'Service redis is warning',
+    details: { connected: false, optional: true },
+    error: 'The client is closed'
+  },
+  level: 'warn',
+  message: 'System alert generated',
+  timestamp: '2025-09-17 23:50:15'
+}
