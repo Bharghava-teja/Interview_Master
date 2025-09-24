@@ -79,7 +79,5 @@ This project is configured for deployment on Vercel. The `vercel.json` file cont
 3. Make your changes
 4. Submit a pull request
 
-## License
 
-This project is licensed under the MIT License.
 
