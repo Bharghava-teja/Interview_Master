@@ -28,7 +28,7 @@ services:
       - key: SESSION_SECRET
         generateValue: true
       - key: CLIENT_URL
-        value: https://interview-frontend.onrender.com
+        value: https://interview-master-9yr2.vercel.app
       - key: LOG_LEVEL
         value: info
       - key: APP_VERSION
