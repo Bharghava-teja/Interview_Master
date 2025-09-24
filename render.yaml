@@ -18,7 +18,7 @@ services:
           property: connectionString
       - key: REDIS_URL
         fromService:
-          type: redis
+          type: pserv
           name: interview-redis
           property: connectionString
       - key: JWT_SECRET
@@ -70,4 +70,5 @@ databases:
 
   # Redis Cache
   - name: interview-redis
+    type: redis
     plan: free
