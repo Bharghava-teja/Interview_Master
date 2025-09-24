@@ -70,5 +70,4 @@ databases:
 
   # Redis Cache
   - name: interview-redis
-    type: redis
     plan: free
